@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement name="BuildRadialRoot" class="radial-root">
+        <ui:VisualElement name="RadialCircle" class="radial-circle">
+            <ui:Button name="BuildOption_Turret" text="Torreta" class="radial-option opt-top" />
+            <ui:Button name="BuildOption_Barricade" text="Barricada" class="radial-option opt-right" />
+            <ui:Button name="BuildOption_Trap" text="Trampa" class="radial-option opt-bottom-right" />
+            <ui:Button name="BuildOption_Mine" text="Mina" class="radial-option opt-bottom-left" />
+            <ui:Button name="BuildOption_Platform" text="Plataforma" class="radial-option opt-left" />
+            <ui:Label name="BuildSelectionLabel" text="Selecciona estructura" class="radial-center-label" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

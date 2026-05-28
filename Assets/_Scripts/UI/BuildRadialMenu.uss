@@ -1,0 +1,64 @@
+.radial-root {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -120px -120px;
+    width: 240px;
+    height: 240px;
+    display: none;
+}
+
+.radial-circle {
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+    background-color: rgba(12, 14, 22, 0.88);
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-color: rgba(95, 220, 255, 0.45);
+}
+
+.radial-option {
+    position: absolute;
+    width: 88px;
+    height: 28px;
+    border-radius: 14px;
+    background-color: rgba(25, 35, 45, 0.9);
+    color: rgb(220, 230, 240);
+}
+
+.opt-top {
+    left: 76px;
+    top: 10px;
+}
+
+.opt-right {
+    left: 145px;
+    top: 64px;
+}
+
+.opt-bottom-right {
+    left: 140px;
+    top: 145px;
+}
+
+.opt-bottom-left {
+    left: 12px;
+    top: 145px;
+}
+
+.opt-left {
+    left: 8px;
+    top: 64px;
+}
+
+.radial-center-label {
+    position: absolute;
+    left: 35px;
+    top: 106px;
+    width: 170px;
+    -unity-text-align: middle-center;
+    color: rgb(85, 220, 255);
+}

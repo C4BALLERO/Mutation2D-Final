@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement name="UpgradeMenuRoot" class="upgrade-root">
+        <ui:Label text="ELIGE MEJORA" class="upgrade-title" />
+        <ui:Label name="UpgradeTimerLabel" text="Tiempo: 15" class="upgrade-timer" />
+
+        <ui:VisualElement class="upgrade-cards-row">
+            <ui:VisualElement name="UpgradeCard_1" class="upgrade-card upgrade-card--selected">
+                <ui:Label name="UpgradeCard_1_Title" text="Upgrade 1" class="upgrade-card-title" />
+                <ui:Label name="UpgradeCard_1_Desc" text="Descripción corta" class="upgrade-card-desc" />
+                <ui:Label name="UpgradeCard_1_Value" text="+25%" class="upgrade-card-value" />
+            </ui:VisualElement>
+
+            <ui:VisualElement name="UpgradeCard_2" class="upgrade-card">
+                <ui:Label name="UpgradeCard_2_Title" text="Upgrade 2" class="upgrade-card-title" />
+                <ui:Label name="UpgradeCard_2_Desc" text="Descripción corta" class="upgrade-card-desc" />
+                <ui:Label name="UpgradeCard_2_Value" text="+10" class="upgrade-card-value" />
+            </ui:VisualElement>
+
+            <ui:VisualElement name="UpgradeCard_3" class="upgrade-card">
+                <ui:Label name="UpgradeCard_3_Title" text="Upgrade 3" class="upgrade-card-title" />
+                <ui:Label name="UpgradeCard_3_Desc" text="Descripción corta" class="upgrade-card-desc" />
+                <ui:Label name="UpgradeCard_3_Value" text="+1" class="upgrade-card-value" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

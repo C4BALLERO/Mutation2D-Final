@@ -1,0 +1,51 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement name="HUDRoot" class="hud-root">
+        <ui:VisualElement name="TopBar" class="top-bar">
+            <ui:VisualElement name="PlayerHpPanel" class="hp-panel">
+                <ui:ProgressBar name="PlayerHpBar_1" title="P1 HP" class="hp-bar" />
+                <ui:ProgressBar name="PlayerHpBar_2" title="P2 HP" class="hp-bar" />
+                <ui:ProgressBar name="PlayerHpBar_3" title="P3 HP" class="hp-bar" />
+                <ui:ProgressBar name="PlayerHpBar_4" title="P4 HP" class="hp-bar" />
+            </ui:VisualElement>
+
+            <ui:VisualElement name="WavePanel" class="wave-panel">
+                <ui:Label name="WaveLabel" text="Oleada 1" class="wave-label" />
+                <ui:Label name="EnemyCounterLabel" text="0 / 0" class="enemy-label" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <ui:VisualElement name="BottomLayer" class="bottom-layer">
+            <ui:VisualElement name="EvolutionPanel" class="evolution-panel">
+                <ui:VisualElement name="EvolutionHeader" class="evolution-header">
+                    <ui:VisualElement name="DominantGeneColor" class="gene-color-circle" />
+                    <ui:Label name="DominantGeneLabel" text="Velocidad" class="evolution-gene" />
+                </ui:VisualElement>
+                <ui:Label name="GenerationLabel" text="Gen. 1" class="evolution-generation" />
+                <ui:VisualElement name="TopGenesRow" class="top-genes-row">
+                    <ui:VisualElement class="top-gene-dot" />
+                    <ui:VisualElement class="top-gene-dot" />
+                    <ui:VisualElement class="top-gene-dot" />
+                </ui:VisualElement>
+                <ui:Label name="SuperAdaptationAlert" text="⚠ SUPERADAPTACIÓN" class="super-alert" />
+            </ui:VisualElement>
+
+            <ui:VisualElement name="RightInfoPanel" class="right-info-panel">
+                <ui:VisualElement name="DashPanel" class="dash-panel">
+                    <ui:VisualElement name="DashCooldownRing" class="dash-ring">
+                        <ui:VisualElement name="DashCooldownRingFill" class="dash-ring-fill" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="ResourcePanel" class="resource-panel">
+                    <ui:Label text="Materiales" class="resource-title" />
+                    <ui:Label name="MaterialsValue" text="0" class="resource-value" />
+                </ui:VisualElement>
+                <ui:VisualElement name="WeaponPanel" class="weapon-panel">
+                    <ui:Label text="Arma" class="resource-title" />
+                    <ui:Label name="WeaponValue" text="Rifle (30)" class="resource-value" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <ui:VisualElement name="MutationToastContainer" class="toast-container" />
+    </ui:VisualElement>
+</ui:UXML>

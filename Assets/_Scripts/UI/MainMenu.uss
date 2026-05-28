@@ -1,0 +1,48 @@
+.menu-root {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 12, 18);
+    color: rgb(228, 232, 238);
+}
+
+.menu-title {
+    font-size: 42px;
+    -unity-font-style: bold;
+    margin-bottom: 8px;
+}
+
+.menu-subtitle {
+    font-size: 16px;
+    color: rgb(140, 155, 170);
+    margin-bottom: 20px;
+}
+
+.players-row {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.players-row > Button {
+    width: 36px;
+    height: 32px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+#LblPlayers {
+    min-width: 120px;
+    -unity-text-align: middle-center;
+}
+
+#BtnPlay, #BtnQuit {
+    width: 180px;
+    height: 40px;
+    margin-top: 6px;
+}
+
+.menu-footer {
+    margin-top: 18px;
+    color: rgb(90, 210, 255);
+}

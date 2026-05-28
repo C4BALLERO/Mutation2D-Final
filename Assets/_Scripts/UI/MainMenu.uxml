@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement class="menu-root">
+        <ui:Label text="MUTATION SWARM" class="menu-title" />
+        <ui:Label text="Argos-9 cayó. El enjambre aprende." class="menu-subtitle" />
+
+        <ui:VisualElement class="players-row">
+            <ui:Button name="BtnPlayersMinus" text="-" />
+            <ui:Label name="LblPlayers" text="1 Jugador(es)" />
+            <ui:Button name="BtnPlayersPlus" text="+" />
+        </ui:VisualElement>
+
+        <ui:Button name="BtnPlay" text="Jugar" />
+        <ui:Button name="BtnQuit" text="Salir" />
+
+        <ui:Label text="Resiste, evoluciona y rompe el ciclo." class="menu-footer" />
+    </ui:VisualElement>
+</ui:UXML>

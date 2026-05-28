@@ -9,24 +9,33 @@ namespace MutationSwarm.Building
     {
         [SerializeField] protected SO_StructureData _data;
         [SerializeField] protected float _currentHp;
+        protected float _lifetimeRemaining;
 
         public virtual void Initialize(SO_StructureData data, Vector2 position)
         {
             _data = data;
             _currentHp = data.maxHp;
+            _lifetimeRemaining = data.lifetime;
             transform.position = position;
         }
 
         protected virtual void Update()
         {
-            if (_data != null && _data.lifetime > 0f)
+            if (_data != null && _lifetimeRemaining > 0f)
             {
-                _data.lifetime -= Time.deltaTime;
-                if (_data.lifetime <= 0f)
+                _lifetimeRemaining -= Time.deltaTime;
+                if (_lifetimeRemaining <= 0f)
                     DestroyStructure();
             }
         }
 
-        protected virtual void DestroyStructure() => Destroy(gameObject);
+        public virtual void TakeDamage(float amount)
+        {
+            _currentHp -= amount;
+            if (_currentHp <= 0f)
+                DestroyStructure();
+        }
+
+        protected virtual void DestroyStructure() => gameObject.SetActive(false);
     }
 }

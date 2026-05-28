@@ -51,4 +51,9 @@ namespace MutationSwarm.Core
     public struct UpgradePhaseEvent { }
     public struct PlayerHitEvent { public int playerIndex; public float damage; }
     public struct BossSpawnEvent { public BossData bossData; }
+    public struct EnemyDiedEvent { public MutationSwarm.Entities.Script_13_EnemyBase enemy; public EnemyCombatData combatData; }
+    public struct EnemyCountChangedEvent { public int alive; public int total; }
+    public struct BuildMaterialsChangedEvent { public int materials; }
+    public struct BuildPhaseTimerEvent { public float timeRemaining; }
+    public struct MutationToastEvent { public string message; public Color color; }
 }
