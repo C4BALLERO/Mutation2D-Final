@@ -352,7 +352,10 @@ namespace MutationSwarm.Editor
         {
             CreateBootScene();
             CreateMainMenuScene();
-            CreateGameWorldScene(sprite);
+            // Si existe el builder de arte, preferir escena ya generada con paquete visual.
+            string artScene = $"{ScenesPath}/Scene_02_GameWorld.unity";
+            if (!File.Exists(artScene))
+                CreateGameWorldScene(sprite);
             CreateUpgradeMenuScene();
         }
 

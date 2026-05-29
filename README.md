@@ -116,6 +116,15 @@ Al pulsar **Jugar**:
 - Construcción habilitada solo durante `WaveState.UpgradePhase`.
 - Materiales de construcción no persisten entre sesiones (`ResetMaterialsForNewSession`).
 
+## Paquete de arte (`Assets/_Art/Materials`)
+
+Catálogo detallado: [`Assets/_Data/ART_PACKAGE_CATALOG.md`](Assets/_Data/ART_PACKAGE_CATALOG.md)
+
+En Unity:
+
+1. **`Tools → Mutation Swarm → Import Art Package Settings`** — configura todas las PNG como sprites (PPU 16, Point).
+2. **`Tools → Mutation Swarm → Build Art Level (Scene_02)`** — genera la arena con parallax, plataformas de césped, zona púrpura, bloques galaxia, árboles y rocas.
+
 ## Generación automática (escenas + prefabs)
 
 Al abrir el proyecto en Unity, aparecerá un diálogo para generar todo automáticamente.  
