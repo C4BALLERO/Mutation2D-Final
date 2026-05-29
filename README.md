@@ -116,6 +116,23 @@ Al pulsar **Jugar**:
 - Construcción habilitada solo durante `WaveState.UpgradePhase`.
 - Materiales de construcción no persisten entre sesiones (`ResetMaterialsForNewSession`).
 
+## UI Kenney + nivel geométrico jugable
+
+Pack: `Assets/_Art/kenney_ui-pack-space-expansion` (SVG → sprites claros **Blue / Yellow / Green / Extra**).
+
+En Unity ejecuta:
+
+**`Tools → Mutation Swarm → Build Kenney UI + Playable Geometric Level`**
+
+Genera:
+- **Menú** (`Scene_01_MainMenu`) con botones uGUI Kenney (panel cristal, botones azul/verde).
+- **Nivel jugable** (`Scene_02_GameWorld`) fondo claro, plataformas Kenney amarillas.
+- **Jugador:** cuadrado azul (`Prefab_Player_Geo`).
+- **Enemigos:** círculos rojos (`Prefab_Enemy_Geo`) + oleada automática al iniciar.
+- **Proyectiles:** círculos amarillos con daño y pool `Projectile_Geo`.
+
+Controles: WASD / flechas, espacio salto, shift dash, clic / RT disparar.
+
 ## Paquete de arte (`Assets/_Art/Materials`)
 
 Catálogo detallado: [`Assets/_Data/ART_PACKAGE_CATALOG.md`](Assets/_Data/ART_PACKAGE_CATALOG.md)

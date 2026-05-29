@@ -1,0 +1,19 @@
+.menu-root {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(190, 220, 245);
+}
+
+.menu-title {
+    font-size: 40px;
+    color: rgb(20, 60, 100);
+}
+
+.menu-subtitle {
+    color: rgb(50, 90, 130);
+}
+
+.menu-footer {
+    color: rgb(40, 120, 180);
+}

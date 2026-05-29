@@ -1,0 +1,47 @@
+/* Tema claro Kenney — sobrescribe HUD oscuro */
+.hud-root {
+    color: rgb(25, 45, 70);
+}
+
+.hp-panel {
+    background-color: rgba(255, 255, 255, 0.88);
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-color: rgba(100, 180, 255, 0.6);
+}
+
+.wave-panel {
+    background-color: rgba(230, 245, 255, 0.95);
+}
+
+.wave-label {
+    color: rgb(20, 80, 140);
+}
+
+.enemy-label {
+    color: rgb(200, 120, 40);
+}
+
+.evolution-panel {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: rgba(120, 200, 255, 0.5);
+}
+
+.resource-panel,
+.weapon-panel {
+    background-color: rgba(245, 250, 255, 0.92);
+}
+
+.resource-title {
+    color: rgb(80, 120, 150);
+}
+
+.resource-value {
+    color: rgb(30, 60, 90);
+}
+
+.toast-container {
+    color: rgb(30, 50, 70);
+}
