@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using MutationSwarm.Evolution;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace MutationSwarm.Core
 {
@@ -21,6 +22,7 @@ namespace MutationSwarm.Core
     public class Script_02_WaveManager : MonoBehaviour
     {
         [SerializeField] private SO_WaveConfig _config;
+        [SerializeField] private string _upgradeSceneName = "Scene_03_UpgradeMenu";
 
         public WaveState CurrentWaveState { get; private set; } = WaveState.Waiting;
         public int CurrentWave { get; private set; }
@@ -41,6 +43,29 @@ namespace MutationSwarm.Core
         public void OnEnemyDied(EnemyCombatData data) { /* Implementación en PROMPT 03 */ }
         public void EndWave() { /* Implementación en PROMPT 03 */ }
         public void StartNextWave() { /* Implementación en PROMPT 03 */ }
+
+        /// <summary>
+        /// Inicia fase de construcción/upgrades entre oleadas.
+        /// </summary>
+        public void EnterUpgradePhase()
+        {
+            CurrentWaveState = WaveState.UpgradePhase;
+            Script_03_EventBus.Publish(new UpgradePhaseEvent());
+
+            if (!SceneManager.GetSceneByName(_upgradeSceneName).isLoaded)
+                SceneManager.LoadScene(_upgradeSceneName, LoadSceneMode.Additive);
+
+            if (MutationSwarm.Building.Script_23_BuildManager.Instance != null)
+                MutationSwarm.Building.Script_23_BuildManager.Instance.StartBuildPhase();
+        }
+
+        public void ExitUpgradePhase()
+        {
+            if (SceneManager.GetSceneByName(_upgradeSceneName).isLoaded)
+                SceneManager.UnloadSceneAsync(_upgradeSceneName);
+
+            CurrentWaveState = WaveState.Waiting;
+        }
     }
 
     [Serializable]

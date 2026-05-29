@@ -121,8 +121,8 @@ namespace MutationSwarm.Entities
             if (ShouldWallSlide())
             {
                 _rb.gravityScale = _baseGravityScale * _wallSlideGravityMultiplier;
-                if (_rb.velocity.y < -6f)
-                    _rb.velocity = new Vector2(_rb.velocity.x, -6f);
+                if (_rb.linearVelocity.y < -6f)
+                    _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, -6f);
             }
             else if (!_isDashing)
             {
@@ -204,7 +204,7 @@ namespace MutationSwarm.Entities
 
             // Suavizado de aceleración/frenado horizontal.
             _currentHorizontalVelocity = Mathf.Lerp(_currentHorizontalVelocity, inputX * _stats.MoveSpeed, _moveSmoothing);
-            _rb.velocity = new Vector2(_currentHorizontalVelocity, _rb.velocity.y);
+            _rb.linearVelocity = new Vector2(_currentHorizontalVelocity, _rb.linearVelocity.y);
 
             if (Mathf.Abs(inputX) > 0.05f)
                 _spriteRenderer.flipX = inputX < 0f;
@@ -239,8 +239,8 @@ namespace MutationSwarm.Entities
             }
 
             // Variable jump height: corta el salto al soltar temprano.
-            if (jumpReleased && _rb.velocity.y > 0f)
-                _rb.velocity = new Vector2(_rb.velocity.x, _rb.velocity.y * _jumpCutMultiplier);
+            if (jumpReleased && _rb.linearVelocity.y > 0f)
+                _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, _rb.linearVelocity.y * _jumpCutMultiplier);
         }
 
         private void HandleDashInput(float inputX)
@@ -293,7 +293,7 @@ namespace MutationSwarm.Entities
                 return false;
 
             Vector2 force = new(_wallJumpForce.x * -_wallDir, _wallJumpForce.y);
-            _rb.velocity = Vector2.zero;
+            _rb.linearVelocity = Vector2.zero;
             _rb.AddForce(force, ForceMode2D.Impulse);
             _wallJumpLockTimer = _wallJumpCooldown;
             _jumpBufferTimer = 0f;
@@ -303,7 +303,7 @@ namespace MutationSwarm.Entities
 
         private void DoGroundJump()
         {
-            _rb.velocity = new Vector2(_rb.velocity.x, _stats.JumpForce);
+            _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, _stats.JumpForce);
             _coyoteTimer = 0f;
             _jumpBufferTimer = 0f;
             _animator.SetTrigger("Jump");
@@ -312,14 +312,14 @@ namespace MutationSwarm.Entities
         private void DoDoubleJump()
         {
             _usedDoubleJump = true;
-            _rb.velocity = new Vector2(_rb.velocity.x, _stats.JumpForce);
+            _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, _stats.JumpForce);
             _jumpBufferTimer = 0f;
             _animator.SetTrigger("Jump");
         }
 
         private bool ShouldWallSlide()
         {
-            return _stats.HasWallJump && _isTouchingWall && !_isGrounded && _rb.velocity.y < 0f;
+            return _stats.HasWallJump && _isTouchingWall && !_isGrounded && _rb.linearVelocity.y < 0f;
         }
 
         private IEnumerator DashRoutine(Vector2 direction)
@@ -334,7 +334,7 @@ namespace MutationSwarm.Entities
 
             float previousGravity = _rb.gravityScale;
             _rb.gravityScale = 0f;
-            _rb.velocity = direction.normalized * _stats.DashForce;
+            _rb.linearVelocity = direction.normalized * _stats.DashForce;
 
             while (_dashTimer > 0f)
                 yield return null;
@@ -352,7 +352,7 @@ namespace MutationSwarm.Entities
             _isDead = true;
             _inputEnabled = false;
             _isInvulnerable = false;
-            _rb.velocity = Vector2.zero;
+            _rb.linearVelocity = Vector2.zero;
             _animator.SetTrigger("Die");
 
             if (_deathRoutine != null)
@@ -386,7 +386,7 @@ namespace MutationSwarm.Entities
             _inputEnabled = true;
             _isInvulnerable = true;
             _stats.Heal(_stats.MaxHp * Mathf.Clamp01(hpPercent));
-            _rb.velocity = Vector2.zero;
+            _rb.linearVelocity = Vector2.zero;
 
             if (Script_01_GameManager.Instance != null)
                 Script_01_GameManager.Instance.RevivePlayer(_playerIndex);
@@ -464,7 +464,7 @@ namespace MutationSwarm.Entities
         private void UpdateAnimator()
         {
             _animator.SetBool("IsGrounded", _isGrounded);
-            _animator.SetBool("IsRunning", Mathf.Abs(_rb.velocity.x) > 0.1f && _isGrounded);
+            _animator.SetBool("IsRunning", Mathf.Abs(_rb.linearVelocity.x) > 0.1f && _isGrounded);
         }
 
         private void OnDrawGizmosSelected()

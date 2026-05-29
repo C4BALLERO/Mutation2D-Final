@@ -116,9 +116,32 @@ Al pulsar **Jugar**:
 - Construcción habilitada solo durante `WaveState.UpgradePhase`.
 - Materiales de construcción no persisten entre sesiones (`ResetMaterialsForNewSession`).
 
+## Generación automática (escenas + prefabs)
+
+Al abrir el proyecto en Unity, aparecerá un diálogo para generar todo automáticamente.  
+También puedes ejecutarlo manualmente:
+
+**`Tools → Mutation Swarm → Setup Complete Project`**
+
+Esto crea:
+
+- Escenas: `Scene_00_Boot`, `Scene_01_MainMenu`, `Scene_02_GameWorld`, `Scene_03_UpgradeMenu`
+- Prefabs: jugador, enemigo drone, proyectil, torreta, barricada
+- ScriptableObjects: oleadas, pool, estructuras, upgrades
+- Capas físicas: `Player`, `Enemy`, `Projectile_*`, `Platform`, `BuildSurface`, `Structure`
+- Build Settings con las 4 escenas en orden
+
+### Flujo de juego
+
+1. `Scene_00_Boot` carga singletons y pasa a menú.
+2. `Scene_01_MainMenu` selecciona jugadores y llama `StartGameSession()`.
+3. `Scene_02_GameWorld` es la arena principal.
+4. `Scene_03_UpgradeMenu` se carga en modo aditivo entre oleadas (pendiente conectar en `WaveManager`).
+
 ## Próximos pasos recomendados
 
-1. Crear assets reales de `SO_StructureData` (torreta, barricada, trampa, mina, plataforma).
-2. Conectar `WaveManager` con `BuildManager.StartBuildPhase()`.
-3. Crear `Scene_00_Boot`, `Scene_01_MainMenu`, `Scene_02_GameWorld`, `Scene_03_UpgradeMenu`.
-4. Añadir prefabs reales y asignar referencias en Inspector.
+1. Ejecutar **Setup Complete Project** en Unity si aún no lo hiciste.
+2. Conectar `WaveManager` con `BuildManager.StartBuildPhase()` y carga aditiva de `Scene_03_UpgradeMenu`.
+3. Reemplazar sprites placeholder por arte final en `Assets/_Art/Sprites`.
+4. Añadir Animator Controller al `Prefab_Player`.
+cr

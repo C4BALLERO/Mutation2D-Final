@@ -37,9 +37,54 @@ namespace MutationSwarm.Evolution
 
         public event Action<string, float, float> OnMutationOccurred;
 
-        public string GetDominantGene() { return "Velocidad"; }
-        public Color GetMutationColor() => Color.red;
-        public float GetFitnessModifier() => 1.0f;
+        public string GetDominantGene()
+        {
+            float best = -1f;
+            string name = "Velocidad";
+            Evaluate("Velocidad", Velocidad, VelocidadMin, VelocidadMax, ref best, ref name);
+            Evaluate("Tamaño", Tamaño, TamañoMin, TamañoMax, ref best, ref name);
+            Evaluate("Salto", Salto, SaltoMin, SaltoMax, ref best, ref name);
+            Evaluate("Armadura", Armadura, ArmaduraMin, ArmaduraMax, ref best, ref name);
+            Evaluate("Veneno", Veneno, VenenoMin, VenenoMax, ref best, ref name);
+            Evaluate("ExplosionAlMorir", ExplosionAlMorir, ExplosionMin, ExplosionMax, ref best, ref name);
+            Evaluate("Regeneracion", Regeneracion, RegeneracionMin, RegeneracionMax, ref best, ref name);
+            Evaluate("RangoVision", RangoVision, RangoVisionMin, RangoVisionMax, ref best, ref name);
+            Evaluate("ComportamientoGrupal", ComportamientoGrupal, ComportamientoGrupalMin, ComportamientoGrupalMax, ref best, ref name);
+            Evaluate("ResistenciaFuego", ResistenciaFuego, ResistenciaFuegoMin, ResistenciaFuegoMax, ref best, ref name);
+            Evaluate("ResistenciaElectrica", ResistenciaElectrica, ResistenciaElectricaMin, ResistenciaElectricaMax, ref best, ref name);
+            Evaluate("Espinas", Espinas, EspinasMin, EspinasMax, ref best, ref name);
+            return name;
+        }
+
+        public Color GetMutationColor()
+        {
+            return GetDominantGene() switch
+            {
+                "Veneno" => new Color(0.2f, 0.9f, 0.2f),
+                "Velocidad" => new Color(0.95f, 0.2f, 0.2f),
+                "Armadura" or "ResistenciaFuego" or "ResistenciaElectrica" => new Color(0.2f, 0.45f, 0.95f),
+                "Salto" or "ComportamientoGrupal" => new Color(0.95f, 0.9f, 0.2f),
+                "Regeneracion" => new Color(0.65f, 0.2f, 0.9f),
+                "ExplosionAlMorir" or "Espinas" => new Color(0.1f, 0.1f, 0.1f),
+                _ => new Color(0.9f, 0.3f, 0.3f)
+            };
+        }
+
+        public float GetFitnessModifier()
+        {
+            float avg = (Velocidad + Armadura + Veneno + Regeneracion + Espinas) / 5f;
+            return Mathf.Clamp(0.5f + avg * 0.5f, 0.5f, 2f);
+        }
+
+        private static void Evaluate(string geneName, float value, float min, float max, ref float best, ref string bestName)
+        {
+            float normalized = max <= min ? 0f : (value - min) / (max - min);
+            if (normalized > best)
+            {
+                best = normalized;
+                bestName = geneName;
+            }
+        }
         public void Mutate(float intensity = 0.2f) { }
         public static Genome Crossover(Genome parentA, Genome parentB) => parentA?.Clone() ?? new Genome();
         public string ToJson() => JsonUtility.ToJson(this);

@@ -75,7 +75,7 @@ namespace MutationSwarm.Entities
 
             // Ajuste de física 2D según el genoma mutado.
             _rb.mass = Mathf.Lerp(0.8f, 2.2f, Mathf.InverseLerp(Genome.TamañoMin, Genome.TamañoMax, genome.Tamaño));
-            _rb.drag = Mathf.Lerp(0f, 1.2f, genome.Armadura);
+            _rb.linearDamping = Mathf.Lerp(0f, 1.2f, genome.Armadura);
             _rb.gravityScale = 1f + genome.Salto * 0.4f;
 
             // Inicialización de la StateMachine con el Genome recibido del WaveManager.

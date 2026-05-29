@@ -20,13 +20,13 @@ namespace MutationSwarm.Combat
         public void OnDespawn()
         {
             if (TryGetComponent(out Rigidbody2D rb))
-                rb.velocity = Vector2.zero;
+                rb.linearVelocity = Vector2.zero;
         }
 
         public void Launch(Vector2 direction)
         {
             if (TryGetComponent(out Rigidbody2D rb))
-                rb.velocity = direction.normalized * _speed;
+                rb.linearVelocity = direction.normalized * _speed;
         }
     }
 }
