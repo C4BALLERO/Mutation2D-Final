@@ -17,20 +17,30 @@ namespace MutationSwarm.UI
         private void OnEnable()
         {
             if (_menuDocument == null)
+                _menuDocument = GetComponent<UIDocument>();
+            if (_menuDocument == null)
                 return;
 
             VisualElement root = _menuDocument.rootVisualElement;
-            Button play = root.Q<Button>("BtnPlay");
-            Button quit = root.Q<Button>("BtnQuit");
-            Button plus = root.Q<Button>("BtnPlayersPlus");
-            Button minus = root.Q<Button>("BtnPlayersMinus");
+            Button play    = root.Q<Button>("BtnPlay");
+            Button quit    = root.Q<Button>("BtnQuit");
+            Button options = root.Q<Button>("BtnOptions");
+            Button plus    = root.Q<Button>("BtnPlayersPlus");
+            Button minus   = root.Q<Button>("BtnPlayersMinus");
             _playerCountLabel = root.Q<Label>("LblPlayers");
 
-            if (play != null) play.clicked += OnPlayClicked;
-            if (quit != null) quit.clicked += OnQuitClicked;
-            if (plus != null) plus.clicked += IncreasePlayers;
-            if (minus != null) minus.clicked += DecreasePlayers;
+            if (play    != null) play.clicked    += OnPlayClicked;
+            if (quit    != null) quit.clicked    += OnQuitClicked;
+            if (options != null) options.clicked += OnOptionsClicked;
+            if (plus    != null) plus.clicked    += IncreasePlayers;
+            if (minus   != null) minus.clicked   += DecreasePlayers;
             RefreshPlayerCountLabel();
+        }
+
+        private void OnOptionsClicked()
+        {
+            // Reserved for future options screen
+            Debug.Log("[MainMenu] Opciones — pendiente de implementar.");
         }
 
         private void OnPlayClicked()
@@ -62,8 +72,9 @@ namespace MutationSwarm.UI
 
         private void RefreshPlayerCountLabel()
         {
-            if (_playerCountLabel != null)
-                _playerCountLabel.text = $"{_selectedPlayerCount} Jugador(es)";
+            if (_playerCountLabel == null) return;
+            string suffix = _selectedPlayerCount == 1 ? "JUGADOR" : "JUGADORES";
+            _playerCountLabel.text = $"{_selectedPlayerCount} {suffix}";
         }
     }
 }

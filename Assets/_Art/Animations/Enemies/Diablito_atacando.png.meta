@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 3803b4a4a3886a24d9d104783d87b73e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7684380882000906018
+    second: Diablito_atacando_0
+  - first:
+      213: -550349142246393463
+    second: Diablito_atacando_1
+  - first:
+      213: -8021532838302883802
+    second: Diablito_atacando_2
+  - first:
+      213: -8055253344329074836
+    second: Diablito_atacando_3
+  - first:
+      213: -7446593384577270993
+    second: Diablito_atacando_4
+  - first:
+      213: 7531491115920196268
+    second: Diablito_atacando_5
+  - first:
+      213: 5014236274986111112
+    second: Diablito_atacando_6
+  - first:
+      213: 83523164431719862
+    second: Diablito_atacando_7
+  - first:
+      213: 5865349286370582402
+    second: Diablito_atacando_8
+  - first:
+      213: 7979669904778992733
+    second: Diablito_atacando_9
+  - first:
+      213: 7939044431663839446
+    second: Diablito_atacando_10
+  - first:
+      213: 1376196359948015603
+    second: Diablito_atacando_11
+  - first:
+      213: -7670695138246758239
+    second: Diablito_atacando_12
+  - first:
+      213: 4772421930400750325
+    second: Diablito_atacando_13
+  - first:
+      213: 6350002079364972530
+    second: Diablito_atacando_14
+  - first:
+      213: 5207266294590762388
+    second: Diablito_atacando_15
+  - first:
+      213: -3776300098185048508
+    second: Diablito_atacando_16
+  - first:
+      213: -7944786281869754739
+    second: Diablito_atacando_17
+  - first:
+      213: -6529615885736880378
+    second: Diablito_atacando_18
+  - first:
+      213: 6354712490044069647
+    second: Diablito_atacando_19
+  - first:
+      213: -1218173276522120180
+    second: Diablito_atacando_20
+  - first:
+      213: 530318154386320895
+    second: Diablito_atacando_21
+  - first:
+      213: -4719081111643817768
+    second: Diablito_atacando_22
+  - first:
+      213: 7431776776796441621
+    second: Diablito_atacando_23
+  - first:
+      213: 5830401956946250404
+    second: Diablito_atacando_24
+  - first:
+      213: 5382751429386396972
+    second: Diablito_atacando_25
+  - first:
+      213: -3044310976678882346
+    second: Diablito_atacando_26
+  - first:
+      213: -232344391721599137
+    second: Diablito_atacando_27
+  - first:
+      213: -6588008265175222967
+    second: Diablito_atacando_28
+  - first:
+      213: -2406903967174350934
+    second: Diablito_atacando_29
+  - first:
+      213: 7972203246595193512
+    second: Diablito_atacando_30
+  - first:
+      213: -1691057067474227843
+    second: Diablito_atacando_31
+  - first:
+      213: -464373085129182875
+    second: Diablito_atacando_32
+  - first:
+      213: 6942176924330274796
+    second: Diablito_atacando_33
+  - first:
+      213: -74386332488393192
+    second: Diablito_atacando_34
+  - first:
+      213: -6605748573778780440
+    second: Diablito_atacando_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Diablito_atacando_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2419
+        width: 527
+        height: 467
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2278776d2b764aa60800000000000000
+      internalID: 7684380882000906018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_1
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 2419
+        width: 527
+        height: 467
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98976f9fe54cc58f0800000000000000
+      internalID: -550349142246393463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_2
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 2419
+        width: 526
+        height: 467
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62063da226acda090800000000000000
+      internalID: -8021532838302883802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_3
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 2419
+        width: 508
+        height: 467
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67fc7b03cdf53090800000000000000
+      internalID: -8055253344329074836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_4
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 2419
+        width: 502
+        height: 467
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b7f7d35c268a890800000000000000
+      internalID: -7446593384577270993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_5
+      rect:
+        serializedVersion: 2
+        x: 2927
+        y: 2419
+        width: 501
+        height: 467
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca20f61344b358860800000000000000
+      internalID: 7531491115920196268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1931
+        width: 510
+        height: 473
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880dc665355269540800000000000000
+      internalID: 5014236274986111112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_7
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1931
+        width: 511
+        height: 473
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd187220ebb82100800000000000000
+      internalID: 83523164431719862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_8
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1931
+        width: 511
+        height: 473
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f95b99918e56150800000000000000
+      internalID: 5865349286370582402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_9
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 1931
+        width: 513
+        height: 473
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c1a33108b7dbe60800000000000000
+      internalID: 7979669904778992733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_10
+      rect:
+        serializedVersion: 2
+        x: 2337
+        y: 1931
+        width: 522
+        height: 473
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8bd5509d62d2e60800000000000000
+      internalID: 7939044431663839446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_11
+      rect:
+        serializedVersion: 2
+        x: 2914
+        y: 1931
+        width: 524
+        height: 473
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f713e74c4b391310800000000000000
+      internalID: 1376196359948015603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1449
+        width: 510
+        height: 473
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a07c70b9673c8590800000000000000
+      internalID: -7670695138246758239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_13
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1449
+        width: 509
+        height: 473
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa12d7d57c0b3240800000000000000
+      internalID: 4772421930400750325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_14
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1449
+        width: 509
+        height: 473
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff7a875f3dbf1850800000000000000
+      internalID: 6350002079364972530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_15
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 1449
+        width: 510
+        height: 473
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d62fb0b1de34840800000000000000
+      internalID: 5207266294590762388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_16
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 1449
+        width: 510
+        height: 473
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e48628113e79bc0800000000000000
+      internalID: -3776300098185048508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_17
+      rect:
+        serializedVersion: 2
+        x: 2922
+        y: 1449
+        width: 510
+        height: 473
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8eb1cc48f27eb190800000000000000
+      internalID: -7944786281869754739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 971
+        width: 535
+        height: 469
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607d7e282f42265a0800000000000000
+      internalID: -6529615885736880378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_19
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 971
+        width: 536
+        height: 469
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0790da4759703850800000000000000
+      internalID: 6354712490044069647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_20
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 971
+        width: 536
+        height: 469
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c7602fbdd281fe0800000000000000
+      internalID: -1218173276522120180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_21
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 971
+        width: 526
+        height: 469
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd232a3d811c5700800000000000000
+      internalID: 530318154386320895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_22
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 971
+        width: 513
+        height: 469
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8f6325bb4728eb0800000000000000
+      internalID: -4719081111643817768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_23
+      rect:
+        serializedVersion: 2
+        x: 2920
+        y: 971
+        width: 510
+        height: 469
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c03fe6a99f22760800000000000000
+      internalID: 7431776776796441621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_24
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 482
+        width: 513
+        height: 476
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa068560bfb9e050800000000000000
+      internalID: 5830401956946250404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_25
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 482
+        width: 522
+        height: 476
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c256dcee7ef53ba40800000000000000
+      internalID: 5382751429386396972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_26
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 482
+        width: 523
+        height: 476
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d39b31db4f60c5d0800000000000000
+      internalID: -3044310976678882346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_27
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 482
+        width: 523
+        height: 476
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f31e9b10c86ccf0800000000000000
+      internalID: -232344391721599137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_28
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 482
+        width: 524
+        height: 476
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945b4e83361b294a0800000000000000
+      internalID: -6588008265175222967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_29
+      rect:
+        serializedVersion: 2
+        x: 2893
+        y: 482
+        width: 531
+        height: 476
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7281c1895f89ed0800000000000000
+      internalID: -2406903967174350934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_30
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 504
+        height: 476
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aab58e3d94f2ae60800000000000000
+      internalID: 7972203246595193512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_31
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 0
+        width: 507
+        height: 476
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7de8468e882888e0800000000000000
+      internalID: -1691057067474227843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_32
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 0
+        width: 508
+        height: 476
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5617f91b3273e89f0800000000000000
+      internalID: -464373085129182875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_33
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 0
+        width: 509
+        height: 476
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefae96a121975060800000000000000
+      internalID: 6942176924330274796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_34
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 0
+        width: 511
+        height: 476
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e92e3560ab7fef0800000000000000
+      internalID: -74386332488393192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_atacando_35
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 0
+        width: 511
+        height: 476
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee5f50cbaaa354a0800000000000000
+      internalID: -6605748573778780440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Diablito_atacando_0: 7684380882000906018
+      Diablito_atacando_1: -550349142246393463
+      Diablito_atacando_10: 7939044431663839446
+      Diablito_atacando_11: 1376196359948015603
+      Diablito_atacando_12: -7670695138246758239
+      Diablito_atacando_13: 4772421930400750325
+      Diablito_atacando_14: 6350002079364972530
+      Diablito_atacando_15: 5207266294590762388
+      Diablito_atacando_16: -3776300098185048508
+      Diablito_atacando_17: -7944786281869754739
+      Diablito_atacando_18: -6529615885736880378
+      Diablito_atacando_19: 6354712490044069647
+      Diablito_atacando_2: -8021532838302883802
+      Diablito_atacando_20: -1218173276522120180
+      Diablito_atacando_21: 530318154386320895
+      Diablito_atacando_22: -4719081111643817768
+      Diablito_atacando_23: 7431776776796441621
+      Diablito_atacando_24: 5830401956946250404
+      Diablito_atacando_25: 5382751429386396972
+      Diablito_atacando_26: -3044310976678882346
+      Diablito_atacando_27: -232344391721599137
+      Diablito_atacando_28: -6588008265175222967
+      Diablito_atacando_29: -2406903967174350934
+      Diablito_atacando_3: -8055253344329074836
+      Diablito_atacando_30: 7972203246595193512
+      Diablito_atacando_31: -1691057067474227843
+      Diablito_atacando_32: -464373085129182875
+      Diablito_atacando_33: 6942176924330274796
+      Diablito_atacando_34: -74386332488393192
+      Diablito_atacando_35: -6605748573778780440
+      Diablito_atacando_4: -7446593384577270993
+      Diablito_atacando_5: 7531491115920196268
+      Diablito_atacando_6: 5014236274986111112
+      Diablito_atacando_7: 83523164431719862
+      Diablito_atacando_8: 5865349286370582402
+      Diablito_atacando_9: 7979669904778992733
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

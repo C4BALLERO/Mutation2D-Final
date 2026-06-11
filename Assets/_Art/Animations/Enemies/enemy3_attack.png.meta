@@ -1,0 +1,1561 @@
+fileFormatVersion: 2
+guid: 0c9c086c6b996f644a204912648069e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5690359612343717493
+    second: enemy3_attack_0
+  - first:
+      213: 3407092495541637897
+    second: enemy3_attack_1
+  - first:
+      213: -124373275658786062
+    second: enemy3_attack_2
+  - first:
+      213: -7047825168906726840
+    second: enemy3_attack_3
+  - first:
+      213: -4320871579128969614
+    second: enemy3_attack_4
+  - first:
+      213: 4619337603285040438
+    second: enemy3_attack_5
+  - first:
+      213: -1044868324651369652
+    second: enemy3_attack_6
+  - first:
+      213: 6488996065367389726
+    second: enemy3_attack_7
+  - first:
+      213: -8304484681220967960
+    second: enemy3_attack_8
+  - first:
+      213: -1421256027271813655
+    second: enemy3_attack_9
+  - first:
+      213: -7880187123819809301
+    second: enemy3_attack_10
+  - first:
+      213: 9203767593500647022
+    second: enemy3_attack_11
+  - first:
+      213: 2781964805688561814
+    second: enemy3_attack_12
+  - first:
+      213: -2330983753948445411
+    second: enemy3_attack_13
+  - first:
+      213: 144104193615799289
+    second: enemy3_attack_14
+  - first:
+      213: -9193285213266791414
+    second: enemy3_attack_15
+  - first:
+      213: 3586090575872302141
+    second: enemy3_attack_16
+  - first:
+      213: -8926634603709387316
+    second: enemy3_attack_17
+  - first:
+      213: 7023123983086434950
+    second: enemy3_attack_18
+  - first:
+      213: -5735958668501970455
+    second: enemy3_attack_19
+  - first:
+      213: -8387462360609233210
+    second: enemy3_attack_20
+  - first:
+      213: 7168703786726374472
+    second: enemy3_attack_21
+  - first:
+      213: 3541019708772952521
+    second: enemy3_attack_22
+  - first:
+      213: -5778075958387511940
+    second: enemy3_attack_23
+  - first:
+      213: 6628019664026316238
+    second: enemy3_attack_24
+  - first:
+      213: -5319375876674940951
+    second: enemy3_attack_25
+  - first:
+      213: -4363852904844640221
+    second: enemy3_attack_26
+  - first:
+      213: 7479259617385926343
+    second: enemy3_attack_27
+  - first:
+      213: 6252838848156412208
+    second: enemy3_attack_28
+  - first:
+      213: -2026678031524716624
+    second: enemy3_attack_29
+  - first:
+      213: 4142934944962840388
+    second: enemy3_attack_30
+  - first:
+      213: -2061610920193322974
+    second: enemy3_attack_31
+  - first:
+      213: -7712378796763738588
+    second: enemy3_attack_32
+  - first:
+      213: 8749920547902972608
+    second: enemy3_attack_33
+  - first:
+      213: -1633165631176463740
+    second: enemy3_attack_34
+  - first:
+      213: 6649352980956930428
+    second: enemy3_attack_35
+  - first:
+      213: -3578415834073722107
+    second: enemy3_attack_36
+  - first:
+      213: 7945594556391939794
+    second: enemy3_attack_37
+  - first:
+      213: 6869441568748292679
+    second: enemy3_attack_38
+  - first:
+      213: -8910284658762547678
+    second: enemy3_attack_39
+  - first:
+      213: 1362553806202449586
+    second: enemy3_attack_40
+  - first:
+      213: 3057374599476105263
+    second: enemy3_attack_41
+  - first:
+      213: 5590767406232065991
+    second: enemy3_attack_42
+  - first:
+      213: -6537744131195482414
+    second: enemy3_attack_43
+  - first:
+      213: 3816502449026118182
+    second: enemy3_attack_44
+  - first:
+      213: 5802775606608278957
+    second: enemy3_attack_45
+  - first:
+      213: 3596480474953127260
+    second: enemy3_attack_46
+  - first:
+      213: -430385408107409893
+    second: enemy3_attack_47
+  - first:
+      213: -2104630305323733436
+    second: enemy3_attack_48
+  - first:
+      213: 4494692212749451725
+    second: enemy3_attack_49
+  - first:
+      213: -7686939506824614489
+    second: enemy3_attack_50
+  - first:
+      213: 9069551499092344911
+    second: enemy3_attack_51
+  - first:
+      213: -6790835760763738389
+    second: enemy3_attack_52
+  - first:
+      213: 4781641194810435851
+    second: enemy3_attack_53
+  - first:
+      213: -400094595040001754
+    second: enemy3_attack_54
+  - first:
+      213: 5035264425397017307
+    second: enemy3_attack_55
+  - first:
+      213: -1060901650751921810
+    second: enemy3_attack_56
+  - first:
+      213: -7904008380373480828
+    second: enemy3_attack_57
+  - first:
+      213: -8749021276948068351
+    second: enemy3_attack_58
+  - first:
+      213: -8305031473972147177
+    second: enemy3_attack_59
+  - first:
+      213: -7720434955730488269
+    second: enemy3_attack_60
+  - first:
+      213: -7688060689475119143
+    second: enemy3_attack_61
+  - first:
+      213: -7598696701098413360
+    second: enemy3_attack_62
+  - first:
+      213: 8921858011061428099
+    second: enemy3_attack_63
+  - first:
+      213: -2351289110792493644
+    second: enemy3_attack_64
+  - first:
+      213: -3982079321330129513
+    second: enemy3_attack_65
+  - first:
+      213: -8963223692468364056
+    second: enemy3_attack_66
+  - first:
+      213: 243581572865508887
+    second: enemy3_attack_67
+  - first:
+      213: 8061951333691693713
+    second: enemy3_attack_68
+  - first:
+      213: 6898090268973631299
+    second: enemy3_attack_69
+  - first:
+      213: -7147114592218513399
+    second: enemy3_attack_70
+  - first:
+      213: -7350715977923994796
+    second: enemy3_attack_71
+  - first:
+      213: 3069857843530474610
+    second: enemy3_attack_72
+  - first:
+      213: 8824268298553172640
+    second: enemy3_attack_73
+  - first:
+      213: -3632507001118026430
+    second: enemy3_attack_74
+  - first:
+      213: -728863075809575072
+    second: enemy3_attack_75
+  - first:
+      213: -9008095305063494656
+    second: enemy3_attack_76
+  - first:
+      213: 4259236146578605507
+    second: enemy3_attack_77
+  - first:
+      213: 3669390444831742469
+    second: enemy3_attack_78
+  - first:
+      213: 4956017233737785366
+    second: enemy3_attack_79
+  - first:
+      213: 1951197738678031367
+    second: enemy3_attack_80
+  - first:
+      213: 8435290309190806833
+    second: enemy3_attack_81
+  - first:
+      213: 6274992508669434883
+    second: enemy3_attack_82
+  - first:
+      213: -4072480803792967975
+    second: enemy3_attack_83
+  - first:
+      213: -4215277543871033171
+    second: enemy3_attack_84
+  - first:
+      213: 1455555279578170993
+    second: enemy3_attack_85
+  - first:
+      213: 7684846467017478522
+    second: enemy3_attack_86
+  - first:
+      213: 1860533097086774262
+    second: enemy3_attack_87
+  - first:
+      213: -2693955886020538819
+    second: enemy3_attack_88
+  - first:
+      213: 4572482578801692689
+    second: enemy3_attack_89
+  - first:
+      213: 7300856248069860593
+    second: enemy3_attack_90
+  - first:
+      213: -1043184817220825004
+    second: enemy3_attack_91
+  - first:
+      213: 3936802527115212105
+    second: enemy3_attack_92
+  - first:
+      213: -3173734167964177049
+    second: enemy3_attack_93
+  - first:
+      213: 8641941877486930236
+    second: enemy3_attack_94
+  - first:
+      213: 3244984402760197944
+    second: enemy3_attack_95
+  - first:
+      213: -6051861322119501652
+    second: enemy3_attack_96
+  - first:
+      213: -6685801465712512423
+    second: enemy3_attack_97
+  - first:
+      213: 2574196155118516773
+    second: enemy3_attack_98
+  - first:
+      213: -8405419508942785911
+    second: enemy3_attack_99
+  - first:
+      213: 2746053985454889135
+    second: enemy3_attack_100
+  - first:
+      213: -1483786365007747691
+    second: enemy3_attack_101
+  - first:
+      213: 1060818839342009890
+    second: enemy3_attack_102
+  - first:
+      213: 6588157805138747247
+    second: enemy3_attack_103
+  - first:
+      213: 973247173326401942
+    second: enemy3_attack_104
+  - first:
+      213: -6937962788765968485
+    second: enemy3_attack_105
+  - first:
+      213: -951163780956737012
+    second: enemy3_attack_106
+  - first:
+      213: -6493820912732632094
+    second: enemy3_attack_107
+  - first:
+      213: -9185304104045859781
+    second: enemy3_attack_108
+  - first:
+      213: 8995681999974989540
+    second: enemy3_attack_109
+  - first:
+      213: 826495935157895199
+    second: enemy3_attack_110
+  - first:
+      213: 3394603382738338569
+    second: enemy3_attack_111
+  - first:
+      213: 8335070904676611318
+    second: enemy3_attack_112
+  - first:
+      213: 5318504667159798644
+    second: enemy3_attack_113
+  - first:
+      213: 5891833660182870586
+    second: enemy3_attack_114
+  - first:
+      213: -1478836763712855332
+    second: enemy3_attack_115
+  - first:
+      213: 4240250254390048970
+    second: enemy3_attack_116
+  - first:
+      213: -2029467165870008654
+    second: enemy3_attack_117
+  - first:
+      213: -7471022267858054246
+    second: enemy3_attack_118
+  - first:
+      213: -7061368379289929783
+    second: enemy3_attack_119
+  - first:
+      213: -4819669371499279401
+    second: enemy3_attack_120
+  - first:
+      213: 5664854329393052620
+    second: enemy3_attack_121
+  - first:
+      213: -7711266755128339131
+    second: enemy3_attack_122
+  - first:
+      213: -673046029906533086
+    second: enemy3_attack_123
+  - first:
+      213: 899497275403731639
+    second: enemy3_attack_124
+  - first:
+      213: -118089943381804045
+    second: enemy3_attack_125
+  - first:
+      213: -4672616314470127886
+    second: enemy3_attack_126
+  - first:
+      213: 573592033411239612
+    second: enemy3_attack_127
+  - first:
+      213: 2674703897702944854
+    second: enemy3_attack_128
+  - first:
+      213: -5608156901807469020
+    second: enemy3_attack_129
+  - first:
+      213: 1002962951965702018
+    second: enemy3_attack_130
+  - first:
+      213: 3252836718583774457
+    second: enemy3_attack_131
+  - first:
+      213: -3968645424134713374
+    second: enemy3_attack_132
+  - first:
+      213: -6690299771546641608
+    second: enemy3_attack_133
+  - first:
+      213: -6445805819634091333
+    second: enemy3_attack_134
+  - first:
+      213: 4230856379145802441
+    second: enemy3_attack_135
+  - first:
+      213: -7841430934341801648
+    second: enemy3_attack_136
+  - first:
+      213: 2640342988945577389
+    second: enemy3_attack_137
+  - first:
+      213: 7758523052918837475
+    second: enemy3_attack_138
+  - first:
+      213: 5685042542694486731
+    second: enemy3_attack_139
+  - first:
+      213: -1882870498489989236
+    second: enemy3_attack_140
+  - first:
+      213: 8135756426724646549
+    second: enemy3_attack_141
+  - first:
+      213: 6779996480442873973
+    second: enemy3_attack_142
+  - first:
+      213: 2850839394322475448
+    second: enemy3_attack_143
+  - first:
+      213: -8610886882714617106
+    second: enemy3_attack_144
+  - first:
+      213: -2509185288177571398
+    second: enemy3_attack_145
+  - first:
+      213: -714436553479042433
+    second: enemy3_attack_146
+  - first:
+      213: -924835344935660996
+    second: enemy3_attack_147
+  - first:
+      213: 2778670365253096254
+    second: enemy3_attack_148
+  - first:
+      213: -2982963339105310100
+    second: enemy3_attack_149
+  - first:
+      213: 768318528051028885
+    second: enemy3_attack_150
+  - first:
+      213: -4841518481639257352
+    second: enemy3_attack_151
+  - first:
+      213: -3848682930748170921
+    second: enemy3_attack_152
+  - first:
+      213: -7915068404785448646
+    second: enemy3_attack_153
+  - first:
+      213: -5705724436342122015
+    second: enemy3_attack_154
+  - first:
+      213: 4046642431993234411
+    second: enemy3_attack_155
+  - first:
+      213: -8324136301502115406
+    second: enemy3_attack_156
+  - first:
+      213: 2113233533008572254
+    second: enemy3_attack_157
+  - first:
+      213: 5760804798602443864
+    second: enemy3_attack_158
+  - first:
+      213: -6756375556264865736
+    second: enemy3_attack_159
+  - first:
+      213: 1219469907297843481
+    second: enemy3_attack_160
+  - first:
+      213: -3411243006137532838
+    second: enemy3_attack_161
+  - first:
+      213: 2688558710465556462
+    second: enemy3_attack_162
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy3_attack_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2341
+        width: 575
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81f506d418c701b0800000000000000
+      internalID: -5690359612343717493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_1
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 2341
+        width: 541
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90398a9b29c684f20800000000000000
+      internalID: 3407092495541637897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_2
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 2341
+        width: 533
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa6ecc2a23264ef0800000000000000
+      internalID: -124373275658786062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_3
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 2341
+        width: 520
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842d1409958113e90800000000000000
+      internalID: -7047825168906726840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_4
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 2341
+        width: 517
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276cfe5113e2904c0800000000000000
+      internalID: -4320871579128969614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_5
+      rect:
+        serializedVersion: 2
+        x: 3261
+        y: 2341
+        width: 512
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63db86d631f2b1040800000000000000
+      internalID: 4619337603285040438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1886
+        width: 515
+        height: 417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4bf8107bc1ef71f0800000000000000
+      internalID: -1044868324651369652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_7
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1886
+        width: 516
+        height: 417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1671219a8b8d0a50800000000000000
+      internalID: 6488996065367389726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_8
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1886
+        width: 516
+        height: 417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1b6257e2b80cc80800000000000000
+      internalID: -8304484681220967960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_9
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 1886
+        width: 526
+        height: 417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5a49f5c2fa64ce0800000000000000
+      internalID: -1421256027271813655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_10
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 1886
+        width: 630
+        height: 417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5fc19df83f3a290800000000000000
+      internalID: -7880187123819809301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_11
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 1886
+        width: 595
+        height: 417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e9bd5dcd95abf70800000000000000
+      internalID: 9203767593500647022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1403
+        width: 595
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69094b450468b9620800000000000000
+      internalID: 2781964805688561814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_13
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1403
+        width: 595
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1542b830aea6afd0800000000000000
+      internalID: -2330983753948445411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_14
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 1403
+        width: 597
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f32d172006fff100800000000000000
+      internalID: 144104193615799289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_15
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 1403
+        width: 602
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04b1608ec3ea6080800000000000000
+      internalID: -9193285213266791414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_16
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 1403
+        width: 512
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c9e3bf06a54c130800000000000000
+      internalID: 3586090575872302141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_17
+      rect:
+        serializedVersion: 2
+        x: 3230
+        y: 1403
+        width: 513
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd213e8f193e1480800000000000000
+      internalID: -8926634603709387316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_18
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 935
+        width: 583
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ab4617d06277160800000000000000
+      internalID: 7023123983086434950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_19
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 935
+        width: 606
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e11e9d3bf7c560b0800000000000000
+      internalID: -5735958668501970455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_20
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 935
+        width: 610
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c66de4fb6fb99b80800000000000000
+      internalID: -8387462360609233210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_21
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 935
+        width: 602
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84cb2d3dc1a5c7360800000000000000
+      internalID: 7168703786726374472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_22
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 935
+        width: 599
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9a11cf9aa342130800000000000000
+      internalID: 3541019708772952521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_23
+      rect:
+        serializedVersion: 2
+        x: 3233
+        y: 935
+        width: 595
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d6617878620dfa0800000000000000
+      internalID: -5778075958387511940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_24
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 499
+        width: 528
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecda79684c47bfb50800000000000000
+      internalID: 6628019664026316238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_25
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 499
+        width: 551
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef020cc2d7cd26b0800000000000000
+      internalID: -5319375876674940951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_26
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 499
+        width: 514
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320cdaa57ea7073c0800000000000000
+      internalID: -4363852904844640221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_27
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 499
+        width: 514
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce4635cefaabc760800000000000000
+      internalID: 7479259617385926343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_28
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 499
+        width: 526
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039202eadcb86c650800000000000000
+      internalID: 6252838848156412208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_29
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 499
+        width: 557
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf91e0711bcfd3e0800000000000000
+      internalID: -2026678031524716624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_30
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 17
+        width: 503
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447001ad169ae7930800000000000000
+      internalID: 4142934944962840388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_31
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 17
+        width: 503
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2209fcc7acfa363e0800000000000000
+      internalID: -2061610920193322974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_32
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 17
+        width: 505
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e84a5a85028f490800000000000000
+      internalID: -7712378796763738588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_33
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 17
+        width: 506
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2e5a61166fd6970800000000000000
+      internalID: 8749920547902972608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_34
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 17
+        width: 507
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48aa956e284d559e0800000000000000
+      internalID: -1633165631176463740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_attack_35
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 17
+        width: 511
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c716f107e4f374c50800000000000000
+      internalID: 6649352980956930428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      enemy3_attack_0: -5690359612343717493
+      enemy3_attack_1: 3407092495541637897
+      enemy3_attack_10: -7880187123819809301
+      enemy3_attack_100: 2746053985454889135
+      enemy3_attack_101: -1483786365007747691
+      enemy3_attack_102: 1060818839342009890
+      enemy3_attack_103: 6588157805138747247
+      enemy3_attack_104: 973247173326401942
+      enemy3_attack_105: -6937962788765968485
+      enemy3_attack_106: -951163780956737012
+      enemy3_attack_107: -6493820912732632094
+      enemy3_attack_108: -9185304104045859781
+      enemy3_attack_109: 8995681999974989540
+      enemy3_attack_11: 9203767593500647022
+      enemy3_attack_110: 826495935157895199
+      enemy3_attack_111: 3394603382738338569
+      enemy3_attack_112: 8335070904676611318
+      enemy3_attack_113: 5318504667159798644
+      enemy3_attack_114: 5891833660182870586
+      enemy3_attack_115: -1478836763712855332
+      enemy3_attack_116: 4240250254390048970
+      enemy3_attack_117: -2029467165870008654
+      enemy3_attack_118: -7471022267858054246
+      enemy3_attack_119: -7061368379289929783
+      enemy3_attack_12: 2781964805688561814
+      enemy3_attack_120: -4819669371499279401
+      enemy3_attack_121: 5664854329393052620
+      enemy3_attack_122: -7711266755128339131
+      enemy3_attack_123: -673046029906533086
+      enemy3_attack_124: 899497275403731639
+      enemy3_attack_125: -118089943381804045
+      enemy3_attack_126: -4672616314470127886
+      enemy3_attack_127: 573592033411239612
+      enemy3_attack_128: 2674703897702944854
+      enemy3_attack_129: -5608156901807469020
+      enemy3_attack_13: -2330983753948445411
+      enemy3_attack_130: 1002962951965702018
+      enemy3_attack_131: 3252836718583774457
+      enemy3_attack_132: -3968645424134713374
+      enemy3_attack_133: -6690299771546641608
+      enemy3_attack_134: -6445805819634091333
+      enemy3_attack_135: 4230856379145802441
+      enemy3_attack_136: -7841430934341801648
+      enemy3_attack_137: 2640342988945577389
+      enemy3_attack_138: 7758523052918837475
+      enemy3_attack_139: 5685042542694486731
+      enemy3_attack_14: 144104193615799289
+      enemy3_attack_140: -1882870498489989236
+      enemy3_attack_141: 8135756426724646549
+      enemy3_attack_142: 6779996480442873973
+      enemy3_attack_143: 2850839394322475448
+      enemy3_attack_144: -8610886882714617106
+      enemy3_attack_145: -2509185288177571398
+      enemy3_attack_146: -714436553479042433
+      enemy3_attack_147: -924835344935660996
+      enemy3_attack_148: 2778670365253096254
+      enemy3_attack_149: -2982963339105310100
+      enemy3_attack_15: -9193285213266791414
+      enemy3_attack_150: 768318528051028885
+      enemy3_attack_151: -4841518481639257352
+      enemy3_attack_152: -3848682930748170921
+      enemy3_attack_153: -7915068404785448646
+      enemy3_attack_154: -5705724436342122015
+      enemy3_attack_155: 4046642431993234411
+      enemy3_attack_156: -8324136301502115406
+      enemy3_attack_157: 2113233533008572254
+      enemy3_attack_158: 5760804798602443864
+      enemy3_attack_159: -6756375556264865736
+      enemy3_attack_16: 3586090575872302141
+      enemy3_attack_160: 1219469907297843481
+      enemy3_attack_161: -3411243006137532838
+      enemy3_attack_162: 2688558710465556462
+      enemy3_attack_17: -8926634603709387316
+      enemy3_attack_18: 7023123983086434950
+      enemy3_attack_19: -5735958668501970455
+      enemy3_attack_2: -124373275658786062
+      enemy3_attack_20: -8387462360609233210
+      enemy3_attack_21: 7168703786726374472
+      enemy3_attack_22: 3541019708772952521
+      enemy3_attack_23: -5778075958387511940
+      enemy3_attack_24: 6628019664026316238
+      enemy3_attack_25: -5319375876674940951
+      enemy3_attack_26: -4363852904844640221
+      enemy3_attack_27: 7479259617385926343
+      enemy3_attack_28: 6252838848156412208
+      enemy3_attack_29: -2026678031524716624
+      enemy3_attack_3: -7047825168906726840
+      enemy3_attack_30: 4142934944962840388
+      enemy3_attack_31: -2061610920193322974
+      enemy3_attack_32: -7712378796763738588
+      enemy3_attack_33: 8749920547902972608
+      enemy3_attack_34: -1633165631176463740
+      enemy3_attack_35: 6649352980956930428
+      enemy3_attack_36: -3578415834073722107
+      enemy3_attack_37: 7945594556391939794
+      enemy3_attack_38: 6869441568748292679
+      enemy3_attack_39: -8910284658762547678
+      enemy3_attack_4: -4320871579128969614
+      enemy3_attack_40: 1362553806202449586
+      enemy3_attack_41: 3057374599476105263
+      enemy3_attack_42: 5590767406232065991
+      enemy3_attack_43: -6537744131195482414
+      enemy3_attack_44: 3816502449026118182
+      enemy3_attack_45: 5802775606608278957
+      enemy3_attack_46: 3596480474953127260
+      enemy3_attack_47: -430385408107409893
+      enemy3_attack_48: -2104630305323733436
+      enemy3_attack_49: 4494692212749451725
+      enemy3_attack_5: 4619337603285040438
+      enemy3_attack_50: -7686939506824614489
+      enemy3_attack_51: 9069551499092344911
+      enemy3_attack_52: -6790835760763738389
+      enemy3_attack_53: 4781641194810435851
+      enemy3_attack_54: -400094595040001754
+      enemy3_attack_55: 5035264425397017307
+      enemy3_attack_56: -1060901650751921810
+      enemy3_attack_57: -7904008380373480828
+      enemy3_attack_58: -8749021276948068351
+      enemy3_attack_59: -8305031473972147177
+      enemy3_attack_6: -1044868324651369652
+      enemy3_attack_60: -7720434955730488269
+      enemy3_attack_61: -7688060689475119143
+      enemy3_attack_62: -7598696701098413360
+      enemy3_attack_63: 8921858011061428099
+      enemy3_attack_64: -2351289110792493644
+      enemy3_attack_65: -3982079321330129513
+      enemy3_attack_66: -8963223692468364056
+      enemy3_attack_67: 243581572865508887
+      enemy3_attack_68: 8061951333691693713
+      enemy3_attack_69: 6898090268973631299
+      enemy3_attack_7: 6488996065367389726
+      enemy3_attack_70: -7147114592218513399
+      enemy3_attack_71: -7350715977923994796
+      enemy3_attack_72: 3069857843530474610
+      enemy3_attack_73: 8824268298553172640
+      enemy3_attack_74: -3632507001118026430
+      enemy3_attack_75: -728863075809575072
+      enemy3_attack_76: -9008095305063494656
+      enemy3_attack_77: 4259236146578605507
+      enemy3_attack_78: 3669390444831742469
+      enemy3_attack_79: 4956017233737785366
+      enemy3_attack_8: -8304484681220967960
+      enemy3_attack_80: 1951197738678031367
+      enemy3_attack_81: 8435290309190806833
+      enemy3_attack_82: 6274992508669434883
+      enemy3_attack_83: -4072480803792967975
+      enemy3_attack_84: -4215277543871033171
+      enemy3_attack_85: 1455555279578170993
+      enemy3_attack_86: 7684846467017478522
+      enemy3_attack_87: 1860533097086774262
+      enemy3_attack_88: -2693955886020538819
+      enemy3_attack_89: 4572482578801692689
+      enemy3_attack_9: -1421256027271813655
+      enemy3_attack_90: 7300856248069860593
+      enemy3_attack_91: -1043184817220825004
+      enemy3_attack_92: 3936802527115212105
+      enemy3_attack_93: -3173734167964177049
+      enemy3_attack_94: 8641941877486930236
+      enemy3_attack_95: 3244984402760197944
+      enemy3_attack_96: -6051861322119501652
+      enemy3_attack_97: -6685801465712512423
+      enemy3_attack_98: 2574196155118516773
+      enemy3_attack_99: -8405419508942785911
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -17,6 +17,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Scene_03_UpgradeMenu.unity
     guid: fea1bf2de2415fd41a71f56e3d9fb396
+  - enabled: 1
+    path: Assets/_Scenes/Rooms/Room_01.unity
+    guid: dd8812d6d6a96dd4a9405614a37888b7
+  - enabled: 1
+    path: Assets/_Scenes/Rooms/Room_02.unity
+    guid: 2376e4cf8790afd4e895e7cd8aea5be0
+  - enabled: 1
+    path: Assets/_Scenes/Rooms/Room_03.unity
+    guid: 19a15943efd8c574f958abcdaef38877
+  - enabled: 1
+    path: Assets/_Scenes/Rooms/Room_04.unity
+    guid: 6b9265638b774074c860d75e34e3094a
+  - enabled: 1
+    path: Assets/_Scenes/Rooms/Room_05.unity
+    guid: 6c5b2b1c37cd6e54ca6be01dfe666e47
+  - enabled: 1
+    path: Assets/_Scenes/Rooms/Room_Boss.unity
+    guid: 3afa9cfbf0e0f1642a0ed349c09e355e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

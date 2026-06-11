@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: a8a905f38bbb6a144bf75cb7d42c21db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7658667186589220960
+    second: Dahs_Player_0
+  - first:
+      213: -5761286781199134837
+    second: Dahs_Player_1
+  - first:
+      213: 4125109662957337109
+    second: Dahs_Player_2
+  - first:
+      213: 4945382385765637401
+    second: Dahs_Player_3
+  - first:
+      213: 4311125835848461134
+    second: Dahs_Player_4
+  - first:
+      213: 8682591524646400565
+    second: Dahs_Player_5
+  - first:
+      213: 7902732068571336039
+    second: Dahs_Player_6
+  - first:
+      213: 5858511179661903920
+    second: Dahs_Player_7
+  - first:
+      213: 3425049096301027916
+    second: Dahs_Player_8
+  - first:
+      213: 7603383788974110646
+    second: Dahs_Player_9
+  - first:
+      213: 2167477056627407834
+    second: Dahs_Player_10
+  - first:
+      213: -341221598648260870
+    second: Dahs_Player_11
+  - first:
+      213: -1765947211476557276
+    second: Dahs_Player_12
+  - first:
+      213: -7482532518334555838
+    second: Dahs_Player_13
+  - first:
+      213: 5048430928363546295
+    second: Dahs_Player_14
+  - first:
+      213: 3711998844389976451
+    second: Dahs_Player_15
+  - first:
+      213: 5283842491235673762
+    second: Dahs_Player_16
+  - first:
+      213: 3421933878148516799
+    second: Dahs_Player_17
+  - first:
+      213: 8553428741438346619
+    second: Dahs_Player_18
+  - first:
+      213: -653493713930110940
+    second: Dahs_Player_19
+  - first:
+      213: -1724296911404851840
+    second: Dahs_Player_20
+  - first:
+      213: -4635221918941398340
+    second: Dahs_Player_21
+  - first:
+      213: -8777895087822087132
+    second: Dahs_Player_22
+  - first:
+      213: -2230050070778075483
+    second: Dahs_Player_23
+  - first:
+      213: -5599366583365292050
+    second: Dahs_Player_24
+  - first:
+      213: 6790532664244894524
+    second: Dahs_Player_25
+  - first:
+      213: 9163929783407419591
+    second: Dahs_Player_26
+  - first:
+      213: 4683432421719298056
+    second: Dahs_Player_27
+  - first:
+      213: -7429705985213626203
+    second: Dahs_Player_28
+  - first:
+      213: -9101722779365083523
+    second: Dahs_Player_29
+  - first:
+      213: 3550174277736635671
+    second: Dahs_Player_30
+  - first:
+      213: 8152074939554608769
+    second: Dahs_Player_31
+  - first:
+      213: -8327448797365963366
+    second: Dahs_Player_32
+  - first:
+      213: -8679217316486289856
+    second: Dahs_Player_33
+  - first:
+      213: -4797959095901202922
+    second: Dahs_Player_34
+  - first:
+      213: -5314762258843154305
+    second: Dahs_Player_35
+  - first:
+      213: 5794277895235918141
+    second: Dahs_Player_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dahs_Player_0
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2351
+        width: 234
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06047959a3d094a60800000000000000
+      internalID: 7658667186589220960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_1
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 2351
+        width: 235
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8fc875723ccb00b0800000000000000
+      internalID: -5761286781199134837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_2
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 2351
+        width: 233
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a7a18f1655f3930800000000000000
+      internalID: 4125109662957337109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_3
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 2351
+        width: 231
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91dd80ef31781a440800000000000000
+      internalID: 4945382385765637401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_4
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 2351
+        width: 235
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ba1cb3b1234db30800000000000000
+      internalID: 4311125835848461134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_5
+      rect:
+        serializedVersion: 2
+        x: 3426
+        y: 2351
+        width: 242
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532bd544df2ce7870800000000000000
+      internalID: 8682591524646400565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_6
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1880
+        width: 249
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d484622f42cad60800000000000000
+      internalID: 7902732068571336039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_7
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1880
+        width: 249
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0380760d0ec9d4150800000000000000
+      internalID: 5858511179661903920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_8
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 1885
+        width: 265
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42ab43a108388f20800000000000000
+      internalID: 3425049096301027916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_9
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 1892
+        width: 296
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7f3c88545a48960800000000000000
+      internalID: 7603383788974110646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_10
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 1883
+        width: 343
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbf51336ec641e10800000000000000
+      internalID: 2167477056627407834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_11
+      rect:
+        serializedVersion: 2
+        x: 3254
+        y: 1884
+        width: 370
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af621ee83ccb34bf0800000000000000
+      internalID: -341221598648260870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1413
+        width: 373
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42229d71e581e77e0800000000000000
+      internalID: -1765947211476557276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_13
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1413
+        width: 370
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2491c589154b82890800000000000000
+      internalID: -7482532518334555838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_14
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1413
+        width: 368
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6643e7e21af0640800000000000000
+      internalID: 5048430928363546295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_15
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 1412
+        width: 480
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389668e284ba38330800000000000000
+      internalID: 3711998844389976451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_16
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 1412
+        width: 504
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6a73330caf35940800000000000000
+      internalID: 5283842491235673762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_17
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 1413
+        width: 556
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbcae36bb62d7f20800000000000000
+      internalID: 3421933878148516799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 942
+        width: 574
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b759c015f12e3b670800000000000000
+      internalID: 8553428741438346619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_19
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 942
+        width: 576
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428be36fde25ee6f0800000000000000
+      internalID: -653493713930110940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_20
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 943
+        width: 576
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d196448111218e0800000000000000
+      internalID: -1724296911404851840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_21
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 942
+        width: 576
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbab46229326cafb0800000000000000
+      internalID: -4635221918941398340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_22
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 1166
+        width: 150
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42cd7b6cce6ae2680800000000000000
+      internalID: -8777895087822087132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_23
+      rect:
+        serializedVersion: 2
+        x: 2697
+        y: 943
+        width: 438
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a620f3a6454d01e0800000000000000
+      internalID: -2230050070778075483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_24
+      rect:
+        serializedVersion: 2
+        x: 3337
+        y: 943
+        width: 437
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefa15752cd0b42b0800000000000000
+      internalID: -5599366583365292050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_25
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 473
+        width: 436
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3bf008fa71dc3e50800000000000000
+      internalID: 6790532664244894524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_26
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 473
+        width: 436
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c02f9ed591dc2f70800000000000000
+      internalID: 9163929783407419591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_27
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 473
+        width: 432
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800502249f4eef040800000000000000
+      internalID: 4683432421719298056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_28
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 473
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a88fbd45c164e890800000000000000
+      internalID: -7429705985213626203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_29
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 473
+        width: 365
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76fcdbea5f20b180800000000000000
+      internalID: -9101722779365083523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_30
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 473
+        width: 354
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d983b22b0c44130800000000000000
+      internalID: 3550174277736635671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_31
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 3
+        width: 354
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186348a47fcf12170800000000000000
+      internalID: 8152074939554608769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_32
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4
+        width: 354
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a957fb38075fe6c80800000000000000
+      internalID: -8327448797365963366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_33
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 4
+        width: 353
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0466a6ac5d93d8780800000000000000
+      internalID: -8679217316486289856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_34
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 4
+        width: 353
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61654f97f993a6db0800000000000000
+      internalID: -4797959095901202922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_35
+      rect:
+        serializedVersion: 2
+        x: 2721
+        y: 4
+        width: 353
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78400862eb2e36b0800000000000000
+      internalID: -5314762258843154305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dahs_Player_36
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 4
+        width: 353
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d395f6bdb09696050800000000000000
+      internalID: 5794277895235918141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dahs_Player_0: 7658667186589220960
+      Dahs_Player_1: -5761286781199134837
+      Dahs_Player_10: 2167477056627407834
+      Dahs_Player_11: -341221598648260870
+      Dahs_Player_12: -1765947211476557276
+      Dahs_Player_13: -7482532518334555838
+      Dahs_Player_14: 5048430928363546295
+      Dahs_Player_15: 3711998844389976451
+      Dahs_Player_16: 5283842491235673762
+      Dahs_Player_17: 3421933878148516799
+      Dahs_Player_18: 8553428741438346619
+      Dahs_Player_19: -653493713930110940
+      Dahs_Player_2: 4125109662957337109
+      Dahs_Player_20: -1724296911404851840
+      Dahs_Player_21: -4635221918941398340
+      Dahs_Player_22: -8777895087822087132
+      Dahs_Player_23: -2230050070778075483
+      Dahs_Player_24: -5599366583365292050
+      Dahs_Player_25: 6790532664244894524
+      Dahs_Player_26: 9163929783407419591
+      Dahs_Player_27: 4683432421719298056
+      Dahs_Player_28: -7429705985213626203
+      Dahs_Player_29: -9101722779365083523
+      Dahs_Player_3: 4945382385765637401
+      Dahs_Player_30: 3550174277736635671
+      Dahs_Player_31: 8152074939554608769
+      Dahs_Player_32: -8327448797365963366
+      Dahs_Player_33: -8679217316486289856
+      Dahs_Player_34: -4797959095901202922
+      Dahs_Player_35: -5314762258843154305
+      Dahs_Player_36: 5794277895235918141
+      Dahs_Player_4: 4311125835848461134
+      Dahs_Player_5: 8682591524646400565
+      Dahs_Player_6: 7902732068571336039
+      Dahs_Player_7: 5858511179661903920
+      Dahs_Player_8: 3425049096301027916
+      Dahs_Player_9: 7603383788974110646
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

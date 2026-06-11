@@ -1,4 +1,6 @@
-# Mutation Swarm 2D (Unity 2022.3 LTS)
+# Mutation Swarm 2D (Unity 6000.3.8f1)
+
+**Documentación completa del proyecto:** [`docs/PROJECT_DOCUMENTATION.md`](docs/PROJECT_DOCUMENTATION.md)
 
 Survival horde shooter cooperativo en una sola pantalla 2D estática.  
 Los enemigos evolucionan entre oleadas con un sistema genético (`Genome`) que responde a la estrategia del jugador.
@@ -133,6 +135,55 @@ Genera:
 
 Controles: WASD / flechas, espacio salto, shift dash, clic / RT disparar.
 
+## Pack de armas (Guns V1.01)
+
+Carpeta copiada en `Assets/_Art/GunsPack/`.
+
+En Unity:
+
+**`Tools → Mutation Swarm → Import Guns Pack + Weapon Shop`**
+
+Crea 6 armas (Glock, Revolver, MP5, AK-47, Bazooka x2), proyectiles en pool, ScriptableObjects y la **tienda** en `Scene_02`.
+
+### Tienda entre oleadas
+
+- Se abre tras las oleadas **2, 5, 8, 11, 14** y cada **3 oleadas** (3, 6, 9…).
+- Pagas con **materiales** (los que ganas al matar enemigos).
+- Compra y equipa; el sprite del arma se ve en el jugador.
+- **Continuar oleada** o **Esc** para seguir.
+
+Configura oleadas en `Script_39_WeaponShopManager` → `_shopAfterWaves`.
+
+## Jugador — Power armor Argos-9
+
+Tu imagen de referencia se guarda en `Assets/_Art/Sprites/Player/Spr_Player_ArgosArmor_source.png`.
+
+Menú Unity:
+
+**`Tools → Mutation Swarm → Build Player Sprite (Argos Armor)`**
+
+Genera spritesheet **sin fondo** (`Spr_Player_ArgosArmor_sheet.png`), animaciones **Idle / Walk** (brazos y piernas), y `AC_Player` con estados: Idle, Walk, Fall, Jump, Dash, Attack, Hit, Die. Actualiza `Prefab_Player` + `Prefab_Player_Geo`.
+
+## Sprites de enemigos (art bible)
+
+Menú Unity:
+
+**`Tools → Mutation Swarm → Build Enemy Sprites (Art Bible)`**
+
+Genera en `Assets/_Art/Sprites/Enemies/` y prefabs en `Assets/_Prefabs/Enemies/`:
+
+| Enemigo | Silueta | Prefab |
+|---------|---------|--------|
+| Drone | Círculo + antenas | `Prefab_Enemy_Drone` |
+| Boss | Cuadrado grande | `Prefab_Enemy_Boss` |
+| Queen | Disco + corona | `Prefab_Enemy_Queen` |
+| Mimic | Cuadrado “glitch” | `Prefab_Enemy_Mimic` |
+| Parasite | Triángulo pequeño | `Prefab_Enemy_Parasite` |
+
+Specs: `design/assets/specs/enemy_*.md`. El tinte de mutación sigue en runtime (`Genome.GetMutationColor`).
+
+Asigna `Prefab_Enemy_Drone` en `WaveManager` → `_enemyPrefab`. Boss/Queen/Mimic/Parasite para oleadas especiales.
+
 ## Paquete de arte (`Assets/_Art/Materials`)
 
 Catálogo detallado: [`Assets/_Data/ART_PACKAGE_CATALOG.md`](Assets/_Data/ART_PACKAGE_CATALOG.md)
@@ -163,6 +214,39 @@ Esto crea:
 2. `Scene_01_MainMenu` selecciona jugadores y llama `StartGameSession()`.
 3. `Scene_02_GameWorld` es la arena principal.
 4. `Scene_03_UpgradeMenu` se carga en modo aditivo entre oleadas (pendiente conectar en `WaveManager`).
+
+## Pack de armas + tienda entre oleadas
+
+El pack **Guns Update V1.01** vive en `Assets/_Art/GunsPack/`. Para generar datos, proyectiles y la tienda en escena:
+
+**`Tools → Mutation Swarm → Import Guns Pack + Weapon Shop`**
+
+Crea 6 armas (`SO_Weapon_*` en `Assets/_ScriptableObjects/Combat/Weapons/`), prefabs de proyectil y el objeto `_WeaponShop` en `Scene_02_GameWorld`.
+
+| Arma | Coste (materiales) |
+|------|-------------------|
+| Glock P80 | 0 (inicial) |
+| Revolver Colt 45 | 18 |
+| MP5A3 | 35 |
+| AK-47 | 50 |
+| Bazooka M20 | 75 |
+| Thick Bazooka | 110 |
+
+Tras las oleadas **2, 5, 8, 11, 14** y cada **3ª oleada**, se abre la tienda (pausa con `timeScale = 0`). Compras con **materiales de construcción** (los mismos que sueltas los enemigos). Pulsa **Continuar** o **Esc** para cerrar y arrancar la siguiente oleada.
+
+El jugador usa `Script_38_PlayerLoadout` (Glock al inicio). El HUD muestra el arma equipada vía `WeaponEquippedEvent`.
+
+## AI Studio (CCGS + Cursor)
+
+Este repo integra una adaptación de [Claude Code Game Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) para trabajar en **Cursor**:
+
+- **`AGENTS.md`** — contexto del proyecto, convenciones y roles
+- **`.cursor/rules/`** — estándares por carpeta (gameplay, UI, editor…)
+- **`.cursor/skills/`** — `mutation-start`, `mutation-build`, `mutation-balance-check`, **`mutation-visual-art`** (personajes/sprites/Animator), etc.
+- **`design/`** — GDDs y pilares (evolución, oleadas)
+- **`docs/CCGS-INTEGRATION.md`** — qué se importó y cómo actualizar el template
+
+En el chat de Cursor, el agente puede usar esas skills cuando pidas build, balance o auditoría del proyecto.
 
 ## Próximos pasos recomendados
 

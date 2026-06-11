@@ -13,8 +13,10 @@ namespace MutationSwarm.Core
 
         [SerializeField] private InputActionAsset _inputActions;
 
+#pragma warning disable CS0067 // Events reserved for future multiplayer join/leave logic
         public event Action<int> OnPlayerJoined;
         public event Action<int> OnPlayerLeft;
+#pragma warning restore CS0067
 
         private void Awake()
         {

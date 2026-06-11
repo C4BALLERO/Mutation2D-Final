@@ -1,0 +1,13 @@
+---
+description: GDDs y documentación de diseño
+globs: design/**/*.md
+alwaysApply: false
+---
+
+# Documentos de diseño (CCGS)
+
+GDDs deben incluir: Overview, Detailed design, Edge cases, Fórmulas/referencias, Enlace a código.
+
+Al cambiar mecánicas en código, actualizar el GDD en `design/gdd/` o abrir issue en `systems-index.md`.
+
+Pilares en `design/game-pillars.md` — no contradecir sin acuerdo explícito.

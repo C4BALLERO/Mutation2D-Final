@@ -20,6 +20,7 @@ namespace MutationSwarm.Core
                 Destroy(gameObject);
                 return;
             }
+            transform.SetParent(null); // Must be root for DontDestroyOnLoad
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }

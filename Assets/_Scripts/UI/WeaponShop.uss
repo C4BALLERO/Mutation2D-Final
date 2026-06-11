@@ -1,0 +1,77 @@
+.shop-root {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.72);
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-panel {
+    width: 720px;
+    max-height: 85%;
+    padding: 20px;
+    background-color: rgba(31, 46, 71, 245);
+    border-width: 2px;
+    border-color: rgb(80, 180, 255);
+    border-radius: 8px;
+}
+
+.shop-title {
+    font-size: 26px;
+    color: rgb(120, 220, 255);
+    -unity-font-style: bold;
+    margin-bottom: 8px;
+}
+
+.shop-materials {
+    font-size: 18px;
+    color: rgb(255, 220, 120);
+    margin-bottom: 12px;
+}
+
+.shop-scroll {
+    flex-grow: 1;
+    min-height: 280px;
+    margin-bottom: 12px;
+}
+
+.shop-list {
+    flex-direction: column;
+}
+
+.shop-weapon-row {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 4px;
+}
+
+.shop-weapon-text {
+    flex-grow: 1;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.shop-weapon-name {
+    font-size: 18px;
+    color: white;
+    -unity-font-style: bold;
+}
+
+.shop-weapon-desc {
+    font-size: 13px;
+    color: rgb(180, 200, 220);
+    white-space: normal;
+}
+
+.shop-continue {
+    height: 44px;
+    font-size: 18px;
+    background-color: rgb(60, 160, 90);
+    color: white;
+}

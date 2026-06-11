@@ -56,4 +56,14 @@ namespace MutationSwarm.Core
     public struct BuildMaterialsChangedEvent { public int materials; }
     public struct BuildPhaseTimerEvent { public float timeRemaining; }
     public struct MutationToastEvent { public string message; public Color color; }
+    public struct WeaponShopOpenedEvent { public int afterWave; }
+    public struct WeaponShopClosedEvent { }
+    public struct WeaponPurchasedEvent { public MutationSwarm.Combat.SO_WeaponData weapon; }
+    public struct WeaponEquippedEvent { public MutationSwarm.Combat.SO_WeaponData weapon; }
+    public struct BossPhaseChangedEvent  { public MutationSwarm.Entities.Script_15_EnemyBoss boss; public int phase; }
+    public struct MimicActivatedEvent    { public MutationSwarm.Entities.Script_17_EnemyMimic mimic; public UnityEngine.Transform target; }
+    public struct ParasiteInfectedEvent  { public MutationSwarm.Entities.Script_18_EnemyParasite parasite; public MutationSwarm.Entities.Script_13_EnemyBase host; }
+    public struct CheckpointActivatedEvent { public UnityEngine.Vector2 position; }
+    public struct ChestOpenedEvent       { public UnityEngine.Vector2 position; public float healAmount; }
+    public struct LevelExitReachedEvent  { public string nextScene; }
 }

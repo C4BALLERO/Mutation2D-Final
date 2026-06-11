@@ -1,156 +1,222 @@
+/* ═══════════════════════════════════════════════════════
+   MUTATION SWARM — HUD Main Stylesheet
+   Biopunk sci-fi dark terminal aesthetic
+   Green Mutant  : rgb(45, 255, 122)
+   Cyan Tech     : rgb(0, 212, 255)
+   Red Alert     : rgb(255, 48, 48)
+   Yellow Warn   : rgb(255, 200, 50)
+   ═══════════════════════════════════════════════════════ */
+
 .hud-root {
     flex-grow: 1;
     justify-content: space-between;
-    padding: 16px;
-    color: rgb(230, 235, 240);
+    padding: 14px;
+    color: rgb(228, 232, 238);
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
 }
 
+/* ── Top bar ── */
 .top-bar {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
 }
 
+/* ── HP Panel ── */
 .hp-panel {
-    width: 280px;
-    background-color: rgba(5, 8, 15, 0.75);
-    padding: 8px;
-    border-radius: 8px;
+    width: 290px;
+    background-color: rgba(4, 6, 12, 0.88);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: rgba(0, 212, 255, 0.15);
+    border-radius: 4px;
+    padding: 10px;
 }
 
 .hp-bar {
-    margin-bottom: 4px;
+    margin-bottom: 5px;
+    border-radius: 2px;
 }
 
+/* ── Wave Panel ── */
 .wave-panel {
     align-items: center;
-    background-color: rgba(5, 8, 15, 0.75);
-    padding: 8px 16px;
-    border-radius: 8px;
+    background-color: rgba(4, 6, 12, 0.88);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: rgba(0, 212, 255, 0.15);
+    border-radius: 4px;
+    padding: 10px 20px;
 }
 
 .wave-label {
     font-size: 20px;
     -unity-font-style: bold;
+    letter-spacing: 2px;
+    color: rgb(228, 235, 245);
 }
 
 .enemy-label {
-    font-size: 15px;
-    color: rgb(230, 190, 90);
+    font-size: 13px;
+    color: rgb(255, 200, 50);
+    letter-spacing: 1px;
+    margin-top: 2px;
 }
 
+/* ── Bottom layer ── */
 .bottom-layer {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
 }
 
+/* ── Evolution Panel ── */
 .evolution-panel {
-    width: 300px;
-    background-color: rgba(8, 10, 18, 0.85);
+    width: 260px;
+    background-color: rgba(4, 6, 12, 0.88);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: rgba(45, 255, 122, 0.2);
+    border-radius: 4px;
     padding: 10px;
-    border-radius: 8px;
 }
 
 .evolution-header {
     flex-direction: row;
     align-items: center;
+    margin-bottom: 4px;
 }
 
 .gene-color-circle {
-    width: 18px;
-    height: 18px;
-    border-radius: 9px;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
     background-color: rgb(255, 40, 40);
     margin-right: 8px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: rgba(255, 255, 255, 0.25);
 }
 
 .evolution-gene {
-    font-size: 16px;
+    font-size: 14px;
+    -unity-font-style: bold;
+    color: rgb(45, 255, 122);
+    letter-spacing: 1px;
 }
 
 .evolution-generation {
-    margin-top: 4px;
-    color: rgb(145, 210, 255);
+    font-size: 10px;
+    color: rgba(0, 212, 255, 0.7);
+    letter-spacing: 2px;
+    margin-bottom: 6px;
 }
 
 .top-genes-row {
     flex-direction: row;
-    margin-top: 8px;
+    margin-bottom: 4px;
 }
 
 .top-gene-dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 6px;
-    background-color: rgb(170, 90, 255);
-    margin-right: 6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgba(170, 90, 255, 0.7);
+    margin-right: 4px;
 }
 
 .super-alert {
-    margin-top: 10px;
-    color: rgb(255, 70, 70);
+    margin-top: 6px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: rgb(255, 48, 48);
     -unity-font-style: bold;
     display: none;
+    background-color: rgba(255, 48, 48, 0.12);
+    border-radius: 2px;
+    padding: 3px 6px;
 }
 
+/* ── Right info panel ── */
 .right-info-panel {
     align-items: flex-end;
 }
 
+/* ── Dash ring ── */
 .dash-panel {
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 .dash-ring {
-    width: 46px;
-    height: 46px;
+    width: 44px;
+    height: 44px;
     border-top-width: 2px;
     border-bottom-width: 2px;
     border-left-width: 2px;
     border-right-width: 2px;
-    border-color: rgba(240, 240, 240, 0.7);
-    border-radius: 23px;
+    border-color: rgba(0, 212, 255, 0.35);
+    border-radius: 22px;
     overflow: hidden;
+    background-color: rgba(4, 6, 12, 0.88);
 }
 
 .dash-ring-fill {
     width: 100%;
     height: 100%;
-    background-color: rgba(80, 220, 255, 0.8);
+    background-color: rgba(0, 212, 255, 0.7);
     transform-origin: bottom;
 }
 
+/* ── Resource & Weapon panels ── */
 .resource-panel,
 .weapon-panel {
-    min-width: 200px;
-    background-color: rgba(8, 10, 18, 0.85);
-    border-radius: 8px;
+    min-width: 190px;
+    background-color: rgba(4, 6, 12, 0.88);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: rgba(0, 212, 255, 0.12);
+    border-radius: 4px;
     padding: 6px 10px;
     margin-top: 4px;
 }
 
 .resource-title {
-    color: rgb(170, 180, 190);
-    font-size: 12px;
+    font-size: 8px;
+    letter-spacing: 3px;
+    color: rgba(138, 155, 174, 0.6);
+    margin-bottom: 2px;
 }
 
 .resource-value {
-    font-size: 16px;
+    font-size: 15px;
     -unity-font-style: bold;
+    color: rgb(45, 255, 122);
 }
 
+/* ── Toast notifications ── */
 .toast-container {
     position: absolute;
-    left: 16px;
-    bottom: 120px;
-    width: 320px;
+    left: 14px;
+    bottom: 110px;
+    width: 300px;
 }
 
+/* ── Upgrade selected border (used by UpgradeMenuUI when shown in GameWorld) ── */
 .upgrade-card--selected {
     border-top-width: 2px;
     border-bottom-width: 2px;
     border-left-width: 2px;
     border-right-width: 2px;
-    border-color: rgb(70, 210, 255);
+    border-color: rgb(45, 255, 122);
 }

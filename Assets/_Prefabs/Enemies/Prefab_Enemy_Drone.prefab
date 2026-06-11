@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6253747180520433378}
   - component: {fileID: 3903508678075470759}
   - component: {fileID: 2173435618510163836}
+  - component: {fileID: 4421462251621729645}
   m_Layer: 7
   m_Name: Prefab_Enemy_Drone
   m_TagString: Untagged
@@ -182,6 +183,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   _mutationMaterialTemplate: {fileID: 0}
+  _animator: {fileID: 0}
+  _deathAnimDuration: 0.8
 --- !u!114 &2173435618510163836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,3 +197,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5fe0948cbf26b84b8182d91ceafb22b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MutationSwarm.Combat.Script_22_StatusEffects
+--- !u!95 &4421462251621729645
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5548698728560429443}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: edef280301984af40af258cb3999ba5d, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

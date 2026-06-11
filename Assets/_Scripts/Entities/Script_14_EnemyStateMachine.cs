@@ -41,8 +41,8 @@ namespace MutationSwarm.Entities
 
         public void Enter(Script_13_EnemyBase enemy)
         {
-            // Espera aleatoria corta para evitar sincronización robótica.
             _waitTimer = Random.Range(0.5f, 1.5f);
+            enemy.TriggerIdle();
         }
 
         public void Execute(Script_13_EnemyBase enemy)
@@ -71,6 +71,7 @@ namespace MutationSwarm.Entities
         public void Enter(Script_13_EnemyBase enemy)
         {
             _loseSightTimer = 2f;
+            enemy.TriggerMove();
         }
 
         public void Execute(Script_13_EnemyBase enemy)
@@ -123,6 +124,7 @@ namespace MutationSwarm.Entities
         public void Enter(Script_13_EnemyBase enemy)
         {
             _attackCooldown = 0f;
+            enemy.TriggerAttack();
         }
 
         public void Execute(Script_13_EnemyBase enemy)
@@ -170,7 +172,10 @@ namespace MutationSwarm.Entities
     {
         private const float RegenRate = 8f;
 
-        public void Enter(Script_13_EnemyBase enemy) { }
+        public void Enter(Script_13_EnemyBase enemy)
+        {
+            enemy.TriggerMove();
+        }
 
         public void Execute(Script_13_EnemyBase enemy)
         {
@@ -199,6 +204,7 @@ namespace MutationSwarm.Entities
         public void Enter(Script_13_EnemyBase enemy)
         {
             _flankRight = Random.value > 0.5f;
+            enemy.TriggerMove();
         }
 
         public void Execute(Script_13_EnemyBase enemy)

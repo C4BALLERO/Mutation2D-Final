@@ -1,0 +1,194 @@
+/* ═══════════════════════════════════════════════════════
+   MUTATION SWARM — Upgrade Menu Stylesheet
+   Biopunk aesthetic — green mutation + cyan tech
+   ═══════════════════════════════════════════════════════ */
+
+.upgrade-root {
+    flex-grow: 1;
+    background-color: rgba(4, 5, 10, 0.95);
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    color: rgb(228, 232, 238);
+}
+
+/* ── Header ── */
+.upgrade-header {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.upgrade-eyebrow {
+    font-size: 9px;
+    letter-spacing: 4px;
+    color: rgb(45, 255, 122);
+    margin-bottom: 8px;
+}
+
+.upgrade-title {
+    font-size: 30px;
+    -unity-font-style: bold;
+    letter-spacing: 5px;
+    color: rgb(228, 235, 245);
+    margin-bottom: 6px;
+}
+
+.upgrade-divider {
+    font-size: 11px;
+    color: rgba(0, 212, 255, 0.25);
+}
+
+/* ── Timer ── */
+.timer-section {
+    width: 500px;
+    margin-bottom: 24px;
+}
+
+.timer-row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 212, 255, 0.06);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: rgba(0, 212, 255, 0.15);
+    border-radius: 3px;
+    padding: 6px 12px;
+}
+
+.timer-label {
+    font-size: 9px;
+    letter-spacing: 3px;
+    color: rgba(138, 155, 174, 0.7);
+}
+
+.timer-value {
+    font-size: 22px;
+    -unity-font-style: bold;
+    color: rgb(0, 212, 255);
+    min-width: 48px;
+    -unity-text-align: middle-right;
+}
+
+/* ── Cards row ── */
+.upgrade-cards-row {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+/* ── Individual card ── */
+.upgrade-card {
+    width: 220px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color: rgba(17, 21, 32, 0.96);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: rgba(0, 212, 255, 0.15);
+    border-radius: 4px;
+    padding-top: 0;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    overflow: hidden;
+    transition-property: background-color, border-color;
+    transition-duration: 0.15s;
+}
+
+.upgrade-card:hover {
+    background-color: rgba(0, 212, 255, 0.07);
+    border-color: rgba(0, 212, 255, 0.35);
+}
+
+/* Selected state */
+.upgrade-card--selected {
+    background-color: rgba(45, 255, 122, 0.08);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: rgba(45, 255, 122, 0.5);
+}
+
+.upgrade-card--selected:hover {
+    background-color: rgba(45, 255, 122, 0.14);
+    border-color: rgb(45, 255, 122);
+}
+
+/* Accent bar on top of selected card */
+.card-accent-bar {
+    height: 3px;
+    background-color: rgba(0, 212, 255, 0.2);
+    margin-left: -16px;
+    margin-right: -16px;
+    margin-bottom: 14px;
+}
+
+.upgrade-card--selected .card-accent-bar {
+    background-color: rgb(45, 255, 122);
+}
+
+/* Card content */
+.upgrade-card-title {
+    font-size: 13px;
+    -unity-font-style: bold;
+    letter-spacing: 2px;
+    color: rgb(0, 212, 255);
+    margin-bottom: 8px;
+}
+
+.upgrade-card--selected .upgrade-card-title {
+    color: rgb(45, 255, 122);
+}
+
+.upgrade-card-desc {
+    font-size: 11px;
+    color: rgb(138, 155, 174);
+    white-space: normal;
+    flex-grow: 1;
+    margin-bottom: 14px;
+}
+
+.card-value-row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 2px;
+    padding: 4px 6px;
+}
+
+.card-value-label {
+    font-size: 8px;
+    letter-spacing: 2px;
+    color: rgba(138, 155, 174, 0.6);
+}
+
+.upgrade-card-value {
+    font-size: 18px;
+    -unity-font-style: bold;
+    color: rgb(45, 255, 122);
+}
+
+.card-hotkey {
+    font-size: 9px;
+    color: rgba(0, 212, 255, 0.35);
+    -unity-text-align: middle-center;
+    letter-spacing: 1px;
+}
+
+/* ── Footer hint ── */
+.upgrade-hint {
+    font-size: 10px;
+    color: rgba(138, 155, 174, 0.4);
+    letter-spacing: 1px;
+    -unity-text-align: middle-center;
+}

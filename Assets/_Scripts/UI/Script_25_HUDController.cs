@@ -1,3 +1,4 @@
+using MutationSwarm.Combat;
 using MutationSwarm.Core;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -32,6 +33,7 @@ namespace MutationSwarm.UI
             Script_03_EventBus.Subscribe<EnemyCountChangedEvent>(OnEnemyCountChanged);
             Script_03_EventBus.Subscribe<BuildMaterialsChangedEvent>(OnMaterialsChanged);
             Script_03_EventBus.Subscribe<MutationToastEvent>(OnMutationToast);
+            Script_03_EventBus.Subscribe<WeaponEquippedEvent>(OnWeaponEquipped);
         }
 
         private void OnDisable()
@@ -42,6 +44,13 @@ namespace MutationSwarm.UI
             Script_03_EventBus.Unsubscribe<EnemyCountChangedEvent>(OnEnemyCountChanged);
             Script_03_EventBus.Unsubscribe<BuildMaterialsChangedEvent>(OnMaterialsChanged);
             Script_03_EventBus.Unsubscribe<MutationToastEvent>(OnMutationToast);
+            Script_03_EventBus.Unsubscribe<WeaponEquippedEvent>(OnWeaponEquipped);
+        }
+
+        private void OnWeaponEquipped(WeaponEquippedEvent e)
+        {
+            if (e.weapon != null)
+                UpdateWeaponAndAmmo(e.weapon.displayName, -1);
         }
 
         private void CacheUi()
@@ -133,7 +142,7 @@ namespace MutationSwarm.UI
         public void UpdateWeaponAndAmmo(string weaponName, int ammo)
         {
             if (_weaponLabel != null)
-                _weaponLabel.text = $"{weaponName} ({ammo})";
+                _weaponLabel.text = ammo >= 0 ? $"{weaponName} ({ammo})" : weaponName;
         }
 
         private void ShowToast(string message, Color? color = null)

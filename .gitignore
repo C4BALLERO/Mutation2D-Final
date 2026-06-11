@@ -42,6 +42,9 @@ sysinfo.txt
 *.aab
 *.unitypackage
 
+# CCGS template clone (referencia local, no versionar)
+_ccgs-template/
+
 # IDE
 .vscode/*
 !.vscode/settings.json

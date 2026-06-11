@@ -1,48 +1,283 @@
+/* ═══════════════════════════════════════════════════════
+   MUTATION SWARM — Main Menu Stylesheet
+   Palette: Biopunk / Sci-Fi Dark Terminal
+   Green Mutant  : rgb(45, 255, 122)
+   Cyan Tech     : rgb(0, 212, 255)
+   Red Alert     : rgb(255, 48, 48)
+   Metallic Grey : rgb(138, 155, 174)
+   Background    : rgb(4, 5, 10)
+   Panel         : rgba(10, 14, 22, 0.96)
+   ═══════════════════════════════════════════════════════ */
+
+/* ── Root ── */
 .menu-root {
     flex-grow: 1;
+    background-color: rgb(4, 5, 10);
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
     justify-content: center;
     align-items: center;
-    background-color: rgb(10, 12, 18);
+    overflow: hidden;
     color: rgb(228, 232, 238);
 }
 
+/* ── Scanlines ── */
+.menu-scanlines {
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+/* ── Corner labels ── */
+.corner-label {
+    position: absolute;
+    font-size: 9px;
+    letter-spacing: 1px;
+    color: rgba(0, 212, 255, 0.35);
+}
+.corner--tl { top: 14px; left: 18px; }
+.corner--tr { top: 14px; right: 18px; }
+.corner--bl { bottom: 14px; left: 18px; }
+.corner--br { bottom: 14px; right: 18px; }
+
+/* ── Center panel ── */
+.menu-panel {
+    width: 480px;
+    background-color: rgba(10, 14, 22, 0.96);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: rgba(0, 212, 255, 0.2);
+    border-radius: 4px;
+    padding: 36px 40px;
+    align-items: stretch;
+}
+
+/* ── Title block ── */
+.title-block {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-eyebrow {
+    font-size: 9px;
+    letter-spacing: 4px;
+    color: rgb(45, 255, 122);
+    margin-bottom: 10px;
+}
+
 .menu-title {
-    font-size: 42px;
+    font-size: 44px;
     -unity-font-style: bold;
+    letter-spacing: 5px;
+    color: rgb(228, 235, 245);
+    -unity-text-align: middle-center;
+    margin-bottom: 8px;
+}
+
+.menu-divider {
+    font-size: 12px;
+    color: rgba(0, 212, 255, 0.3);
     margin-bottom: 8px;
 }
 
 .menu-subtitle {
-    font-size: 16px;
-    color: rgb(140, 155, 170);
+    font-size: 13px;
+    color: rgb(138, 155, 174);
+    -unity-text-align: middle-center;
+    letter-spacing: 1px;
+}
+
+/* ── Status bar ── */
+.status-bar {
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(45, 255, 122, 0.07);
+    border-radius: 3px;
+    padding: 6px 10px;
     margin-bottom: 20px;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+.status-dot--green  { background-color: rgb(45, 255, 122); }
+.status-dot--red    { background-color: rgb(255, 48, 48); }
+.status-dot--yellow { background-color: rgb(255, 200, 50); }
+
+.status-text {
+    font-size: 9px;
+    letter-spacing: 2px;
+    color: rgba(45, 255, 122, 0.8);
+}
+
+/* ── Player selector ── */
+.players-section {
+    margin-bottom: 20px;
+}
+
+.section-label {
+    font-size: 9px;
+    letter-spacing: 3px;
+    color: rgba(138, 155, 174, 0.7);
+    margin-bottom: 8px;
 }
 
 .players-row {
     flex-direction: row;
     align-items: center;
-    margin-bottom: 10px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 4px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: rgba(0, 212, 255, 0.12);
+    padding: 4px;
 }
 
-.players-row > Button {
-    width: 36px;
-    height: 32px;
-    margin-left: 6px;
-    margin-right: 6px;
-}
-
-#LblPlayers {
-    min-width: 120px;
+.player-count-label {
+    min-width: 140px;
     -unity-text-align: middle-center;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: rgb(0, 212, 255);
+    -unity-font-style: bold;
 }
 
-#BtnPlay, #BtnQuit {
-    width: 180px;
-    height: 40px;
-    margin-top: 6px;
+.btn-icon {
+    width: 36px;
+    height: 34px;
+    background-color: rgba(0, 212, 255, 0.1);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: rgba(0, 212, 255, 0.25);
+    border-radius: 3px;
+    color: rgb(0, 212, 255);
+    font-size: 18px;
+    -unity-font-style: bold;
+    transition-property: background-color, border-color;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-out;
 }
 
+.btn-icon:hover {
+    background-color: rgba(0, 212, 255, 0.22);
+    border-color: rgb(0, 212, 255);
+}
+
+/* ── Action buttons ── */
+.buttons-section {
+    margin-bottom: 20px;
+}
+
+/* Base button reset */
+.btn-primary,
+.btn-secondary,
+.btn-danger {
+    height: 44px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    -unity-font-style: bold;
+    transition-property: background-color, border-color, color;
+    transition-duration: 0.18s;
+    transition-timing-function: ease-out;
+}
+
+/* Primary — Play */
+.btn-primary {
+    background-color: rgba(45, 255, 122, 0.15);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: rgba(45, 255, 122, 0.5);
+    color: rgb(45, 255, 122);
+}
+.btn-primary:hover {
+    background-color: rgba(45, 255, 122, 0.28);
+    border-color: rgb(45, 255, 122);
+    color: rgb(200, 255, 225);
+}
+.btn-primary:active {
+    background-color: rgba(45, 255, 122, 0.45);
+}
+
+/* Secondary — Options */
+.btn-secondary {
+    background-color: rgba(0, 212, 255, 0.08);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: rgba(0, 212, 255, 0.25);
+    color: rgba(0, 212, 255, 0.75);
+}
+.btn-secondary:hover {
+    background-color: rgba(0, 212, 255, 0.18);
+    border-color: rgba(0, 212, 255, 0.6);
+    color: rgb(0, 212, 255);
+}
+
+/* Danger — Quit */
+.btn-danger {
+    background-color: rgba(255, 48, 48, 0.06);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: rgba(255, 48, 48, 0.2);
+    color: rgba(255, 100, 100, 0.6);
+}
+.btn-danger:hover {
+    background-color: rgba(255, 48, 48, 0.18);
+    border-color: rgba(255, 48, 48, 0.5);
+    color: rgb(255, 100, 100);
+}
+
+/* ── Footer ── */
 .menu-footer {
-    margin-top: 18px;
-    color: rgb(90, 210, 255);
+    font-size: 10px;
+    color: rgba(0, 212, 255, 0.35);
+    letter-spacing: 2px;
+    -unity-text-align: middle-center;
+    margin-top: 4px;
+}
+
+/* ── Record panel (bottom-right corner) ── */
+.record-panel {
+    position: absolute;
+    right: 20px;
+    bottom: 36px;
+    align-items: flex-end;
+    background-color: rgba(10, 14, 22, 0.88);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: rgba(255, 200, 50, 0.15);
+    border-radius: 3px;
+    padding: 8px 12px;
+}
+
+.record-title {
+    font-size: 8px;
+    letter-spacing: 2px;
+    color: rgba(255, 200, 50, 0.5);
+    margin-bottom: 3px;
+}
+
+.record-value {
+    font-size: 22px;
+    -unity-font-style: bold;
+    color: rgb(255, 200, 50);
 }

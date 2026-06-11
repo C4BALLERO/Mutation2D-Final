@@ -1,0 +1,13 @@
+---
+description: UI Toolkit y uGUI
+globs: Assets/_Scripts/UI/**/*.{cs,uxml,uss}
+alwaysApply: false
+---
+
+# UI
+
+- UI no posee estado de partida; escucha eventos y envía comandos al bus
+- HUD: UI Toolkit (`UIDocument`, UXML/USS en `Assets/_Scripts/UI/`)
+- Menú Kenney: uGUI (`Script_33_KenneyMainMenuUGUI`) — no mezclar namespaces UI/UIToolkit sin alias
+- Soporte teclado + gamepad en menús de upgrade (`Script_26_UpgradeMenuUI`)
+- Textos de usuario: preparar para localización (evitar strings sueltos en lógica de gameplay)

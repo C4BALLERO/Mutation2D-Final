@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c51cecc36b07986498304ef047a49975, type: 3}
+  m_Name: SO_Weapon_mp5a3
+  m_EditorClassIdentifier: Assembly-CSharp::MutationSwarm.Combat.SO_WeaponData
+  weaponId: mp5a3
+  displayName: Submachine - MP5A3
+  description: "R\xE1faga constante."
+  gunSprite: {fileID: 3224441897746060511, guid: 9e3b6112ed1b6234ca31a9520127e681, type: 3}
+  projectileSprite: {fileID: 2208703988740019828, guid: 4e8b3f39912d75b4ab9dbf11535357e0, type: 3}
+  gunOffset: {x: 0.4, y: 0.02}
+  fireRate: 0.09
+  damage: 7
+  projectileSpeed: 14
+  projectileLifetime: 3
+  projectilePoolKey: Projectile_mp5a3
+  materialCost: 35
+  unlockedByDefault: 0

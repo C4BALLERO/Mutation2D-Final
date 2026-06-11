@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c51cecc36b07986498304ef047a49975, type: 3}
+  m_Name: SO_Weapon_revolver_colt
+  m_EditorClassIdentifier: Assembly-CSharp::MutationSwarm.Combat.SO_WeaponData
+  weaponId: revolver_colt
+  displayName: Revolver - Colt 45
+  description: "Alto da\xF1o, cadencia lenta."
+  gunSprite: {fileID: -2606765578528506932, guid: 17f26822eb4f05146a562de77de8d01c, type: 3}
+  projectileSprite: {fileID: 2208703988740019828, guid: c0e8585df1ba3ee439553c24ce9a79b2, type: 3}
+  gunOffset: {x: 0.4, y: 0.02}
+  fireRate: 0.55
+  damage: 24
+  projectileSpeed: 16
+  projectileLifetime: 3
+  projectilePoolKey: Projectile_revolver_colt
+  materialCost: 18
+  unlockedByDefault: 0

@@ -110,7 +110,25 @@ namespace MutationSwarm.Core
 
         public void ReturnAll(string poolKey)
         {
-            // Implementación completa en PROMPT 08
+            if (!_pools.ContainsKey(poolKey)) return;
+
+            // Find all active children that belong to this pool and return them
+            foreach (Transform child in transform)
+            {
+                if (!child.gameObject.activeSelf) continue;
+
+                // Match by pool config prefab name as a heuristic
+                if (!_configLookup.TryGetValue(poolKey, out SO_PoolConfig config)) continue;
+                if (!child.name.StartsWith(config.prefab.name)) continue;
+
+                Return(poolKey, child.gameObject);
+            }
+        }
+
+        public void ReturnAll()
+        {
+            foreach (string poolKey in _pools.Keys)
+                ReturnAll(poolKey);
         }
     }
 }

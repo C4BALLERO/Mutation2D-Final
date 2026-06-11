@@ -1,17 +1,59 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements">
-    <ui:VisualElement class="menu-root">
-        <ui:Label text="MUTATION SWARM" class="menu-title" />
-        <ui:Label text="Argos-9 cayó. El enjambre aprende." class="menu-subtitle" />
+    <ui:VisualElement name="MenuRoot" class="menu-root">
 
-        <ui:VisualElement class="players-row">
-            <ui:Button name="BtnPlayersMinus" text="-" />
-            <ui:Label name="LblPlayers" text="1 Jugador(es)" />
-            <ui:Button name="BtnPlayersPlus" text="+" />
+        <!-- Corner tech labels -->
+        <ui:Label text="// MUTATION SWARM" class="corner-label corner--tl" />
+        <ui:Label name="CornerStatus" text="SISTEMA ACTIVO" class="corner-label corner--tr" />
+        <ui:Label text="BIOHAZARD LABS" class="corner-label corner--bl" />
+        <ui:Label text="BUILD 0.1-ALPHA" class="corner-label corner--br" />
+
+        <!-- Scanline overlay -->
+        <ui:VisualElement class="menu-scanlines" />
+
+        <!-- Center panel -->
+        <ui:VisualElement name="MenuPanel" class="menu-panel">
+
+            <!-- Title block -->
+            <ui:VisualElement class="title-block">
+                <ui:Label text="⬡ MISSION BRIEFING ⬡" class="menu-eyebrow" />
+                <ui:Label name="MenuTitle" text="MUTATION SWARM" class="menu-title" />
+                <ui:Label text="━━━━━━━━━━━━━━━━━━━━━━━" class="menu-divider" />
+                <ui:Label text="Argos-9 cayó. El enjambre aprende." class="menu-subtitle" />
+            </ui:VisualElement>
+
+            <!-- Mutation status indicator -->
+            <ui:VisualElement class="status-bar">
+                <ui:VisualElement class="status-dot status-dot--green" />
+                <ui:Label name="StatusText" text="PROTOCOLO DE CONTENCIÓN ACTIVO" class="status-text" />
+            </ui:VisualElement>
+
+            <!-- Player count selector -->
+            <ui:VisualElement class="players-section">
+                <ui:Label text="JUGADORES" class="section-label" />
+                <ui:VisualElement class="players-row">
+                    <ui:Button name="BtnPlayersMinus" text="−" class="btn-icon" />
+                    <ui:Label name="LblPlayers" text="1 JUGADOR" class="player-count-label" />
+                    <ui:Button name="BtnPlayersPlus" text="+" class="btn-icon" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <!-- Action buttons -->
+            <ui:VisualElement class="buttons-section">
+                <ui:Button name="BtnPlay" text="▶  INICIAR MISIÓN" class="btn-primary" />
+                <ui:Button name="BtnOptions" text="⚙  OPCIONES" class="btn-secondary" />
+                <ui:Button name="BtnQuit" text="✕  ABANDONAR" class="btn-danger" />
+            </ui:VisualElement>
+
+            <!-- Footer -->
+            <ui:Label text="Resiste · Evoluciona · Rompe el ciclo" class="menu-footer" />
+
         </ui:VisualElement>
 
-        <ui:Button name="BtnPlay" text="Jugar" />
-        <ui:Button name="BtnQuit" text="Salir" />
+        <!-- Wave record (bottom right) -->
+        <ui:VisualElement name="RecordPanel" class="record-panel">
+            <ui:Label text="MEJOR OLEADA" class="record-title" />
+            <ui:Label name="RecordWave" text="—" class="record-value" />
+        </ui:VisualElement>
 
-        <ui:Label text="Resiste, evoluciona y rompe el ciclo." class="menu-footer" />
     </ui:VisualElement>
 </ui:UXML>

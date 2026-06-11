@@ -1,0 +1,12 @@
+---
+description: Core, pooling, managers de sesión
+globs: Assets/_Scripts/Core/**/*.cs
+alwaysApply: false
+---
+
+# Core
+
+- Singletons de sesión solo donde ya existen (`Script_01_GameManager`, etc.)
+- `DontDestroyOnLoad` solo en boot/managers globales documentados
+- Sin allocations innecesarias en `Update` de sistemas calientes
+- Guardar/cargar vía `Script_05_SaveManager` (PlayerPrefs + JSON)

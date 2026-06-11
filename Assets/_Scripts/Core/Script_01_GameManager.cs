@@ -33,7 +33,8 @@ namespace MutationSwarm.Core
 
         [Header("Escenas")]
         [SerializeField] private string _mainMenuSceneName = "Scene_01_MainMenu";
-        [SerializeField] private string _gameWorldSceneName = "Scene_02_GameWorld";
+        [SerializeField] private string _gameWorldSceneName = "Scene_02_GameWorld"; // legacy fallback
+        [SerializeField] private bool   _useRoomChain       = true;                  // use Room_01..Boss chain
 
         [Header("Coop")]
         [SerializeField] private bool[] _playersAlive = new bool[4];
@@ -44,6 +45,11 @@ namespace MutationSwarm.Core
         public GameState CurrentState => _currentState;
         public int PlayerCount => _playerCount;
         public int MaxPlayers => _maxPlayers;
+
+        /// <summary>True while input and gameplay should be blocked (paused, shop, upgrade/evolution phase).</summary>
+        public bool IsGameplayFrozen => _currentState == GameState.Paused ||
+                                        _currentState == GameState.UpgradePhase ||
+                                        _currentState == GameState.EvolutionPhase;
 
         /// <summary>Evento al cambiar el estado global.</summary>
         public event Action<GameState, GameState> OnGameStateChanged;
@@ -65,6 +71,7 @@ namespace MutationSwarm.Core
                 return;
             }
 
+            transform.SetParent(null); // Must be root for DontDestroyOnLoad
             Instance = this;
             DontDestroyOnLoad(gameObject);
             InitializePlayersAlive();
@@ -223,8 +230,15 @@ namespace MutationSwarm.Core
 
         private void LoadGameWorld()
         {
-            if (SceneManager.GetActiveScene().name != _gameWorldSceneName)
-                SceneManager.LoadScene(_gameWorldSceneName);
+            if (_useRoomChain)
+            {
+                Script_36_SceneLoader.LoadFirstRoom();
+            }
+            else
+            {
+                if (SceneManager.GetActiveScene().name != _gameWorldSceneName)
+                    SceneManager.LoadScene(_gameWorldSceneName);
+            }
         }
     }
 }

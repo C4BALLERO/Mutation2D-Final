@@ -1,0 +1,136 @@
+/* ═══════════════════════════════════════════════════════
+   MUTATION SWARM — Boot Splash Screen
+   Palette: Dark biopunk / sci-fi terminal
+   ═══════════════════════════════════════════════════════ */
+
+.splash-root {
+    flex-grow: 1;
+    background-color: rgb(4, 5, 10);
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* ── Scanline overlay ── */
+.scanline-overlay {
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.04);
+    /* Unity USS doesn't support background-image gradients, but we can
+       simulate scanlines with opacity bands via the C# script */
+}
+
+/* ── Corner labels ── */
+.splash-corner {
+    position: absolute;
+    font-size: 10px;
+    color: rgba(0, 212, 255, 0.45);
+    -unity-font-style: normal;
+    letter-spacing: 1px;
+}
+.splash-corner--tl { top: 16px; left: 20px; }
+.splash-corner--tr { top: 16px; right: 20px; }
+.splash-corner--bl { bottom: 16px; left: 20px; }
+.splash-corner--br { bottom: 16px; right: 20px; }
+
+/* ── Center block ── */
+.splash-center {
+    align-items: center;
+    width: 600px;
+}
+
+/* ── Title group ── */
+.splash-title-group {
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.splash-prefix {
+    font-size: 11px;
+    color: rgba(45, 255, 122, 0.6);
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.splash-title {
+    font-size: 58px;
+    -unity-font-style: bold;
+    color: rgb(228, 235, 245);
+    letter-spacing: 6px;
+    -unity-text-align: middle-center;
+    margin-bottom: 6px;
+    /* Simulated text glow via color — real glow needs shader */
+}
+
+.splash-separator {
+    font-size: 14px;
+    color: rgba(0, 212, 255, 0.35);
+    margin-bottom: 10px;
+    letter-spacing: 0px;
+}
+
+.splash-tagline {
+    font-size: 16px;
+    letter-spacing: 8px;
+    color: rgb(0, 212, 255);
+    -unity-text-align: middle-center;
+}
+
+/* ── Loading section ── */
+.loading-section {
+    width: 480px;
+    align-items: stretch;
+    margin-bottom: 24px;
+}
+
+.loading-status {
+    font-size: 12px;
+    color: rgb(45, 255, 122);
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.loading-bar-bg {
+    height: 6px;
+    background-color: rgba(0, 212, 255, 0.12);
+    border-radius: 3px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: rgba(0, 212, 255, 0.25);
+    overflow: hidden;
+    margin-bottom: 6px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.loading-bar-fill {
+    height: 100%;
+    width: 0%;
+    background-color: rgb(0, 212, 255);
+    border-radius: 3px;
+}
+
+.loading-percent {
+    position: absolute;
+    right: 6px;
+    font-size: 9px;
+    color: rgba(0, 212, 255, 0.7);
+}
+
+.loading-detail {
+    font-size: 9px;
+    color: rgba(138, 155, 174, 0.6);
+    letter-spacing: 1px;
+}
+
+/* ── Version label ── */
+.splash-version {
+    font-size: 10px;
+    color: rgba(138, 155, 174, 0.35);
+    letter-spacing: 3px;
+    margin-top: 12px;
+}

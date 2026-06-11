@@ -119,7 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &1506093315
+--- !u!1 &1265412728
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,9 +127,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1506093318}
-  - component: {fileID: 1506093317}
-  - component: {fileID: 1506093316}
+  - component: {fileID: 1265412731}
+  - component: {fileID: 1265412730}
+  - component: {fileID: 1265412729}
   m_Layer: 0
   m_Name: UI_UpgradeMenu
   m_TagString: Untagged
@@ -137,13 +137,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1506093316
+--- !u!114 &1265412729
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1506093315}
+  m_GameObject: {fileID: 1265412728}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b3f29d2dce6a95243ad1238fcfc9e809, type: 3}
@@ -160,19 +160,19 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4bb7a674732ac944da4fab12984ba5b3, type: 2}
   - {fileID: 11400000, guid: e6785fe574c44004a88ed7504bfa2038, type: 2}
   _selectionTimeout: 15
---- !u!114 &1506093317
+--- !u!114 &1265412730
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1506093315}
+  m_GameObject: {fileID: 1265412728}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.UIElements.UIDocument
-  m_PanelSettings: {fileID: 0}
+  m_PanelSettings: {fileID: 11400000, guid: f2421f19878cbd649af204d953086c14, type: 2}
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: 07459593002b8ea43b34880a9f7f72e2, type: 3}
   m_SortingOrder: 0
@@ -183,13 +183,13 @@ MonoBehaviour:
   m_PivotReferenceSize: 0
   m_Pivot: 0
   m_WorldSpaceCollider: {fileID: 0}
---- !u!4 &1506093318
+--- !u!4 &1265412731
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1506093315}
+  m_GameObject: {fileID: 1265412728}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -202,4 +202,4 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1506093318}
+  - {fileID: 1265412731}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c51cecc36b07986498304ef047a49975, type: 3}
+  m_Name: SO_Weapon_bazooka_thick
+  m_EditorClassIdentifier: Assembly-CSharp::MutationSwarm.Combat.SO_WeaponData
+  weaponId: bazooka_thick
+  displayName: Thick Bazooka - M20
+  description: "M\xE1ximo da\xF1o, recarga larga."
+  gunSprite: {fileID: 3081519345259770487, guid: eb77557e6173b684b8ad17d59d23c27b, type: 3}
+  projectileSprite: {fileID: 3900959002943859100, guid: f1aeae6f5dc3e364c8b95718a5823c2d, type: 3}
+  gunOffset: {x: 0.4, y: 0.02}
+  fireRate: 1.4
+  damage: 72
+  projectileSpeed: 8
+  projectileLifetime: 4
+  projectilePoolKey: Projectile_bazooka_thick
+  materialCost: 110
+  unlockedByDefault: 0

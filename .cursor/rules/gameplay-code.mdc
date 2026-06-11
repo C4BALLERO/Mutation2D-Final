@@ -1,0 +1,17 @@
+---
+description: Estándares gameplay (entidades, combate, evolución)
+globs: Assets/_Scripts/{Entities,Combat,Evolution}/**/*.cs
+alwaysApply: false
+---
+
+# Gameplay (Mutation Swarm)
+
+Adaptado de [CCGS gameplay-code](https://github.com/Donchitos/Claude-Code-Game-Studios).
+
+- Valores de balance en `ScriptableObject` o datos serializados — evitar magic numbers
+- Tiempo: `Time.deltaTime` / `fixedDeltaTime` en física 2D
+- Sin referencias directas a UI; publicar en `Script_03_EventBus`
+- Enemigos: visión con `Physics2D.OverlapCircle`, no triggers de visión
+- Pool para proyectiles/enemigos frecuentes (`Script_04_ObjectPool`)
+- FSM enemiga: transiciones explícitas en `Script_14_EnemyStateMachine`
+- Comentar GDD relacionado si el cambio implementa `design/gdd/*.md`

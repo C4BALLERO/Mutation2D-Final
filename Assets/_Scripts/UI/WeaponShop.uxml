@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement name="WeaponShopRoot" class="shop-root">
+        <ui:VisualElement class="shop-panel">
+            <ui:Label name="ShopTitle" text="TIENDA DE ARMAS" class="shop-title" />
+            <ui:Label name="ShopMaterials" text="Materiales: 0" class="shop-materials" />
+            <ui:ScrollView name="WeaponScroll" class="shop-scroll">
+                <ui:VisualElement name="WeaponList" class="shop-list" />
+            </ui:ScrollView>
+            <ui:Button name="BtnContinueShop" text="Continuar oleada" class="shop-continue" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

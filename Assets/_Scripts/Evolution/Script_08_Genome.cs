@@ -85,8 +85,58 @@ namespace MutationSwarm.Evolution
                 bestName = geneName;
             }
         }
-        public void Mutate(float intensity = 0.2f) { }
-        public static Genome Crossover(Genome parentA, Genome parentB) => parentA?.Clone() ?? new Genome();
+        /// <summary>Applies random perturbation to each gene with the given intensity (0-1).</summary>
+        public void Mutate(float intensity = 0.2f)
+        {
+            Velocidad            = MutateGene(Velocidad,            VelocidadMin,            VelocidadMax,            intensity, "Velocidad");
+            Tamaño               = MutateGene(Tamaño,               TamañoMin,               TamañoMax,               intensity, "Tamaño");
+            Salto                = MutateGene(Salto,                SaltoMin,                SaltoMax,                intensity, "Salto");
+            Armadura             = MutateGene(Armadura,             ArmaduraMin,             ArmaduraMax,             intensity, "Armadura");
+            Veneno               = MutateGene(Veneno,               VenenoMin,               VenenoMax,               intensity, "Veneno");
+            ExplosionAlMorir     = MutateGene(ExplosionAlMorir,     ExplosionMin,            ExplosionMax,            intensity, "ExplosionAlMorir");
+            Regeneracion         = MutateGene(Regeneracion,         RegeneracionMin,         RegeneracionMax,         intensity, "Regeneracion");
+            RangoVision          = MutateGene(RangoVision,          RangoVisionMin,          RangoVisionMax,          intensity, "RangoVision");
+            ComportamientoGrupal = MutateGene(ComportamientoGrupal, ComportamientoGrupalMin, ComportamientoGrupalMax, intensity, "ComportamientoGrupal");
+            ResistenciaFuego     = MutateGene(ResistenciaFuego,     ResistenciaFuegoMin,     ResistenciaFuegoMax,     intensity, "ResistenciaFuego");
+            ResistenciaElectrica = MutateGene(ResistenciaElectrica, ResistenciaElectricaMin, ResistenciaElectricaMax, intensity, "ResistenciaElectrica");
+            Espinas              = MutateGene(Espinas,              EspinasMin,              EspinasMax,              intensity, "Espinas");
+        }
+
+        private float MutateGene(float value, float min, float max, float intensity, string geneName)
+        {
+            float delta    = (UnityEngine.Random.value * 2f - 1f) * intensity * (max - min);
+            float newValue = Mathf.Clamp(value + delta, min, max);
+            if (Mathf.Abs(delta) > (max - min) * 0.05f)
+                OnMutationOccurred?.Invoke(geneName, value, newValue);
+            return newValue;
+        }
+
+        /// <summary>Uniform crossover: each gene is randomly inherited from one parent.</summary>
+        public static Genome Crossover(Genome parentA, Genome parentB)
+        {
+            if (parentA == null) return parentB?.Clone() ?? new Genome();
+            if (parentB == null) return parentA.Clone();
+
+            return new Genome
+            {
+                Velocidad            = UnityEngine.Random.value > 0.5f ? parentA.Velocidad            : parentB.Velocidad,
+                Tamaño               = UnityEngine.Random.value > 0.5f ? parentA.Tamaño               : parentB.Tamaño,
+                Salto                = UnityEngine.Random.value > 0.5f ? parentA.Salto                : parentB.Salto,
+                Armadura             = UnityEngine.Random.value > 0.5f ? parentA.Armadura             : parentB.Armadura,
+                Veneno               = UnityEngine.Random.value > 0.5f ? parentA.Veneno               : parentB.Veneno,
+                ExplosionAlMorir     = UnityEngine.Random.value > 0.5f ? parentA.ExplosionAlMorir     : parentB.ExplosionAlMorir,
+                Regeneracion         = UnityEngine.Random.value > 0.5f ? parentA.Regeneracion         : parentB.Regeneracion,
+                RangoVision          = UnityEngine.Random.value > 0.5f ? parentA.RangoVision          : parentB.RangoVision,
+                ComportamientoGrupal = UnityEngine.Random.value > 0.5f ? parentA.ComportamientoGrupal : parentB.ComportamientoGrupal,
+                ResistenciaFuego     = UnityEngine.Random.value > 0.5f ? parentA.ResistenciaFuego     : parentB.ResistenciaFuego,
+                ResistenciaElectrica = UnityEngine.Random.value > 0.5f ? parentA.ResistenciaElectrica : parentB.ResistenciaElectrica,
+                Espinas              = UnityEngine.Random.value > 0.5f ? parentA.Espinas              : parentB.Espinas,
+            };
+        }
+
+        /// <summary>Instance convenience — crosses this genome with another.</summary>
+        public Genome Crossover(Genome other) => Crossover(this, other);
+
         public string ToJson() => JsonUtility.ToJson(this);
         public static Genome FromJson(string json) => JsonUtility.FromJson<Genome>(json) ?? new Genome();
         public Genome Clone() => FromJson(ToJson());

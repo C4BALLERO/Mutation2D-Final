@@ -19,15 +19,24 @@ namespace MutationSwarm.Core
 
     /// <summary>
     /// Control de oleadas con spawning funcional para prototipo.
+    /// Soporta tanto el sistema antiguo (Transform[]) como el nuevo (Script_39_SpawnPoint).
     /// </summary>
     public class Script_02_WaveManager : MonoBehaviour
     {
+        [Header("Configuración")]
         [SerializeField] private SO_WaveConfig _config;
+        [SerializeField] private SO_EnemySpawnConfig _spawnConfig;
         [SerializeField] private string _upgradeSceneName = "Scene_03_UpgradeMenu";
+
+        [Header("Sistema antiguo (backward compatibility)")]
         [SerializeField] private GameObject _enemyPrefab;
         [SerializeField] private Transform[] _spawnPoints;
         [SerializeField] private int _baseEnemies = 6;
         [SerializeField] private float _spawnInterval = 1.2f;
+
+        [Header("Sistema nuevo (recomendado)")]
+        [SerializeField] private Script_39_SpawnPoint[] _enemySpawnPoints;
+        [SerializeField] private Script_SpawnPointGizmos _levelSpawnManager;
 
         public WaveState CurrentWaveState { get; private set; } = WaveState.Waiting;
         public int CurrentWave { get; private set; }
@@ -40,9 +49,11 @@ namespace MutationSwarm.Core
         public event Action<int> OnWaveStarted;
         public event Action<int, WaveSummary> OnWaveEnded;
         public event Action<GameObject> OnEnemySpawned;
+#pragma warning disable CS0067 // Reserved events — raised in future expansion phases
         public event Action<EvolutionSummary> OnEvolutionPhaseStarted;
-        public event Action OnUpgradePhaseStarted;
         public event Action<BossData> OnBossSpawning;
+#pragma warning restore CS0067
+        public event Action OnUpgradePhaseStarted;
 
         private Coroutine _waveRoutine;
 
@@ -60,6 +71,16 @@ namespace MutationSwarm.Core
         {
             if (CurrentGenomePool.Count == 0)
                 CurrentGenomePool.Add(new Genome());
+
+            if (_levelSpawnManager == null)
+                _levelSpawnManager = FindFirstObjectByType<Script_SpawnPointGizmos>();
+
+            if (_enemySpawnPoints == null || _enemySpawnPoints.Length == 0)
+            {
+                _enemySpawnPoints = FindObjectsByType<Script_39_SpawnPoint>(FindObjectsSortMode.None);
+                _enemySpawnPoints = System.Array.FindAll(_enemySpawnPoints,
+                    sp => sp.Type == Script_39_SpawnPoint.SpawnType.Enemy);
+            }
         }
 
         public void StartWave()
@@ -109,6 +130,14 @@ namespace MutationSwarm.Core
 
         public void SpawnEnemy()
         {
+            // Intentar usar el nuevo sistema primero
+            if (_enemySpawnPoints != null && _enemySpawnPoints.Length > 0)
+            {
+                SpawnEnemyNew();
+                return;
+            }
+
+            // Fallback al sistema antiguo
             if (_enemyPrefab == null || _spawnPoints == null || _spawnPoints.Length == 0)
                 return;
 
@@ -117,6 +146,53 @@ namespace MutationSwarm.Core
             EnemiesSpawned++;
             EnemiesAlive++;
 
+            if (enemyGo.TryGetComponent(out Script_13_EnemyBase enemy))
+            {
+                Genome g = CurrentGenomePool[UnityEngine.Random.Range(0, CurrentGenomePool.Count)];
+                enemy.Initialize(g.Clone());
+            }
+
+            OnEnemySpawned?.Invoke(enemyGo);
+            Script_03_EventBus.Publish(new EnemySpawnedEvent { enemy = enemyGo });
+            Script_03_EventBus.Publish(new EnemyCountChangedEvent { alive = EnemiesAlive, total = EnemiesSpawned });
+        }
+
+        /// <summary>
+        /// Spawna un enemigo usando el nuevo sistema con Script_39_SpawnPoint.
+        /// </summary>
+        private void SpawnEnemyNew()
+        {
+            if (_enemySpawnPoints == null || _enemySpawnPoints.Length == 0)
+                return;
+
+            // Seleccionar un spawn point aleatorio
+            Script_39_SpawnPoint spawnPoint = _enemySpawnPoints[UnityEngine.Random.Range(0, _enemySpawnPoints.Length)];
+            if (spawnPoint == null)
+                return;
+
+            // Determinar qué prefab spawnar: config → lista del nivel → spawn point individual → prefab global
+            GameObject prefabToUse = null;
+            if (_spawnConfig != null)
+                prefabToUse = _spawnConfig.GetRandomEnemyPrefab();
+            if (prefabToUse == null && _levelSpawnManager != null)
+                prefabToUse = _levelSpawnManager.GetRandomLevelEnemy();
+            if (prefabToUse == null)
+                prefabToUse = spawnPoint.PrefabToSpawn;
+            if (prefabToUse == null)
+                prefabToUse = _enemyPrefab;
+
+            if (prefabToUse == null)
+            {
+                Debug.LogWarning($"[WaveManager] No hay prefab de enemigo para spawnar en {spawnPoint.gameObject.name}");
+                return;
+            }
+
+            // Instanciar
+            GameObject enemyGo = Instantiate(prefabToUse, spawnPoint.SpawnPosition, Quaternion.identity);
+            EnemiesSpawned++;
+            EnemiesAlive++;
+
+            // Inicializar con genoma
             if (enemyGo.TryGetComponent(out Script_13_EnemyBase enemy))
             {
                 Genome g = CurrentGenomePool[UnityEngine.Random.Range(0, CurrentGenomePool.Count)];

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387c48ec33b8f564cb86bb1d223fda0f, type: 3}
+  m_Name: SO_Pool_Projectile_ak47
+  m_EditorClassIdentifier: Assembly-CSharp::MutationSwarm.Core.SO_PoolConfig
+  poolKey: Projectile_ak47
+  prefab: {fileID: 8582278173941413917, guid: bccd603193d6d8a4a90b2df934c5f9c5, type: 3}
+  initialSize: 16
+  maxSize: 64

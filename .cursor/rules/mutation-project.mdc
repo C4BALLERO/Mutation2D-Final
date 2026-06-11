@@ -1,0 +1,14 @@
+---
+description: Contexto global Mutation Swarm 2D + convenciones Unity
+alwaysApply: true
+---
+
+# Mutation Swarm 2D
+
+Lee `AGENTS.md` para stack, convenciones y skills.
+
+- Motor: Unity 6000.3.x, C#, 2D
+- Namespaces: `MutationSwarm.Core`, `.Entities`, `.Combat`, `.Evolution`, `.Building`, `.UI`
+- Eventos globales: `Script_03_EventBus` — no acoplar UI a gameplay con singletons ad hoc
+- Build: `build.ps1` o `Tools → Mutation Swarm → Build Windows`
+- Diseño: `design/` (GDDs). Etapa actual: `production/stage.txt`

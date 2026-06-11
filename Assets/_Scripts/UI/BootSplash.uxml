@@ -1,0 +1,39 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement name="SplashRoot" class="splash-root">
+
+        <!-- Corner decorative labels -->
+        <ui:Label name="CornerTL" text="// ARGOS-9 v2.1.4" class="splash-corner splash-corner--tl" />
+        <ui:Label name="CornerTR" text="SYS.BOOT ██" class="splash-corner splash-corner--tr" />
+        <ui:Label name="CornerBL" text="BIOHAZARD LABS" class="splash-corner splash-corner--bl" />
+        <ui:Label name="CornerBR" text="2026.ALPHA" class="splash-corner splash-corner--br" />
+
+        <!-- Scanline overlay (static visual texture) -->
+        <ui:VisualElement name="ScanlineOverlay" class="scanline-overlay" />
+
+        <!-- Center block -->
+        <ui:VisualElement name="SplashCenter" class="splash-center">
+
+            <!-- Title group -->
+            <ui:VisualElement class="splash-title-group">
+                <ui:Label name="SplashPrefix" text="// INICIANDO PROTOCOLO DE CONTENCIÓN" class="splash-prefix" />
+                <ui:Label name="SplashTitle" text="MUTATION SWARM" class="splash-title" />
+                <ui:Label name="SplashSeparator" text="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" class="splash-separator" />
+                <ui:Label name="SplashTagline" text="EL ENJAMBRE APRENDE" class="splash-tagline" />
+            </ui:VisualElement>
+
+            <!-- Loading section -->
+            <ui:VisualElement name="LoadingSection" class="loading-section">
+                <ui:Label name="LoadingStatus" text="INICIALIZANDO SISTEMAS..." class="loading-status" />
+                <ui:VisualElement name="LoadingBarBg" class="loading-bar-bg">
+                    <ui:VisualElement name="LoadingBarFill" class="loading-bar-fill" />
+                    <ui:Label name="LoadingPercent" text="0%" class="loading-percent" />
+                </ui:VisualElement>
+                <ui:Label name="LoadingDetail" text="genome_engine.dll ... OK" class="loading-detail" />
+            </ui:VisualElement>
+
+            <!-- Version -->
+            <ui:Label name="SplashVersion" text="BUILD 0.1.0-ALPHA" class="splash-version" />
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

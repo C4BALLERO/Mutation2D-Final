@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c51cecc36b07986498304ef047a49975, type: 3}
+  m_Name: SO_Weapon_ak47
+  m_EditorClassIdentifier: Assembly-CSharp::MutationSwarm.Combat.SO_WeaponData
+  weaponId: ak47
+  displayName: AK 47
+  description: Rifle de asalto equilibrado.
+  gunSprite: {fileID: 4565813657897213748, guid: 75a58d9f06a617c4c9d83e846ae2a2e1, type: 3}
+  projectileSprite: {fileID: 2208703988740019828, guid: 752567861339ca84a8431c6b92587d69, type: 3}
+  gunOffset: {x: 0.4, y: 0.02}
+  fireRate: 0.11
+  damage: 13
+  projectileSpeed: 18
+  projectileLifetime: 3
+  projectilePoolKey: Projectile_ak47
+  materialCost: 50
+  unlockedByDefault: 0

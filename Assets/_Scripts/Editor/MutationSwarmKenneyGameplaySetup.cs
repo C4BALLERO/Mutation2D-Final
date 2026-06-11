@@ -1,15 +1,19 @@
 #if UNITY_EDITOR
 using System.IO;
+using MutationSwarm.Building;
 using MutationSwarm.Combat;
 using MutationSwarm.Core;
 using MutationSwarm.Entities;
+using MutationSwarm.Evolution;
 using MutationSwarm.UI;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
+using UIButton = UnityEngine.UI.Button;
+using UIImage = UnityEngine.UI.Image;
 
 namespace MutationSwarm.Editor
 {
@@ -26,15 +30,24 @@ namespace MutationSwarm.Editor
         [MenuItem("Tools/Mutation Swarm/Build Kenney UI + Playable Geometric Level")]
         public static void BuildAll()
         {
+            MutationSwarmEnemyArtSetup.BuildAll();
+            MutationSwarmPlayerArtSetup.BuildAll();
             ImportKenneySprites();
             EnsureFolder(GeneratedSprites);
-            Sprite square = SaveGeneratedSprite("Spr_Geo_Square", GeometricSpriteFactory.Shape.Square, new Color(0.2f, 0.75f, 1f));
-            Sprite circle = SaveGeneratedSprite("Spr_Geo_Circle", GeometricSpriteFactory.Shape.Circle, new Color(1f, 0.35f, 0.35f));
-            Sprite triangle = SaveGeneratedSprite("Spr_Geo_Triangle", GeometricSpriteFactory.Shape.Triangle, new Color(1f, 0.85f, 0.2f));
             Sprite projectile = SaveGeneratedSprite("Spr_Geo_Projectile", GeometricSpriteFactory.Shape.Circle, new Color(0.95f, 0.95f, 0.3f), 32);
 
-            GameObject playerPrefab = CreatePlayerPrefab(square, projectile);
-            GameObject enemyPrefab = CreateEnemyPrefab(circle);
+            GameObject playerPrefab = AssetDatabase.LoadAssetAtPath<GameObject>($"{PrefabsPath}/Player/Prefab_Player.prefab");
+            if (playerPrefab == null)
+            {
+                Sprite square = SaveGeneratedSprite("Spr_Geo_Square", GeometricSpriteFactory.Shape.Square, new Color(0.2f, 0.75f, 1f));
+                playerPrefab = CreatePlayerPrefab(square, projectile);
+            }
+            GameObject enemyPrefab = AssetDatabase.LoadAssetAtPath<GameObject>($"{PrefabsPath}/Enemies/Prefab_Enemy_Drone.prefab");
+            if (enemyPrefab == null)
+            {
+                Sprite circle = SaveGeneratedSprite("Spr_Geo_Circle", GeometricSpriteFactory.Shape.Circle, new Color(1f, 0.35f, 0.35f));
+                enemyPrefab = CreateEnemyPrefab(circle);
+            }
             GameObject projectilePrefab = CreateProjectilePrefab(projectile);
 
             SavePrefab(playerPrefab, $"{PrefabsPath}/Player/Prefab_Player_Geo.prefab");
@@ -211,7 +224,7 @@ namespace MutationSwarm.Editor
             canvasGo.AddComponent<GraphicRaycaster>();
 
             GameObject panelGo = CreateUIImage(canvasGo.transform, "Panel", panel, new Vector2(0, 0), new Vector2(520, 420));
-            Image panelImg = panelGo.GetComponent<Image>();
+            UIImage panelImg = panelGo.GetComponent<UIImage>();
             panelImg.color = new Color(1f, 1f, 1f, 0.92f);
 
             CreateUIText(panelGo.transform, "Title", "MUTATION SWARM", 42, new Vector2(0, 140), new Color(0.1f, 0.25f, 0.45f));
@@ -225,10 +238,10 @@ namespace MutationSwarm.Editor
 
             Script_33_KenneyMainMenuUGUI menu = canvasGo.AddComponent<Script_33_KenneyMainMenuUGUI>();
             SerializedObject soMenu = new(menu);
-            soMenu.FindProperty("_btnPlay").objectReferenceValue = playBtn.GetComponent<Button>();
-            soMenu.FindProperty("_btnQuit").objectReferenceValue = quitBtn.GetComponent<Button>();
-            soMenu.FindProperty("_btnPlus").objectReferenceValue = plusBtn.GetComponent<Button>();
-            soMenu.FindProperty("_btnMinus").objectReferenceValue = minusBtn.GetComponent<Button>();
+            soMenu.FindProperty("_btnPlay").objectReferenceValue = playBtn.GetComponent<UIButton>();
+            soMenu.FindProperty("_btnQuit").objectReferenceValue = quitBtn.GetComponent<UIButton>();
+            soMenu.FindProperty("_btnPlus").objectReferenceValue = plusBtn.GetComponent<UIButton>();
+            soMenu.FindProperty("_btnMinus").objectReferenceValue = minusBtn.GetComponent<UIButton>();
             soMenu.FindProperty("_lblPlayers").objectReferenceValue = lblGo.GetComponent<Text>();
             soMenu.ApplyModifiedPropertiesWithoutUndo();
 
@@ -317,10 +330,10 @@ namespace MutationSwarm.Editor
             }
 
             GameObject ui = new("_UI");
-            UIDocument hud = ui.AddComponent<UIDocument>();
-            hud.visualTreeAsset = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/_Scripts/UI/HUD_Main.uxml");
-            StyleSheet hudLight = AssetDatabase.LoadAssetAtPath<StyleSheet>("Assets/_Scripts/UI/HUD_Main_Light.uss");
-            StyleSheet hudBase = AssetDatabase.LoadAssetAtPath<StyleSheet>("Assets/_Scripts/UI/HUD_Main.uss");
+            UnityEngine.UIElements.UIDocument hud = ui.AddComponent<UnityEngine.UIElements.UIDocument>();
+            hud.visualTreeAsset = AssetDatabase.LoadAssetAtPath<UnityEngine.UIElements.VisualTreeAsset>("Assets/_Scripts/UI/HUD_Main.uxml");
+            UnityEngine.UIElements.StyleSheet hudLight = AssetDatabase.LoadAssetAtPath<UnityEngine.UIElements.StyleSheet>("Assets/_Scripts/UI/HUD_Main_Light.uss");
+            UnityEngine.UIElements.StyleSheet hudBase = AssetDatabase.LoadAssetAtPath<UnityEngine.UIElements.StyleSheet>("Assets/_Scripts/UI/HUD_Main.uss");
             if (hudLight != null)
                 hud.rootVisualElement.styleSheets.Add(hudLight);
             else if (hudBase != null)
@@ -397,16 +410,16 @@ namespace MutationSwarm.Editor
             RectTransform rt = go.AddComponent<RectTransform>();
             rt.anchoredPosition = pos;
             rt.sizeDelta = size;
-            Image img = go.AddComponent<Image>();
+            UIImage img = go.AddComponent<UIImage>();
             img.sprite = sprite;
-            img.type = Image.Type.Sliced;
+            img.type = UIImage.Type.Sliced;
             return go;
         }
 
         private static GameObject CreateUIButton(Transform parent, string name, Sprite sprite, string label, Vector2 pos, Vector2 size)
         {
             GameObject go = CreateUIImage(parent, name, sprite, pos, size);
-            Button btn = go.AddComponent<Button>();
+            UIButton btn = go.AddComponent<UIButton>();
             ColorBlock cb = btn.colors;
             cb.normalColor = Color.white;
             cb.highlightedColor = new Color(0.9f, 1f, 1f);

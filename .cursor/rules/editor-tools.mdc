@@ -1,0 +1,13 @@
+---
+description: Scripts Editor y pipeline de build
+globs: Assets/_Scripts/Editor/**/*.cs
+alwaysApply: false
+---
+
+# Editor
+
+- Menús bajo `Tools/Mutation Swarm/`
+- Batch: `MutationSwarmBatchBuild.RunContentOnly`, `RunWindowsOnly`, `RunFullBuild`
+- No añadir `MonoBehaviour` de runtime solo en carpeta `Editor` (ej. gizmos van en `Core/`)
+- `UnityEditor.BuildPipeline` para builds — la clase del proyecto es `MutationSwarmBuildPipeline`
+- Tras cambios en escenas generadas, guardar con `EditorSceneManager.SaveScene`

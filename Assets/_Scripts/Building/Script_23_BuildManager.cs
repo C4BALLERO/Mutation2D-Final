@@ -59,7 +59,20 @@ namespace MutationSwarm.Building
             EnsurePreview();
         }
 
-        public void AddMaterials(int amount) => _buildMaterials += amount;
+        public void AddMaterials(int amount)
+        {
+            _buildMaterials += amount;
+            Script_03_EventBus.Publish(new BuildMaterialsChangedEvent { materials = _buildMaterials });
+        }
+
+        public bool TrySpendMaterials(int amount)
+        {
+            if (_buildMaterials < amount)
+                return false;
+            _buildMaterials -= amount;
+            Script_03_EventBus.Publish(new BuildMaterialsChangedEvent { materials = _buildMaterials });
+            return true;
+        }
 
         public void ResetMaterialsForNewSession()
         {

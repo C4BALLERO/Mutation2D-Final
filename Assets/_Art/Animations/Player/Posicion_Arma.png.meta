@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: bd9f213b165504d46a458c06554b7b49
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8570439984091102226
+    second: Posicion_Arma_0
+  - first:
+      213: 6475922751072598706
+    second: Posicion_Arma_1
+  - first:
+      213: 2053417216831474293
+    second: Posicion_Arma_2
+  - first:
+      213: 7130818984668298000
+    second: Posicion_Arma_3
+  - first:
+      213: 6696596646751187618
+    second: Posicion_Arma_4
+  - first:
+      213: 7035277716774516386
+    second: Posicion_Arma_5
+  - first:
+      213: 4382211153175920542
+    second: Posicion_Arma_6
+  - first:
+      213: 2493410753201368249
+    second: Posicion_Arma_7
+  - first:
+      213: -3510425574006269660
+    second: Posicion_Arma_8
+  - first:
+      213: -7720626395185062224
+    second: Posicion_Arma_9
+  - first:
+      213: 7522664479703712012
+    second: Posicion_Arma_10
+  - first:
+      213: 5755158018583414807
+    second: Posicion_Arma_11
+  - first:
+      213: 8369907516572320227
+    second: Posicion_Arma_12
+  - first:
+      213: 308415158321793227
+    second: Posicion_Arma_13
+  - first:
+      213: -4112354608294856565
+    second: Posicion_Arma_14
+  - first:
+      213: -6041762875419882717
+    second: Posicion_Arma_15
+  - first:
+      213: 911129105356780747
+    second: Posicion_Arma_16
+  - first:
+      213: 1529070739606043075
+    second: Posicion_Arma_17
+  - first:
+      213: 2368570167267278198
+    second: Posicion_Arma_18
+  - first:
+      213: -2746124594810839763
+    second: Posicion_Arma_19
+  - first:
+      213: -4904239118983643041
+    second: Posicion_Arma_20
+  - first:
+      213: -861177691857370808
+    second: Posicion_Arma_21
+  - first:
+      213: -2077975053348978288
+    second: Posicion_Arma_22
+  - first:
+      213: -2222896131405454304
+    second: Posicion_Arma_23
+  - first:
+      213: -3744396460307049704
+    second: Posicion_Arma_24
+  - first:
+      213: -8367369769107620992
+    second: Posicion_Arma_25
+  - first:
+      213: -1958596072818649221
+    second: Posicion_Arma_26
+  - first:
+      213: -1013558757587669304
+    second: Posicion_Arma_27
+  - first:
+      213: 4114432122576952734
+    second: Posicion_Arma_28
+  - first:
+      213: -6440577367372235992
+    second: Posicion_Arma_29
+  - first:
+      213: -3985217997499924503
+    second: Posicion_Arma_30
+  - first:
+      213: -6845117982448179947
+    second: Posicion_Arma_31
+  - first:
+      213: 5057316288246757369
+    second: Posicion_Arma_32
+  - first:
+      213: 3293551813678419574
+    second: Posicion_Arma_33
+  - first:
+      213: 2248613839237703536
+    second: Posicion_Arma_34
+  - first:
+      213: 8825321652296359705
+    second: Posicion_Arma_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Posicion_Arma_0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2631
+        width: 263
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3027b1e3eaf0980800000000000000
+      internalID: -8570439984091102226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_1
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 2631
+        width: 264
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba7d826e691fd950800000000000000
+      internalID: 6475922751072598706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_2
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 2631
+        width: 263
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a49e844143f7c10800000000000000
+      internalID: 2053417216831474293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_3
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 2631
+        width: 263
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bf3caf512c5f260800000000000000
+      internalID: 7130818984668298000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_4
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 2631
+        width: 262
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a23dad8b271fec50800000000000000
+      internalID: 6696596646751187618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_5
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 2631
+        width: 262
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6f0941fc352a160800000000000000
+      internalID: 7035277716774516386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 2105
+        width: 262
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f3ecb63ddb0dc30800000000000000
+      internalID: 4382211153175920542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_7
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 2104
+        width: 262
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bce4bf8edf5a9220800000000000000
+      internalID: 2493410753201368249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_8
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 2104
+        width: 263
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429d8ea1a86784fc0800000000000000
+      internalID: -3510425574006269660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_9
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 2103
+        width: 263
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be5d7ff233dad490800000000000000
+      internalID: -7720626395185062224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_10
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 2104
+        width: 269
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01403dcc7fd56860800000000000000
+      internalID: 7522664479703712012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_11
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 2104
+        width: 291
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718c7ebc9bd6edf40800000000000000
+      internalID: 5755158018583414807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1579
+        width: 345
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e14a286a82e72470800000000000000
+      internalID: 8369907516572320227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_13
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1578
+        width: 363
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8cd13d3f5b74400800000000000000
+      internalID: 308415158321793227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_14
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1578
+        width: 369
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88f42e954bfde6c0800000000000000
+      internalID: -4112354608294856565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_15
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1579
+        width: 369
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b8479eca8572ca0800000000000000
+      internalID: -6041762875419882717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_16
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 1579
+        width: 369
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc47f4d081bf4ac00800000000000000
+      internalID: 911129105356780747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_17
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 1579
+        width: 369
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c979ae7cb9583510800000000000000
+      internalID: 1529070739606043075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_18
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1053
+        width: 369
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67dbd85940aded020800000000000000
+      internalID: 2368570167267278198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_19
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1053
+        width: 369
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d16590b3ec3e9d0800000000000000
+      internalID: -2746124594810839763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_20
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1053
+        width: 369
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50c76b4184a0fbb0800000000000000
+      internalID: -4904239118983643041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_21
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1053
+        width: 369
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841c954b37b7c04f0800000000000000
+      internalID: -861177691857370808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_22
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 1053
+        width: 368
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091c205d2bc8923e0800000000000000
+      internalID: -2077975053348978288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_23
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 1053
+        width: 368
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024ecf2febfa621e0800000000000000
+      internalID: -2222896131405454304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_24
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 527
+        width: 368
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8131b2d024b390cc0800000000000000
+      internalID: -3744396460307049704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_25
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 527
+        width: 368
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b7ff7f68121eb80800000000000000
+      internalID: -8367369769107620992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_26
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 527
+        width: 368
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b775b25bf3ba1d4e0800000000000000
+      internalID: -1958596072818649221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_27
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 527
+        width: 368
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce20071ead1fe1f0800000000000000
+      internalID: -1013558757587669304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_28
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 527
+        width: 368
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9dd7ae5736691930800000000000000
+      internalID: 4114432122576952734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_29
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 527
+        width: 368
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b7b5d02097e96a0800000000000000
+      internalID: -6440577367372235992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_30
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1
+        width: 368
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eff58a8859a1b8c0800000000000000
+      internalID: -3985217997499924503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_31
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1
+        width: 368
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515a98246714101a0800000000000000
+      internalID: -6845117982448179947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_32
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1
+        width: 368
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7bebd8e523f2640800000000000000
+      internalID: 5057316288246757369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_33
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1
+        width: 368
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e45afaceb05bd20800000000000000
+      internalID: 3293551813678419574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_34
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 1
+        width: 368
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0776ac48f5ea43f10800000000000000
+      internalID: 2248613839237703536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Posicion_Arma_35
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 1
+        width: 368
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f10b1c847d97a70800000000000000
+      internalID: 8825321652296359705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Posicion_Arma_0: -8570439984091102226
+      Posicion_Arma_1: 6475922751072598706
+      Posicion_Arma_10: 7522664479703712012
+      Posicion_Arma_11: 5755158018583414807
+      Posicion_Arma_12: 8369907516572320227
+      Posicion_Arma_13: 308415158321793227
+      Posicion_Arma_14: -4112354608294856565
+      Posicion_Arma_15: -6041762875419882717
+      Posicion_Arma_16: 911129105356780747
+      Posicion_Arma_17: 1529070739606043075
+      Posicion_Arma_18: 2368570167267278198
+      Posicion_Arma_19: -2746124594810839763
+      Posicion_Arma_2: 2053417216831474293
+      Posicion_Arma_20: -4904239118983643041
+      Posicion_Arma_21: -861177691857370808
+      Posicion_Arma_22: -2077975053348978288
+      Posicion_Arma_23: -2222896131405454304
+      Posicion_Arma_24: -3744396460307049704
+      Posicion_Arma_25: -8367369769107620992
+      Posicion_Arma_26: -1958596072818649221
+      Posicion_Arma_27: -1013558757587669304
+      Posicion_Arma_28: 4114432122576952734
+      Posicion_Arma_29: -6440577367372235992
+      Posicion_Arma_3: 7130818984668298000
+      Posicion_Arma_30: -3985217997499924503
+      Posicion_Arma_31: -6845117982448179947
+      Posicion_Arma_32: 5057316288246757369
+      Posicion_Arma_33: 3293551813678419574
+      Posicion_Arma_34: 2248613839237703536
+      Posicion_Arma_35: 8825321652296359705
+      Posicion_Arma_4: 6696596646751187618
+      Posicion_Arma_5: 7035277716774516386
+      Posicion_Arma_6: 4382211153175920542
+      Posicion_Arma_7: 2493410753201368249
+      Posicion_Arma_8: -3510425574006269660
+      Posicion_Arma_9: -7720626395185062224
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

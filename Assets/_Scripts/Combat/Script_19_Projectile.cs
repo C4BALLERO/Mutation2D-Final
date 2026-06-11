@@ -23,6 +23,15 @@ namespace MutationSwarm.Combat
                 rb.linearVelocity = Vector2.zero;
         }
 
+        public void Configure(float damage, float speed, float lifetime, Sprite sprite)
+        {
+            _damage = damage;
+            _speed = speed;
+            _lifetime = lifetime;
+            if (sprite != null && TryGetComponent(out SpriteRenderer sr))
+                sr.sprite = sprite;
+        }
+
         public void Launch(Vector2 direction)
         {
             if (TryGetComponent(out Rigidbody2D rb))

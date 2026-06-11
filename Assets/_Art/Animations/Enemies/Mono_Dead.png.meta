@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 5b55e12899cb6c94da2180f8f0656022
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3557268731891067385
+    second: Mono_Dead_0
+  - first:
+      213: -2698413286971536622
+    second: Mono_Dead_1
+  - first:
+      213: 851501959833218064
+    second: Mono_Dead_2
+  - first:
+      213: 4350592315903046658
+    second: Mono_Dead_3
+  - first:
+      213: -7248770062479426061
+    second: Mono_Dead_4
+  - first:
+      213: 3367374775818059208
+    second: Mono_Dead_5
+  - first:
+      213: -3546030907018178459
+    second: Mono_Dead_6
+  - first:
+      213: -3848471255193437936
+    second: Mono_Dead_7
+  - first:
+      213: -1938120056589710968
+    second: Mono_Dead_8
+  - first:
+      213: 2827964370339829291
+    second: Mono_Dead_9
+  - first:
+      213: 8330742683686233000
+    second: Mono_Dead_10
+  - first:
+      213: -6559265601452612119
+    second: Mono_Dead_11
+  - first:
+      213: -253273350071439557
+    second: Mono_Dead_12
+  - first:
+      213: 6524000858511470863
+    second: Mono_Dead_13
+  - first:
+      213: 597805810074565230
+    second: Mono_Dead_14
+  - first:
+      213: -3873095249843252831
+    second: Mono_Dead_15
+  - first:
+      213: 432690590265705847
+    second: Mono_Dead_16
+  - first:
+      213: -4670577258287339720
+    second: Mono_Dead_17
+  - first:
+      213: 8521211707633154463
+    second: Mono_Dead_18
+  - first:
+      213: 654323971572772356
+    second: Mono_Dead_19
+  - first:
+      213: -1097239667359692548
+    second: Mono_Dead_20
+  - first:
+      213: 4983884600639759979
+    second: Mono_Dead_21
+  - first:
+      213: -1065815649328277060
+    second: Mono_Dead_22
+  - first:
+      213: 6990181162926487040
+    second: Mono_Dead_23
+  - first:
+      213: -4012584673849248454
+    second: Mono_Dead_24
+  - first:
+      213: 6911794629067307843
+    second: Mono_Dead_25
+  - first:
+      213: -7467789970044333406
+    second: Mono_Dead_26
+  - first:
+      213: 6917261282906721473
+    second: Mono_Dead_27
+  - first:
+      213: -7106590962912671368
+    second: Mono_Dead_28
+  - first:
+      213: -6589036420267407208
+    second: Mono_Dead_29
+  - first:
+      213: 630610024385768677
+    second: Mono_Dead_30
+  - first:
+      213: -4586415832378470239
+    second: Mono_Dead_31
+  - first:
+      213: 5617350697866466228
+    second: Mono_Dead_32
+  - first:
+      213: -4142785861339997581
+    second: Mono_Dead_33
+  - first:
+      213: 1983933240224514945
+    second: Mono_Dead_34
+  - first:
+      213: 4330533968338828797
+    second: Mono_Dead_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mono_Dead_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2798
+        width: 502
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9a8fe7015fd5130800000000000000
+      internalID: 3557268731891067385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_1
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 2798
+        width: 502
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b0edc896f4d8ad0800000000000000
+      internalID: -2698413286971536622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_2
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 2798
+        width: 502
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c6861658421db00800000000000000
+      internalID: 851501959833218064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_3
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 2798
+        width: 502
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204f1ff29a8606c30800000000000000
+      internalID: 4350592315903046658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_4
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 2798
+        width: 502
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd7d67a802376b90800000000000000
+      internalID: -7248770062479426061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_5
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 2798
+        width: 503
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdfe3a74815bbe20800000000000000
+      internalID: 3367374775818059208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2291
+        width: 506
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56010a08da7f9cec0800000000000000
+      internalID: -3546030907018178459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_7
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 2291
+        width: 504
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019b4e198cb779ac0800000000000000
+      internalID: -3848471255193437936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_8
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 2291
+        width: 504
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88909eeb31a6a15e0800000000000000
+      internalID: -1938120056589710968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_9
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 2291
+        width: 503
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2611939c92fe3720800000000000000
+      internalID: 2827964370339829291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_10
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 2291
+        width: 502
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a36d48255ebc9370800000000000000
+      internalID: 8330742683686233000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_11
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 2291
+        width: 502
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e56afd10bec8f4a0800000000000000
+      internalID: -6559265601452612119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1743
+        width: 468
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f2be1ea313c7cf0800000000000000
+      internalID: -253273350071439557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_13
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1743
+        width: 479
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f017be51738e98a50800000000000000
+      internalID: 6524000858511470863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_14
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1743
+        width: 513
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ab82a8735db4800800000000000000
+      internalID: 597805810074565230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_15
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 1743
+        width: 516
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a117db0460004ac0800000000000000
+      internalID: -3873095249843252831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_16
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 1743
+        width: 516
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7750172acc9310600800000000000000
+      internalID: 432690590265705847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_17
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 1743
+        width: 518
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837e3c7bab6ce2fb0800000000000000
+      internalID: -4670577258287339720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_18
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1011
+        width: 233
+        height: 445
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99bf5996ec614670800000000000000
+      internalID: 8521211707633154463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_19
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1011
+        width: 231
+        height: 445
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e2e957f20a41900800000000000000
+      internalID: 654323971572772356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_20
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1011
+        width: 231
+        height: 445
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8ce810652d5c0f0800000000000000
+      internalID: -1097239667359692548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_21
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1011
+        width: 231
+        height: 445
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b662ca673a05a2540800000000000000
+      internalID: 4983884600639759979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_22
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 1011
+        width: 230
+        height: 445
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb95cb950567531f0800000000000000
+      internalID: -1065815649328277060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_23
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 1011
+        width: 319
+        height: 445
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0063cdb6bbc120160800000000000000
+      internalID: 6990181162926487040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_24
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 516
+        width: 341
+        height: 434
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35f90caf7f6058c0800000000000000
+      internalID: -4012584673849248454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_25
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 516
+        width: 341
+        height: 434
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b720a4890abef50800000000000000
+      internalID: 6911794629067307843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_26
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 516
+        width: 340
+        height: 434
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2584a96941d5890800000000000000
+      internalID: -7467789970044333406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_27
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 516
+        width: 283
+        height: 434
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ccc732dc7c0fff50800000000000000
+      internalID: 6917261282906721473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_28
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 516
+        width: 255
+        height: 434
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879c69beb21506d90800000000000000
+      internalID: -7106590962912671368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_29
+      rect:
+        serializedVersion: 2
+        x: 2669
+        y: 516
+        width: 233
+        height: 434
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89889d5394a0f84a0800000000000000
+      internalID: -6589036420267407208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_30
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 27
+        width: 442
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec605fd97060c800800000000000000
+      internalID: 630610024385768677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_31
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 27
+        width: 437
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a09adea917c950c0800000000000000
+      internalID: -4586415832378470239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_32
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 27
+        width: 416
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b39f1d92b6d4fd40800000000000000
+      internalID: 5617350697866466228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_33
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 27
+        width: 385
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a9152653ed186c0800000000000000
+      internalID: -4142785861339997581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_34
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 27
+        width: 384
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1830ca945c8588b10800000000000000
+      internalID: 1983933240224514945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_Dead_35
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 27
+        width: 353
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd399633b5291c30800000000000000
+      internalID: 4330533968338828797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mono_Dead_0: 3557268731891067385
+      Mono_Dead_1: -2698413286971536622
+      Mono_Dead_10: 8330742683686233000
+      Mono_Dead_11: -6559265601452612119
+      Mono_Dead_12: -253273350071439557
+      Mono_Dead_13: 6524000858511470863
+      Mono_Dead_14: 597805810074565230
+      Mono_Dead_15: -3873095249843252831
+      Mono_Dead_16: 432690590265705847
+      Mono_Dead_17: -4670577258287339720
+      Mono_Dead_18: 8521211707633154463
+      Mono_Dead_19: 654323971572772356
+      Mono_Dead_2: 851501959833218064
+      Mono_Dead_20: -1097239667359692548
+      Mono_Dead_21: 4983884600639759979
+      Mono_Dead_22: -1065815649328277060
+      Mono_Dead_23: 6990181162926487040
+      Mono_Dead_24: -4012584673849248454
+      Mono_Dead_25: 6911794629067307843
+      Mono_Dead_26: -7467789970044333406
+      Mono_Dead_27: 6917261282906721473
+      Mono_Dead_28: -7106590962912671368
+      Mono_Dead_29: -6589036420267407208
+      Mono_Dead_3: 4350592315903046658
+      Mono_Dead_30: 630610024385768677
+      Mono_Dead_31: -4586415832378470239
+      Mono_Dead_32: 5617350697866466228
+      Mono_Dead_33: -4142785861339997581
+      Mono_Dead_34: 1983933240224514945
+      Mono_Dead_35: 4330533968338828797
+      Mono_Dead_4: -7248770062479426061
+      Mono_Dead_5: 3367374775818059208
+      Mono_Dead_6: -3546030907018178459
+      Mono_Dead_7: -3848471255193437936
+      Mono_Dead_8: -1938120056589710968
+      Mono_Dead_9: 2827964370339829291
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
