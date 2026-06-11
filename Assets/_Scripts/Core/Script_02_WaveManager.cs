@@ -70,7 +70,7 @@ namespace MutationSwarm.Core
         private void Awake()
         {
             if (CurrentGenomePool.Count == 0)
-                CurrentGenomePool.Add(new Genome());
+                CurrentGenomePool.Add(new Genome { RangoVision = 1f, Velocidad = 1.2f });
 
             if (_levelSpawnManager == null)
                 _levelSpawnManager = FindFirstObjectByType<Script_SpawnPointGizmos>();
@@ -138,11 +138,18 @@ namespace MutationSwarm.Core
             }
 
             // Fallback al sistema antiguo
-            if (_enemyPrefab == null || _spawnPoints == null || _spawnPoints.Length == 0)
+            if (_spawnPoints == null || _spawnPoints.Length == 0)
                 return;
 
+            GameObject prefabFallback = _spawnConfig != null
+                ? _spawnConfig.GetRandomEnemyPrefab()
+                : _enemyPrefab;
+            if (prefabFallback == null) prefabFallback = _enemyPrefab;
+            if (prefabFallback == null) return;
+
             Transform sp = _spawnPoints[UnityEngine.Random.Range(0, _spawnPoints.Length)];
-            GameObject enemyGo = Instantiate(_enemyPrefab, sp.position, Quaternion.identity);
+            if (sp == null) return;
+            GameObject enemyGo = Instantiate(prefabFallback, sp.position, Quaternion.identity);
             EnemiesSpawned++;
             EnemiesAlive++;
 

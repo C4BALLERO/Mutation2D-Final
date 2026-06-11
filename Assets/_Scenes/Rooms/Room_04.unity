@@ -9172,9 +9172,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MutationSwarm.Core.Script_02_WaveManager
   _config: {fileID: 11400000, guid: 13dafb5aea3bca141a99eeaccdca15f9, type: 2}
-  _spawnConfig: {fileID: 0}
+  _spawnConfig: {fileID: 11400000, guid: b538d14e170048e292ebb97ad23d8b48, type: 2}
   _upgradeSceneName:
-  _enemyPrefab: {fileID: 3232838469432602573, guid: b6d54002cb4262d4c8860d070764479a, type: 3}
+  _enemyPrefab: {fileID: 7785982584994649129, guid: 47571814bff1c764f84c4772b4425f84, type: 3}
   _spawnPoints:
   - {fileID: 1371914772}
   - {fileID: 1103001891}

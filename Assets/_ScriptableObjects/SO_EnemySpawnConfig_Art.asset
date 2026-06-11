@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2845d16ebfdcfc34e9533abb01b2a52f, type: 3}
+  m_Name: SO_EnemySpawnConfig_Art
+  m_EditorClassIdentifier: Assembly-CSharp::MutationSwarm.Evolution.SO_EnemySpawnConfig
+  _enemyEntries:
+  - enemyPrefab: {fileID: 5193497604352044036, guid: 3c87b455f4668c44c856ae60d11824df, type: 3}
+    spawnPointPattern:
+    weight: 1.5
+    appearanceChance: 100
+  - enemyPrefab: {fileID: 5314461552561064483, guid: 7b14f26e2a8bd0e43a8a5f934db58d08, type: 3}
+    spawnPointPattern:
+    weight: 1
+    appearanceChance: 100
+  - enemyPrefab: {fileID: 7785982584994649129, guid: 47571814bff1c764f84c4772b4425f84, type: 3}
+    spawnPointPattern:
+    weight: 1
+    appearanceChance: 100
+  - enemyPrefab: {fileID: 8272467311459094782, guid: d09c9d2eedc43fd4aa2360a129420eaf, type: 3}
+    spawnPointPattern:
+    weight: 0.7
+    appearanceChance: 80
+  _randomizeOrder: 1
+  _minSpawnDelay: 0.5
+  _maxSpawnDelay: 1.5

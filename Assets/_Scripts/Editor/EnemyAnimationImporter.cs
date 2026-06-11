@@ -53,6 +53,11 @@ namespace MutationSwarm.Editor
             ti.mipmapEnabled       = false;
             ti.isReadable          = false;
             ti.textureCompression  = TextureImporterCompression.Uncompressed;
+            ti.maxTextureSize      = 8192;
+            var platformDefault = ti.GetDefaultPlatformTextureSettings();
+            platformDefault.maxTextureSize = 8192;
+            platformDefault.overridden = false;
+            ti.SetPlatformTextureSettings(platformDefault);
 
             // ── Load raw PNG into a temp texture (bypasses the import pipeline) ─
             byte[] raw = File.ReadAllBytes(assetPath);
