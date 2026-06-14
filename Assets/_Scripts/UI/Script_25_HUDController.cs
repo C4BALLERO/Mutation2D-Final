@@ -31,7 +31,7 @@ namespace MutationSwarm.UI
             Script_03_EventBus.Subscribe<WaveEndedEvent>(OnWaveEnded);
             Script_03_EventBus.Subscribe<EvolutionPhaseEvent>(OnEvolutionPhase);
             Script_03_EventBus.Subscribe<EnemyCountChangedEvent>(OnEnemyCountChanged);
-            Script_03_EventBus.Subscribe<BuildMaterialsChangedEvent>(OnMaterialsChanged);
+            Script_03_EventBus.Subscribe<CoinChangedEvent>(OnCoinChanged);
             Script_03_EventBus.Subscribe<MutationToastEvent>(OnMutationToast);
             Script_03_EventBus.Subscribe<WeaponEquippedEvent>(OnWeaponEquipped);
         }
@@ -42,7 +42,7 @@ namespace MutationSwarm.UI
             Script_03_EventBus.Unsubscribe<WaveEndedEvent>(OnWaveEnded);
             Script_03_EventBus.Unsubscribe<EvolutionPhaseEvent>(OnEvolutionPhase);
             Script_03_EventBus.Unsubscribe<EnemyCountChangedEvent>(OnEnemyCountChanged);
-            Script_03_EventBus.Unsubscribe<BuildMaterialsChangedEvent>(OnMaterialsChanged);
+            Script_03_EventBus.Unsubscribe<CoinChangedEvent>(OnCoinChanged);
             Script_03_EventBus.Unsubscribe<MutationToastEvent>(OnMutationToast);
             Script_03_EventBus.Unsubscribe<WeaponEquippedEvent>(OnWeaponEquipped);
         }
@@ -112,10 +112,10 @@ namespace MutationSwarm.UI
                 _enemyCounterLabel.text = $"{e.alive} / {e.total}";
         }
 
-        private void OnMaterialsChanged(BuildMaterialsChangedEvent e)
+        private void OnCoinChanged(CoinChangedEvent e)
         {
             if (_materialsLabel != null)
-                _materialsLabel.text = e.materials.ToString();
+                _materialsLabel.text = $"🪙 {e.coins}";
         }
 
         private void OnMutationToast(MutationToastEvent e)

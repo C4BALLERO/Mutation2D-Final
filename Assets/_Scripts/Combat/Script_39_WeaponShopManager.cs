@@ -49,22 +49,7 @@ namespace MutationSwarm.Combat
             _waveManager?.StartNextWave();
         }
 
-        public bool ShouldOpenShop(int waveNumber)
-        {
-            if (_alsoOnEveryThirdWave && waveNumber > 0 && waveNumber % 3 == 0)
-                return true;
-
-            if (_shopAfterWaves == null)
-                return false;
-
-            foreach (int w in _shopAfterWaves)
-            {
-                if (w == waveNumber)
-                    return true;
-            }
-
-            return false;
-        }
+        public bool ShouldOpenShop(int waveNumber) => true;
 
         public void OpenShop(int afterWave)
         {

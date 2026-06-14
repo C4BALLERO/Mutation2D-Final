@@ -73,15 +73,20 @@ namespace MutationSwarm.UI
 
             if (_continueBtn != null)
                 _continueBtn.clicked += () => Script_39_WeaponShopManager.Instance?.CloseShopAndContinue();
+
+            Script_03_EventBus.Subscribe<CoinChangedEvent>(_ => RefreshMaterials());
+        }
+
+        private void OnDestroy()
+        {
+            Script_03_EventBus.Unsubscribe<CoinChangedEvent>(_ => RefreshMaterials());
         }
 
         private void RefreshMaterials()
         {
-            int mats = MutationSwarm.Building.Script_23_BuildManager.Instance != null
-                ? MutationSwarm.Building.Script_23_BuildManager.Instance.BuildMaterials
-                : 0;
+            int coins = Script_42_CoinManager.Instance != null ? Script_42_CoinManager.Instance.Coins : 0;
             if (_materialsLabel != null)
-                _materialsLabel.text = $"Materiales: {mats}";
+                _materialsLabel.text = $"Monedas: {coins}";
         }
 
         private void RebuildWeaponList()
@@ -153,7 +158,7 @@ namespace MutationSwarm.UI
             {
                 Script_03_EventBus.Publish(new MutationToastEvent
                 {
-                    message = "Materiales insuficientes",
+                    message = "Monedas insuficientes",
                     color = new Color(1f, 0.4f, 0.35f)
                 });
             }

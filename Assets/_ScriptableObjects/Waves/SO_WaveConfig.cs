@@ -17,6 +17,11 @@ namespace MutationSwarm.Core
         [Header("Fases")]
         public float evolutionPhaseDuration = 3f;
 
+        [Header("Escalado de dificultad")]
+        public float speedMultiplierPerWave = 0.08f;
+        public float hpMultiplierPerWave    = 0.12f;
+        public int   maxEnemiesCap          = 80;
+
         [Header("Referencias de escena")]
         public Transform[] spawnPoints;
     }

@@ -15,12 +15,32 @@ namespace MutationSwarm.Core
 
         private void Start()
         {
+            Script_42_CoinManager.Instance?.ResetForNewSession();
             EnsurePlayer();
             if (_autoStartWave)
             {
                 Script_02_WaveManager wave = FindFirstObjectByType<Script_02_WaveManager>();
                 wave?.StartWave();
             }
+
+            if (Script_01_GameManager.Instance != null)
+                Script_01_GameManager.Instance.OnAllPlayersDead += OnGameOver;
+        }
+
+        private void OnDestroy()
+        {
+            if (Script_01_GameManager.Instance != null)
+                Script_01_GameManager.Instance.OnAllPlayersDead -= OnGameOver;
+        }
+
+        private void OnGameOver()
+        {
+            Invoke(nameof(ReturnToMenu), 2f);
+        }
+
+        private void ReturnToMenu()
+        {
+            Script_36_SceneLoader.LoadMainMenu();
         }
 
         private void EnsurePlayer()

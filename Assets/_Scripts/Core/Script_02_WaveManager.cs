@@ -103,7 +103,11 @@ namespace MutationSwarm.Core
                 : 1f;
             int toSpawn = Mathf.RoundToInt(_baseEnemies * coopMul);
             if (_config != null)
+            {
                 toSpawn = _config.baseEnemiesPerWave + _config.enemiesScalingPerWave * (CurrentWave - 1);
+                if (_config.maxEnemiesCap > 0)
+                    toSpawn = Mathf.Min(toSpawn, _config.maxEnemiesCap);
+            }
 
             Script_03_EventBus.Publish(new WaveStartedEvent { waveNumber = CurrentWave });
             OnWaveStarted?.Invoke(CurrentWave);
@@ -156,12 +160,27 @@ namespace MutationSwarm.Core
             if (enemyGo.TryGetComponent(out Script_13_EnemyBase enemy))
             {
                 Genome g = CurrentGenomePool[UnityEngine.Random.Range(0, CurrentGenomePool.Count)];
-                enemy.Initialize(g.Clone());
+                enemy.Initialize(ScaleGenome(g.Clone()), GetHpMultiplier());
             }
 
             OnEnemySpawned?.Invoke(enemyGo);
             Script_03_EventBus.Publish(new EnemySpawnedEvent { enemy = enemyGo });
             Script_03_EventBus.Publish(new EnemyCountChangedEvent { alive = EnemiesAlive, total = EnemiesSpawned });
+        }
+
+        private Genome ScaleGenome(Genome g)
+        {
+            if (_config == null) return g;
+            g.Velocidad = Mathf.Clamp(g.Velocidad + _config.speedMultiplierPerWave * (CurrentWave - 1),
+                                       MutationSwarm.Evolution.Genome.VelocidadMin,
+                                       MutationSwarm.Evolution.Genome.VelocidadMax);
+            return g;
+        }
+
+        private float GetHpMultiplier()
+        {
+            if (_config == null) return 1f;
+            return 1f + _config.hpMultiplierPerWave * (CurrentWave - 1);
         }
 
         /// <summary>
@@ -199,11 +218,11 @@ namespace MutationSwarm.Core
             EnemiesSpawned++;
             EnemiesAlive++;
 
-            // Inicializar con genoma
+            // Inicializar con genoma escalado por oleada
             if (enemyGo.TryGetComponent(out Script_13_EnemyBase enemy))
             {
                 Genome g = CurrentGenomePool[UnityEngine.Random.Range(0, CurrentGenomePool.Count)];
-                enemy.Initialize(g.Clone());
+                enemy.Initialize(ScaleGenome(g.Clone()), GetHpMultiplier());
             }
 
             OnEnemySpawned?.Invoke(enemyGo);
@@ -222,8 +241,7 @@ namespace MutationSwarm.Core
             EnemiesAlive = Mathf.Max(0, EnemiesAlive - 1);
             Script_03_EventBus.Publish(new EnemyCountChangedEvent { alive = EnemiesAlive, total = EnemiesSpawned });
 
-            if (MutationSwarm.Building.Script_23_BuildManager.Instance != null)
-                MutationSwarm.Building.Script_23_BuildManager.Instance.AddMaterials(UnityEngine.Random.Range(1, 4));
+            // Las monedas las otorga Script_42_CoinManager vía EnemyDiedEvent
         }
 
         public void EndWave()
@@ -247,22 +265,11 @@ namespace MutationSwarm.Core
 
         public void EnterUpgradePhase()
         {
-            CurrentWaveState = WaveState.UpgradePhase;
-            Script_03_EventBus.Publish(new UpgradePhaseEvent());
-            OnUpgradePhaseStarted?.Invoke();
-
-            if (!SceneManager.GetSceneByName(_upgradeSceneName).isLoaded)
-                SceneManager.LoadScene(_upgradeSceneName, LoadSceneMode.Additive);
-
-            if (MutationSwarm.Building.Script_23_BuildManager.Instance != null)
-                MutationSwarm.Building.Script_23_BuildManager.Instance.StartBuildPhase();
+            // Eliminado: carga aditiva de escena de mejoras reemplazada por tienda en-escena
         }
 
         public void ExitUpgradePhase()
         {
-            if (SceneManager.GetSceneByName(_upgradeSceneName).isLoaded)
-                SceneManager.UnloadSceneAsync(_upgradeSceneName);
-
             CurrentWaveState = WaveState.Waiting;
         }
     }

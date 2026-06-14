@@ -71,10 +71,10 @@ namespace MutationSwarm.Entities
             if (_rb != null) _rb.gravityScale = savedGravity;
         }
 
-        public void Initialize(Genome genome)
+        public void Initialize(Genome genome, float hpMultiplier = 1f)
         {
             Genome = genome;
-            _maxHp = _baseHp * genome.GetFitnessModifier();
+            _maxHp = _baseHp * genome.GetFitnessModifier() * hpMultiplier;
             _currentHp = _maxHp;
             transform.localScale = Vector3.one * genome.Tamaño;
 

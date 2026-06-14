@@ -52,13 +52,10 @@ namespace MutationSwarm.Combat
             if (weapon == null || OwnsWeapon(weapon))
                 return false;
 
-            if (MutationSwarm.Building.Script_23_BuildManager.Instance == null)
+            if (Script_42_CoinManager.Instance == null)
                 return false;
 
-            if (MutationSwarm.Building.Script_23_BuildManager.Instance.BuildMaterials < weapon.materialCost)
-                return false;
-
-            if (!MutationSwarm.Building.Script_23_BuildManager.Instance.TrySpendMaterials(weapon.materialCost))
+            if (!Script_42_CoinManager.Instance.TrySpend(weapon.materialCost))
                 return false;
 
             UnlockWeapon(weapon);
