@@ -1,196 +1,297 @@
+using MutationSwarm.Combat;
+using MutationSwarm.Core;
+using MutationSwarm.Evolution;
+using MutationSwarm.UI;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 namespace MutationSwarm.Editor
 {
     /// <summary>
-    /// Panel de Control Centralizado — Todos los setup en un solo lugar.
-    /// Reemplaza los 23 menús individuales en UN SOLO MENU.
-    /// Acceso: Tools > Mutation Swarm
+    /// Tools -> Mutation Swarm -> Panel de Control
+    /// 1. Re-slice enemy sprites  2. Create system prefabs  3. Setup Scene_02_GameWorld
     /// </summary>
     public class MutationSwarmControlPanel : EditorWindow
     {
-        private Vector2 _scrollPosition;
-        private int _selectedTab = 0;
-        private readonly string[] _tabs = { "🚀 Setup", "🏗️ Build", "🎬 Escenas", "🎨 Arte" };
+        // ── Known asset GUIDs ──────────────────────────────────────────────
+        const string SPAWN_CONFIG_GUID  = "b538d14e170048e292ebb97ad23d8b48"; // SO_EnemySpawnConfig_Art
+        const string WAVE_CONFIG_GUID   = "13dafb5aea3bca141a99eeaccdca15f9"; // SO_WaveConfig_Default
+        const string PLAYER_PREFAB_GUID = "77e052be38321084b94749dbedc1e251"; // _Player.prefab
+        const string HUD_UXML_GUID      = "a0c22b66346544445b152be2d1aed84e"; // HUD_Main.uxml
+        const string SHOP_UXML_GUID     = "0eb24d64b1f76974aa5360974d60a5e1"; // WeaponShop.uxml
 
-        [MenuItem("Tools/Mutation Swarm")]
-        public static void ShowWindow()
-        {
-            var window = GetWindow<MutationSwarmControlPanel>("Mutation Swarm Control");
-            window.minSize = new Vector2(400, 600);
-        }
+        const string SYSTEM_PREFABS_DIR = "Assets/_Prefabs/System";
+        const string GAME_SCENE_PATH    = "Assets/_Scenes/Scene_02_GameWorld.unity";
+
+        // ── Window ──────────────────────────────────────────────────────────
+        [MenuItem("Tools/Mutation Swarm/Panel de Control")]
+        public static void ShowWindow() =>
+            GetWindow<MutationSwarmControlPanel>("Mutation Swarm").minSize = new Vector2(340, 280);
 
         private void OnGUI()
         {
-            GUILayout.Label("Mutation Swarm 2D — Control Panel", EditorStyles.boldLabel);
-            EditorGUILayout.Space();
+            var header  = new GUIStyle(EditorStyles.boldLabel) { fontSize = 13 };
+            var section = new GUIStyle(EditorStyles.boldLabel) { fontSize = 11 };
 
-            _selectedTab = GUILayout.Toolbar(_selectedTab, _tabs);
-            EditorGUILayout.Space();
+            EditorGUILayout.LabelField("Mutation Swarm 2D — Panel de Control", header);
+            EditorGUILayout.Space(10);
 
-            _scrollPosition = GUILayout.BeginScrollView(_scrollPosition);
+            // ── 1. Sprites ──────────────────────────────────────────────────
+            EditorGUILayout.LabelField("1. Sprites Enemigos", section);
+            EditorGUILayout.HelpBox(
+                "Re-corta los sprite sheets y wirea animaciones en los 4 prefabs de enemigos.",
+                MessageType.None);
+            if (GUILayout.Button("Re-Slice y Setup Animaciones Enemigas", GUILayout.Height(32)))
+                EnemyPrefabAnimFixer.ResliceAndSetupAll();
 
-            switch (_selectedTab)
+            EditorGUILayout.Space(12);
+
+            // ── 2. Prefabs ──────────────────────────────────────────────────
+            EditorGUILayout.LabelField("2. Prefabs del Sistema (arrastrables)", section);
+            EditorGUILayout.HelpBox(
+                "Crea Assets/_Prefabs/System/: Managers, WaveSystem, HUD, WeaponShop, Bootstrap, SpawnRing.",
+                MessageType.None);
+            if (GUILayout.Button("Crear / Actualizar Prefabs del Sistema", GUILayout.Height(32)))
+                CreateSystemPrefabs();
+
+            EditorGUILayout.Space(12);
+
+            // ── 3. Scene ────────────────────────────────────────────────────
+            EditorGUILayout.LabelField("3. Armar Escena de Juego", section);
+            EditorGUILayout.HelpBox(
+                "Instancia los prefabs del sistema en Scene_02_GameWorld y construye la arena.",
+                MessageType.None);
+            if (GUILayout.Button("Configurar Scene_02_GameWorld", GUILayout.Height(32)))
+                SetupGameScene();
+        }
+
+        // ================================================================
+        //  SYSTEM PREFABS
+        // ================================================================
+        static void CreateSystemPrefabs()
+        {
+            if (!AssetDatabase.IsValidFolder(SYSTEM_PREFABS_DIR))
+                AssetDatabase.CreateFolder("Assets/_Prefabs", "System");
+
+            CreateManagersPrefab();
+            CreateWaveSystemPrefab();
+            CreateHUDPrefab();
+            CreateShopPrefab();
+            CreateBootstrapPrefab();
+            CreateSpawnRingPrefab();
+
+            AssetDatabase.SaveAssets();
+            AssetDatabase.Refresh();
+            Debug.Log("[MutationSwarm] Prefabs creados en " + SYSTEM_PREFABS_DIR);
+        }
+
+        // _Managers: GameManager + CoinManager
+        static void CreateManagersPrefab()
+        {
+            var root = new GameObject("_Managers");
+            AddChild<Script_01_GameManager>(root, "GameManager");
+            AddChild<Script_42_CoinManager>(root, "CoinManager");
+            SaveAndDestroy(root, "Prefab_Managers");
+        }
+
+        // _WaveSystem: WaveManager (SO_WaveConfig + SO_EnemySpawnConfig pre-assigned)
+        static void CreateWaveSystemPrefab()
+        {
+            var root     = new GameObject("_WaveSystem");
+            var wm       = AddChild<Script_02_WaveManager>(root, "WaveManager");
+            var spawnCfg = LoadByGuid<SO_EnemySpawnConfig>(SPAWN_CONFIG_GUID);
+            var waveCfg  = LoadByGuid<SO_WaveConfig>(WAVE_CONFIG_GUID);
+
+            var so = new SerializedObject(wm);
+            if (spawnCfg != null) so.FindProperty("_spawnConfig").objectReferenceValue = spawnCfg;
+            if (waveCfg  != null) so.FindProperty("_config").objectReferenceValue      = waveCfg;
+            so.ApplyModifiedPropertiesWithoutUndo();
+
+            SaveAndDestroy(root, "Prefab_WaveSystem");
+        }
+
+        // _HUD: UIDocument (HUD_Main.uxml) + HUDController (wired)
+        static void CreateHUDPrefab()
+        {
+            var root   = new GameObject("_HUD");
+            var doc    = root.AddComponent<UIDocument>();
+            var hud    = root.AddComponent<Script_25_HUDController>();
+            var xmlDoc = LoadByGuid<VisualTreeAsset>(HUD_UXML_GUID);
+
+            SetField(doc, "m_SourceAsset", xmlDoc);
+            SetField(hud, "_uiDocument",   doc);
+
+            SaveAndDestroy(root, "Prefab_HUD");
+        }
+
+        // _WeaponShop: UIDocument + WeaponShopUI + WeaponShopManager (all wired together)
+        static void CreateShopPrefab()
+        {
+            var root    = new GameObject("_WeaponShop");
+            var doc     = root.AddComponent<UIDocument>();
+            var shopUi  = root.AddComponent<Script_40_WeaponShopUI>();
+            var shopMgr = root.AddComponent<Script_39_WeaponShopManager>();
+            var xmlDoc  = LoadByGuid<VisualTreeAsset>(SHOP_UXML_GUID);
+
+            SetField(doc,     "m_SourceAsset", xmlDoc);
+            SetField(shopUi,  "_uiDocument",   doc);
+            SetField(shopMgr, "_shopUi",       shopUi);
+
+            SaveAndDestroy(root, "Prefab_WeaponShop");
+        }
+
+        // _Bootstrap: GameplayBootstrap with _Player.prefab assigned
+        static void CreateBootstrapPrefab()
+        {
+            var root      = new GameObject("_Bootstrap");
+            var bootstrap = root.AddComponent<Script_32_GameplayBootstrap>();
+            var player    = LoadByGuid<GameObject>(PLAYER_PREFAB_GUID);
+
+            SetField(bootstrap, "_playerPrefab", player);
+
+            SaveAndDestroy(root, "Prefab_Bootstrap");
+        }
+
+        // _SpawnRing: 8 Script_39_SpawnPoint children on a circle of radius 10
+        static void CreateSpawnRingPrefab()
+        {
+            var root  = new GameObject("_SpawnRing");
+            int count = 8;
+            float r   = 10f;
+
+            for (int i = 0; i < count; i++)
             {
-                case 0:
-                    DrawSetupTab();
-                    break;
-                case 1:
-                    DrawBuildTab();
-                    break;
-                case 2:
-                    DrawScenesTab();
-                    break;
-                case 3:
-                    DrawArtTab();
-                    break;
+                float angle = 360f / count * i * Mathf.Deg2Rad;
+                var sp = new GameObject($"SpawnPoint_{i + 1}");
+                sp.AddComponent<Script_39_SpawnPoint>();
+                sp.transform.SetParent(root.transform);
+                sp.transform.localPosition = new Vector3(Mathf.Cos(angle) * r, Mathf.Sin(angle) * r, 0f);
             }
 
-            GUILayout.EndScrollView();
+            SaveAndDestroy(root, "Prefab_SpawnRing");
         }
 
-        private void DrawSetupTab()
+        // ================================================================
+        //  SCENE SETUP
+        // ================================================================
+        static void SetupGameScene()
         {
-            GUILayout.Label("🚀 Setup Inicial", EditorStyles.boldLabel);
-            DrawButton("Setup Completo del Proyecto", () => CallMethod("MutationSwarmProjectSetup", "SetupCompleteProject"), 40);
-            DrawButton("Full Game Setup (Playable)", () => CallMethod("MutationSwarmFullSetup", "ExecuteFullSetup"), 40);
+            var scene = EditorSceneManager.GetSceneByPath(GAME_SCENE_PATH);
+            if (!scene.IsValid())
+                scene = EditorSceneManager.OpenScene(GAME_SCENE_PATH, OpenSceneMode.Single);
 
-            EditorGUILayout.Space(10);
-            GUILayout.Label("🔧 Fixes (Ejecutar primero)", EditorStyles.boldLabel);
-
-            DrawButton("Fix UI (Black Screen) ← RUN THIS FIRST", () => 
-                CallMethod("MutationSwarmUIFix", "FixAll"), 40);
-
-            DrawButton("Fix UI Current Scene Only", () => 
-                CallMethod("MutationSwarmUIFix", "FixCurrentSceneOnly"), 35);
-
-            DrawButton("Fix _Player Prefab", () => 
-                CallMethod("MutationSwarmPlayerPrefabFixer", "FixPlayerPrefab"), 35);
-
-            EditorGUILayout.Space(10);
-            GUILayout.Label("🎮 Spawn Points", EditorStyles.boldLabel);
-
-            DrawButton("Setup Spawn Points in All Rooms", () => 
-                CallMethod("MutationSwarmRoomSpawnPointSetup", "SetupAllRoomSpawnPoints"), 35);
-
-            DrawButton("Setup Spawn Points in Current Room", () => 
-                CallMethod("MutationSwarmRoomSpawnPointSetup", "SetupCurrentRoomSpawnPoints"), 35);
-        }
-
-        private void DrawBuildTab()
-        {
-            GUILayout.Label("🏗️ Build & Export", EditorStyles.boldLabel);
-            DrawButton("Build All Content (Kenney + Scenes)", () => 
-                CallMethod("BuildPipeline", "BuildAllContent"), 40);
-            
-            DrawButton("Build All Rooms", () => 
-                CallMethod("MutationSwarmRoomBuilder", "BuildAllRooms"), 35);
-            
-            DrawButton("Build Art Level (Scene_02)", () => 
-                CallMethod("MutationSwarmArtLevelBuilder", "BuildArtLevel"), 35);
-
-            EditorGUILayout.Space(10);
-            GUILayout.Label("📦 Windows Executable", EditorStyles.boldLabel);
-
-            DrawButton("Build Windows (Debug)", () => 
-                CallMethod("BuildPipeline", "BuildWindows"), 35);
-
-            DrawButton("Build Windows (Release)", () => 
-                CallMethod("BuildPipeline", "BuildWindowsRelease"), 35);
-        }
-
-        private void DrawScenesTab()
-        {
-            GUILayout.Label("🎬 Setup Escenas", EditorStyles.boldLabel);
-
-            DrawButton("Setup All Scenes", () => 
-                CallMethod("MutationSwarmSceneSetup", "SetupAllScenes"), 40);
-
-            EditorGUILayout.Space(10);
-            GUILayout.Label("Escenas Individuales", EditorStyles.boldLabel);
-
-            DrawButton("Setup Scene_00_Boot", () => 
-                CallMethod("MutationSwarmSceneSetup", "SetupBootScene"), 35);
-
-            DrawButton("Setup Scene_01_MainMenu", () => 
-                CallMethod("MutationSwarmSceneSetup", "SetupMainMenuScene"), 35);
-
-            DrawButton("Setup Scene_02_GameWorld", () => 
-                CallMethod("MutationSwarmSceneSetup", "SetupGameWorldScene"), 35);
-
-            DrawButton("Setup Scene_03_UpgradeMenu", () => 
-                CallMethod("MutationSwarmSceneSetup", "SetupUpgradeMenuScene"), 35);
-        }
-
-        private void DrawArtTab()
-        {
-            GUILayout.Label("🎨 Arte & Sprites", EditorStyles.boldLabel);
-
-            DrawButton("Import Art Package Settings", () => 
-                CallMethod("MutationSwarmArtLevelBuilder", "ImportArtPackageSettings"), 35);
-
-            DrawButton("Build Enemy Sprites (Art Bible)", () => 
-                CallMethod("MutationSwarmEnemyArtSetup", "BuildEnemySprites"), 35);
-
-            DrawButton("Build Enemy Animations (Full Pipeline)", () => 
-                CallMethod("MutationSwarmEnemyAnimationSetup", "BuildEnemyAnimations"), 35);
-
-            DrawButton("Build Player Sprite (Argos Armor)", () => 
-                CallMethod("MutationSwarmPlayerArtSetup", "BuildPlayerSprite"), 35);
-
-            EditorGUILayout.Space(10);
-            GUILayout.Label("📥 Imports", EditorStyles.boldLabel);
-
-            DrawButton("Import & Slice Player Sprite Sheets", () => 
-                CallMethod("MutationSwarmPlayerSpriteImporter", "ImportAndSlice"), 35);
-
-            DrawButton("Inspect Player Sprite Sheets", () => 
-                CallMethod("MutationSwarmPlayerSpriteImporter", "InspectSpriteSheets"), 35);
-
-            DrawButton("Import Guns Pack + Weapon Shop", () => 
-                CallMethod("MutationSwarmGunsImport", "ImportGunsPackAndWeaponShop"), 35);
-
-            DrawButton("Build Kenney UI + Playable Level", () => 
-                CallMethod("MutationSwarmKenneyGameplaySetup", "BuildKenneyUI"), 35);
-        }
-
-        private void DrawButton(string label, System.Action onClick, int height = 35)
-        {
-            if (GUILayout.Button(label, GUILayout.Height(height)))
+            if (!scene.IsValid())
             {
-                try
-                {
-                    onClick?.Invoke();
-                }
-                catch (System.Exception ex)
-                {
-                    EditorUtility.DisplayDialog("Error", $"Error executing: {ex.Message}", "OK");
-                }
-            }
-        }
-
-        private void CallMethod(string className, string methodName)
-        {
-            var type = System.Type.GetType($"MutationSwarm.Editor.{className}");
-            if (type == null)
-            {
-                Debug.LogError($"[ControlPanel] No se encontró clase: {className}");
+                Debug.LogError("[MutationSwarm] No se encontro " + GAME_SCENE_PATH + ". Creala primero.");
                 return;
             }
 
-            var method = type.GetMethod(methodName, 
-                System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.Static);
-            
-            if (method == null)
+            // Check prefabs exist
+            var prefabMgr   = LoadPrefab("Prefab_Managers");
+            var prefabWave  = LoadPrefab("Prefab_WaveSystem");
+            var prefabHUD   = LoadPrefab("Prefab_HUD");
+            var prefabShop  = LoadPrefab("Prefab_WeaponShop");
+            var prefabBoot  = LoadPrefab("Prefab_Bootstrap");
+            var prefabSpawn = LoadPrefab("Prefab_SpawnRing");
+
+            if (prefabMgr == null || prefabWave == null || prefabHUD == null ||
+                prefabShop == null || prefabBoot == null || prefabSpawn == null)
             {
-                Debug.LogError($"[ControlPanel] No se encontró método: {className}.{methodName}");
+                Debug.LogWarning("[MutationSwarm] Primero crea los prefabs del sistema (boton 2).");
                 return;
             }
 
-            method.Invoke(null, null);
+            // Remove duplicates
+            foreach (var name in new[] { "_Managers", "_WaveSystem", "_HUD", "_WeaponShop", "_Bootstrap", "_SpawnRing", "Arena" })
+                RemoveExistingByName(name);
+
+            // Instantiate
+            PrefabUtility.InstantiatePrefab(prefabMgr);
+            PrefabUtility.InstantiatePrefab(prefabWave);
+            PrefabUtility.InstantiatePrefab(prefabHUD);
+            PrefabUtility.InstantiatePrefab(prefabShop);
+            PrefabUtility.InstantiatePrefab(prefabBoot);
+            PrefabUtility.InstantiatePrefab(prefabSpawn);
+
+            // Build arena walls
+            BuildArena();
+
+            EditorSceneManager.MarkSceneDirty(scene);
+            EditorSceneManager.SaveScene(scene);
+            Debug.Log("[MutationSwarm] Scene_02_GameWorld configurada con todos los sistemas.");
+        }
+
+        static void BuildArena()
+        {
+            // 24x14 enclosed arena; player spawns near center
+            var arena = new GameObject("Arena");
+            CreateWall(arena, "Floor",     new Vector3(0f, -7.5f, 0f), new Vector2(26f, 1f));
+            CreateWall(arena, "Ceiling",   new Vector3(0f,  7.5f, 0f), new Vector2(26f, 1f));
+            CreateWall(arena, "WallLeft",  new Vector3(-13f, 0f, 0f),  new Vector2(1f, 16f));
+            CreateWall(arena, "WallRight", new Vector3( 13f, 0f, 0f),  new Vector2(1f, 16f));
+        }
+
+        static void CreateWall(GameObject parent, string name, Vector3 pos, Vector2 size)
+        {
+            var go = new GameObject(name);
+            go.transform.SetParent(parent.transform);
+            go.transform.position = pos;
+
+            var sr = go.AddComponent<SpriteRenderer>();
+            sr.color  = new Color(0.22f, 0.22f, 0.25f, 1f);
+            sr.sprite = AssetDatabase.GetBuiltinExtraResource<Sprite>("UI/Skin/UISprite.psd");
+            go.transform.localScale = new Vector3(size.x, size.y, 1f);
+
+            go.AddComponent<BoxCollider2D>();
+        }
+
+        // ================================================================
+        //  HELPERS
+        // ================================================================
+        static T AddChild<T>(GameObject parent, string childName) where T : Component
+        {
+            var go = new GameObject(childName);
+            go.transform.SetParent(parent.transform);
+            return go.AddComponent<T>();
+        }
+
+        static void SetField(Object target, string fieldName, Object value)
+        {
+            var so   = new SerializedObject(target);
+            var prop = so.FindProperty(fieldName);
+            if (prop != null)
+            {
+                prop.objectReferenceValue = value;
+                so.ApplyModifiedPropertiesWithoutUndo();
+            }
+            else
+            {
+                Debug.LogWarning($"[MutationSwarm] Campo '{fieldName}' no encontrado en {target.GetType().Name}");
+            }
+        }
+
+        static void SaveAndDestroy(GameObject root, string prefabName)
+        {
+            string path = $"{SYSTEM_PREFABS_DIR}/{prefabName}.prefab";
+            PrefabUtility.SaveAsPrefabAsset(root, path);
+            Object.DestroyImmediate(root);
+        }
+
+        static T LoadByGuid<T>(string guid) where T : Object
+        {
+            string path = AssetDatabase.GUIDToAssetPath(guid);
+            return string.IsNullOrEmpty(path) ? null : AssetDatabase.LoadAssetAtPath<T>(path);
+        }
+
+        static GameObject LoadPrefab(string prefabName) =>
+            AssetDatabase.LoadAssetAtPath<GameObject>($"{SYSTEM_PREFABS_DIR}/{prefabName}.prefab");
+
+        static void RemoveExistingByName(string name)
+        {
+            var go = GameObject.Find(name);
+            if (go != null) Object.DestroyImmediate(go);
         }
     }
 }
