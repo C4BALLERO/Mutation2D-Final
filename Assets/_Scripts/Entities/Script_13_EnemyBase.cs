@@ -371,7 +371,7 @@ namespace MutationSwarm.Entities
         }
 
         public float GetMoveSpeed() => _baseSpeed * (Genome?.Velocidad ?? 1f);
-        public float GetVisionRadius() => 5f * (Genome?.RangoVision ?? 0.5f);
+        public float GetVisionRadius() => 12f * (Genome?.RangoVision ?? 1f);
 
         public void DrawVisionGizmo()
         {

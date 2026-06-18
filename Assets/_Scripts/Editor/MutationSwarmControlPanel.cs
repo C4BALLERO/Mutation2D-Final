@@ -77,6 +77,16 @@ namespace MutationSwarm.Editor
             if (GUILayout.Button("Reestructurar Jerarquía Enemigos", GUILayout.Height(32)))
                 RestructureEnemyHierarchy();
 
+            EditorGUILayout.Space(12);
+
+            // ── 5. Diablito Fireball ────────────────────────────────────────
+            EditorGUILayout.LabelField("5. Diablito — Bola de Fuego", section);
+            EditorGUILayout.HelpBox(
+                "Crea Prefab_Fireball y añade Script_41_EnemyRangedAttack al Diablito con la bola de fuego asignada.",
+                MessageType.None);
+            if (GUILayout.Button("Setup Fireball + Diablito", GUILayout.Height(32)))
+                SetupDiablitoFireball();
+
         }
 
         // ================================================================
@@ -337,6 +347,64 @@ namespace MutationSwarm.Editor
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh();
             Debug.Log($"[MutationSwarm] {done} prefabs reestructurados (Hitbox + Visual).");
+        }
+
+        // ================================================================
+        //  DIABLITO FIREBALL SETUP
+        // ================================================================
+        const string DIABLITO_PATH = "Assets/_Prefabs/Enemies/Enemi_Diablito.prefab";
+        const string FIREBALL_PATH = "Assets/_Prefabs/Enemies/Prefab_Fireball.prefab";
+
+        static void SetupDiablitoFireball()
+        {
+            // ── 1. Crear prefab Fireball ─────────────────────────────────────
+            var fb = new GameObject("Prefab_Fireball");
+
+            var rb = fb.AddComponent<Rigidbody2D>();
+            rb.gravityScale = 0f;
+            rb.freezeRotation = true;
+            rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+
+            var col = fb.AddComponent<CircleCollider2D>();
+            col.isTrigger = true;
+            col.radius = 0.28f;
+
+            var sr = fb.AddComponent<SpriteRenderer>();
+            sr.sprite = AssetDatabase.GetBuiltinExtraResource<Sprite>("UI/Skin/Knob.psd");
+            sr.color  = new Color(1f, 0.38f, 0f);  // naranja fuego
+            sr.sortingOrder = 10;
+            fb.transform.localScale = Vector3.one * 0.5f;
+
+            fb.AddComponent<Script_20_EnemyProjectile>();
+
+            var savedFireball = PrefabUtility.SaveAsPrefabAsset(fb, FIREBALL_PATH);
+            DestroyImmediate(fb);
+
+            // ── 2. Añadir Script_41_EnemyRangedAttack al Diablito ────────────
+            if (AssetDatabase.LoadAssetAtPath<GameObject>(DIABLITO_PATH) == null)
+            {
+                Debug.LogWarning("[MutationSwarm] No se encontro " + DIABLITO_PATH);
+                return;
+            }
+
+            var diablito = PrefabUtility.LoadPrefabContents(DIABLITO_PATH);
+
+            if (!diablito.TryGetComponent(out Script_41_EnemyRangedAttack ranged))
+                ranged = diablito.AddComponent<Script_41_EnemyRangedAttack>();
+
+            var so = new SerializedObject(ranged);
+            so.FindProperty("_projectilePrefab").objectReferenceValue = savedFireball;
+            so.FindProperty("_fireRange").floatValue  = 7f;
+            so.FindProperty("_fireRate").floatValue   = 2.5f;
+            so.FindProperty("_enabled").boolValue     = true;
+            so.ApplyModifiedPropertiesWithoutUndo();
+
+            PrefabUtility.SaveAsPrefabAsset(diablito, DIABLITO_PATH);
+            PrefabUtility.UnloadPrefabContents(diablito);
+
+            AssetDatabase.SaveAssets();
+            AssetDatabase.Refresh();
+            Debug.Log("[MutationSwarm] Fireball creado y Diablito configurado con ataque a distancia.");
         }
 
         // ================================================================

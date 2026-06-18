@@ -1,3 +1,4 @@
+using MutationSwarm.Combat;
 using UnityEngine;
 
 namespace MutationSwarm.Entities
@@ -84,6 +85,16 @@ namespace MutationSwarm.Entities
                     enemy.StateMachine.ChangeState(new IdleState());
                 return;
             }
+            _loseSightTimer = 2f;
+
+            float distance = enemy.DistanceTo(target);
+
+            // Enemigo a distancia: mantener rango y dejar que el componente auto-dispare.
+            if (enemy.TryGetComponent(out Script_41_EnemyRangedAttack ranged) && distance <= ranged.FireRange * 0.9f)
+            {
+                enemy.TriggerIdle();
+                return;
+            }
 
             Vector2 directionToPlayer = ((Vector2)target.position - (Vector2)enemy.transform.position).normalized;
             Vector2 finalDirection = directionToPlayer;
@@ -96,7 +107,7 @@ namespace MutationSwarm.Entities
 
             enemy.MoveInDirection(finalDirection);
 
-            if (enemy.DistanceTo(target) <= enemy.AttackRange)
+            if (distance <= enemy.AttackRange)
             {
                 enemy.StateMachine.ChangeState(new AttackState());
                 return;
@@ -141,7 +152,7 @@ namespace MutationSwarm.Entities
                 return;
 
             float distance = enemy.DistanceTo(target);
-            if (distance < 0.8f)
+            if (distance <= enemy.AttackRange)
             {
                 enemy.DealMeleeDamageTo(target);
 

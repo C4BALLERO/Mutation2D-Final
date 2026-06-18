@@ -15,8 +15,11 @@ namespace MutationSwarm.Combat
         [SerializeField] private bool _enabled = true;
         [SerializeField] private float _fireRate = 2f;
         [SerializeField] private float _fireRange = 8f;
+        [SerializeField] private GameObject _projectilePrefab;
         [SerializeField] private string _projectilePoolKey = "Projectile_Enemy_Basic";
         [SerializeField] private Transform _firePoint;
+
+        public float FireRange => _fireRange;
 
         [Header("Patrón (opcional)")]
         [SerializeField] private bool _useSpreadPattern = false;
@@ -75,6 +78,17 @@ namespace MutationSwarm.Combat
         /// </summary>
         private void FireSingle(Vector2 direction)
         {
+            // Prefab directo (sin pool) — usado por Diablito con bola de fuego.
+            if (_projectilePrefab != null)
+            {
+                var go = Instantiate(_projectilePrefab, _firePoint.position, Quaternion.identity);
+                if (go.TryGetComponent(out Script_20_EnemyProjectile ep))
+                    ep.Launch(direction);
+                return;
+            }
+
+            if (Script_04_ObjectPool.Instance == null)
+                return;
             GameObject proj = Script_04_ObjectPool.Instance.Get(_projectilePoolKey);
             if (proj == null)
                 return;
