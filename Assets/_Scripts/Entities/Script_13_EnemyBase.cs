@@ -42,7 +42,7 @@ namespace MutationSwarm.Entities
         public float DamageDone { get; private set; }
         public float CurrentHp => _currentHp;
         public float MaxHp => _maxHp;
-        public float AttackRange => _attackRange;
+        public float AttackRange => _attackRange * _attackRangeMultiplier;
         public float SpinesDamageMultiplier => _spinesDamageMultiplier;
         public Script_14_EnemyStateMachine StateMachine => _stateMachine;
 
@@ -53,6 +53,8 @@ namespace MutationSwarm.Entities
         private Material _runtimeMutationMaterial;
         private float _currentHp;
         private float _maxHp;
+        private float _damageMultiplier = 1f;
+        private float _attackRangeMultiplier = 1f;
         private bool _hasDied;
         private Vector2 _lastMoveDirection = Vector2.right;
         private float _hitFlashCooldown;
@@ -74,10 +76,12 @@ namespace MutationSwarm.Entities
             if (_rb != null) _rb.gravityScale = savedGravity;
         }
 
-        public void Initialize(Genome genome, float hpMultiplier = 1f)
+        public void Initialize(Genome genome, float hpMultiplier = 1f, float damageMultiplier = 1f, float attackRangeMultiplier = 1f)
         {
             Genome = genome;
             _maxHp = _baseHp * genome.GetFitnessModifier() * hpMultiplier;
+            _damageMultiplier = damageMultiplier;
+            _attackRangeMultiplier = attackRangeMultiplier;
             _currentHp = _maxHp;
             transform.localScale = Vector3.one * genome.Tamaño;
 
@@ -249,7 +253,7 @@ namespace MutationSwarm.Entities
                 return;
 
             if (playerTarget.TryGetComponent(out Script_11_PlayerController playerController))
-                playerController.ApplyDamage(_baseDamage * (1f + Genome.Velocidad * 0.2f));
+                playerController.ApplyDamage(_baseDamage * _damageMultiplier * (1f + Genome.Velocidad * 0.2f));
 
             RegisterDamageDealt(_baseDamage);
         }

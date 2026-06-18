@@ -160,7 +160,7 @@ namespace MutationSwarm.Core
             if (enemyGo.TryGetComponent(out Script_13_EnemyBase enemy))
             {
                 Genome g = CurrentGenomePool[UnityEngine.Random.Range(0, CurrentGenomePool.Count)];
-                enemy.Initialize(ScaleGenome(g.Clone()), GetHpMultiplier());
+                enemy.Initialize(ScaleGenome(g.Clone()), GetHpMultiplier(), GetDmgMultiplier(), GetRangeMultiplier());
             }
 
             OnEnemySpawned?.Invoke(enemyGo);
@@ -177,11 +177,9 @@ namespace MutationSwarm.Core
             return g;
         }
 
-        private float GetHpMultiplier()
-        {
-            if (_config == null) return 1f;
-            return 1f + _config.hpMultiplierPerWave * (CurrentWave - 1);
-        }
+        private float GetHpMultiplier()     => _config == null ? 1f : 1f + _config.hpMultiplierPerWave          * (CurrentWave - 1);
+        private float GetDmgMultiplier()    => _config == null ? 1f : 1f + _config.damageMultiplierPerWave      * (CurrentWave - 1);
+        private float GetRangeMultiplier()  => _config == null ? 1f : 1f + _config.attackRangeMultiplierPerWave * (CurrentWave - 1);
 
         /// <summary>
         /// Spawna un enemigo usando el nuevo sistema con Script_39_SpawnPoint.
@@ -222,7 +220,7 @@ namespace MutationSwarm.Core
             if (enemyGo.TryGetComponent(out Script_13_EnemyBase enemy))
             {
                 Genome g = CurrentGenomePool[UnityEngine.Random.Range(0, CurrentGenomePool.Count)];
-                enemy.Initialize(ScaleGenome(g.Clone()), GetHpMultiplier());
+                enemy.Initialize(ScaleGenome(g.Clone()), GetHpMultiplier(), GetDmgMultiplier(), GetRangeMultiplier());
             }
 
             OnEnemySpawned?.Invoke(enemyGo);

@@ -1,6 +1,5 @@
 using MutationSwarm.Combat;
 using MutationSwarm.Core;
-using MutationSwarm.Entities;
 using MutationSwarm.Evolution;
 using MutationSwarm.UI;
 using UnityEditor;
@@ -26,13 +25,10 @@ namespace MutationSwarm.Editor
         const string SYSTEM_PREFABS_DIR = "Assets/_Prefabs/System";
         const string GAME_SCENE_PATH    = "Assets/_Scenes/Scene_02_GameWorld.unity";
 
-        const string ENEMY_BASE_DIR     = "Assets/_Prefabs/Enemies";
-        const string VARIANTS_DIR       = "Assets/_Prefabs/Enemies/Variants";
-
         // ── Window ──────────────────────────────────────────────────────────
         [MenuItem("Tools/Mutation Swarm/Panel de Control")]
         public static void ShowWindow() =>
-            GetWindow<MutationSwarmControlPanel>("Mutation Swarm").minSize = new Vector2(340, 370);
+            GetWindow<MutationSwarmControlPanel>("Mutation Swarm").minSize = new Vector2(340, 280);
 
         private void OnGUI()
         {
@@ -70,15 +66,6 @@ namespace MutationSwarm.Editor
             if (GUILayout.Button("Configurar Scene_02_GameWorld", GUILayout.Height(32)))
                 SetupGameScene();
 
-            EditorGUILayout.Space(12);
-
-            // ── 4. Enemy Variants ───────────────────────────────────────────
-            EditorGUILayout.LabelField("4. Variantes de Enemigos", section);
-            EditorGUILayout.HelpBox(
-                "Crea Rapido, Tanque y Elite para cada uno de los 4 enemigos (12 prefabs en Variants/).\nComparten las mismas animaciones que los prefabs base.",
-                MessageType.None);
-            if (GUILayout.Button("Crear Variantes de Enemigos", GUILayout.Height(32)))
-                CreateEnemyVariants();
         }
 
         // ================================================================
@@ -264,95 +251,6 @@ namespace MutationSwarm.Editor
         // ================================================================
         //  ENEMY VARIANTS
         // ================================================================
-
-        // (nameSuffix, speedMult, hpMult, damageMult, attackRange)
-        static readonly (string suffix, float spd, float hp, float dmg, float range)[] VariantDefs =
-        {
-            ("Rapido", 2.5f, 0.5f,  0.8f, 0.7f),  // fast, fragile
-            ("Tanque", 0.55f, 3.0f, 1.8f, 1.1f),  // slow, heavy
-            ("Elite",  1.5f, 2.0f,  1.5f, 1.0f),  // balanced upgrade
-        };
-
-        // (baseName, walk-frame-0 guid, walk-frame-0 fileID)
-        static readonly (string name, string spriteGuid, long spriteFileId)[] BaseEnemies =
-        {
-            ("Enemi_Dino",      "bf34fa1f1347897409d8a7c5fdfa9dc9",  4151462045169555281L),
-            ("Enemi_Mono",      "d3907c7ac9334e944aa4815fca678e64", -9042599199946578222L),
-            ("Enemi_Diablito",  "69605e78c0d56b941968e96ac7fc7f2a",  3564749028224628192L),
-            ("Enemi_3",         "c7a6d4c5d065d2f4884bdbfc69019f1c", -6578401572324881044L),
-        };
-
-        static void CreateEnemyVariants()
-        {
-            if (!AssetDatabase.IsValidFolder(VARIANTS_DIR))
-                AssetDatabase.CreateFolder(ENEMY_BASE_DIR, "Variants");
-
-            int created = 0;
-
-            foreach (var (baseName, spriteGuid, spriteFileId) in BaseEnemies)
-            {
-                string basePath = $"{ENEMY_BASE_DIR}/{baseName}.prefab";
-                var basePrefab  = AssetDatabase.LoadAssetAtPath<GameObject>(basePath);
-                if (basePrefab == null)
-                {
-                    Debug.LogWarning($"[MutationSwarm] No se encontro {basePath}");
-                    continue;
-                }
-
-                // Load walk-frame-0 sprite to use as editor preview sprite
-                string spritePath = AssetDatabase.GUIDToAssetPath(spriteGuid);
-                var frame0 = AssetDatabase.LoadAssetAtPath<Sprite>(spritePath + $"[{spriteFileId}]");
-                // Fallback: load first sprite sub-asset
-                if (frame0 == null)
-                {
-                    var subs = AssetDatabase.LoadAllAssetRepresentationsAtPath(spritePath);
-                    foreach (var sub in subs)
-                        if (sub is Sprite s) { frame0 = s; break; }
-                }
-
-                foreach (var (suffix, spd, hp, dmg, range) in VariantDefs)
-                {
-                    var go = (GameObject)PrefabUtility.InstantiatePrefab(basePrefab);
-                    go.name = $"{baseName}_{suffix}";
-                    PrefabUtility.UnpackPrefabInstance(go,
-                        PrefabUnpackMode.Completely, InteractionMode.AutomatedAction);
-
-                    // Set editor-preview sprite to walk frame 0
-                    var sr = go.GetComponent<SpriteRenderer>();
-                    if (sr != null && frame0 != null)
-                    {
-                        var srSo = new SerializedObject(sr);
-                        srSo.FindProperty("m_Sprite").objectReferenceValue = frame0;
-                        srSo.ApplyModifiedPropertiesWithoutUndo();
-                    }
-
-                    // Tweak EnemyBase stats
-                    var eb = go.GetComponent<Script_13_EnemyBase>();
-                    if (eb != null)
-                    {
-                        var so = new SerializedObject(eb);
-                        float baseSpd = so.FindProperty("_baseSpeed").floatValue;
-                        float baseHp  = so.FindProperty("_baseHp").floatValue;
-                        float baseDmg = so.FindProperty("_baseDamage").floatValue;
-
-                        so.FindProperty("_baseSpeed").floatValue   = baseSpd * spd;
-                        so.FindProperty("_baseHp").floatValue      = baseHp  * hp;
-                        so.FindProperty("_baseDamage").floatValue  = baseDmg * dmg;
-                        so.FindProperty("_attackRange").floatValue = range;
-                        so.ApplyModifiedPropertiesWithoutUndo();
-                    }
-
-                    string outPath = $"{VARIANTS_DIR}/{go.name}.prefab";
-                    PrefabUtility.SaveAsPrefabAsset(go, outPath);
-                    Object.DestroyImmediate(go);
-                    created++;
-                }
-            }
-
-            AssetDatabase.SaveAssets();
-            AssetDatabase.Refresh();
-            Debug.Log($"[MutationSwarm] {created} variantes creadas en {VARIANTS_DIR}");
-        }
 
         // ================================================================
         //  HELPERS

@@ -18,9 +18,11 @@ namespace MutationSwarm.Core
         public float evolutionPhaseDuration = 3f;
 
         [Header("Escalado de dificultad")]
-        public float speedMultiplierPerWave = 0.08f;
-        public float hpMultiplierPerWave    = 0.12f;
-        public int   maxEnemiesCap          = 80;
+        public float speedMultiplierPerWave       = 0.08f;  // +8% velocidad por oleada
+        public float hpMultiplierPerWave          = 0.12f;  // +12% HP por oleada
+        public float damageMultiplierPerWave      = 0.10f;  // +10% daño por oleada
+        public float attackRangeMultiplierPerWave = 0.02f;  // +2% rango por oleada
+        public int   maxEnemiesCap                = 80;
 
         [Header("Referencias de escena")]
         public Transform[] spawnPoints;
