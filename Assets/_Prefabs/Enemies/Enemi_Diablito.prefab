@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 509257900145761287}
   - component: {fileID: 6756180903456392300}
   - component: {fileID: 7651330401652361936}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemi_Diablito
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,14 +178,15 @@ MonoBehaviour:
   _spinesDamageMultiplier: 10
   _playerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   _enemyMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   _mutationMaterialTemplate: {fileID: 0}
   _animator: {fileID: 0}
   _spriteAnimator: {fileID: 0}
   _deathAnimDuration: 0.8
+  _isFlying: 1
 --- !u!114 &7651330401652361936
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -34,6 +34,9 @@ namespace MutationSwarm.Entities
         [SerializeField] private EnemySpriteAnimator _spriteAnimator;
         [SerializeField] private float _deathAnimDuration = 0.8f;
 
+        [Header("Física")]
+        [SerializeField] private bool _isFlying = false;
+
         public Genome Genome { get; private set; }
         public float TimeAlive { get; private set; }
         public float DamageDone { get; private set; }
@@ -104,7 +107,8 @@ namespace MutationSwarm.Entities
             // Ajuste de física 2D según el genoma mutado.
             _rb.mass = Mathf.Lerp(0.8f, 2.2f, Mathf.InverseLerp(Genome.TamañoMin, Genome.TamañoMax, genome.Tamaño));
             _rb.linearDamping = Mathf.Lerp(0f, 1.2f, genome.Armadura);
-            _rb.gravityScale = 1f + genome.Salto * 0.4f;
+            if (!_isFlying)
+                _rb.gravityScale = 1f + genome.Salto * 0.4f;
 
             // Inicialización de la StateMachine con el Genome recibido del WaveManager.
             _stateMachine = new Script_14_EnemyStateMachine(this);

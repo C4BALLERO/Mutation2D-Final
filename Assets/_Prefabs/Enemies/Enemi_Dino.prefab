@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4047154348273656990}
   - component: {fileID: 223895622530480269}
   - component: {fileID: 935512928717847192}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemi_Dino
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,10 +178,10 @@ MonoBehaviour:
   _spinesDamageMultiplier: 10
   _playerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   _enemyMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   _mutationMaterialTemplate: {fileID: 0}
   _animator: {fileID: 0}
   _spriteAnimator: {fileID: 0}
