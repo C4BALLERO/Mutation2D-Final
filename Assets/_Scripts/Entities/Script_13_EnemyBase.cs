@@ -86,15 +86,15 @@ namespace MutationSwarm.Entities
             transform.localScale = Vector3.one * genome.Tamaño;
 
             if (_spriteRenderer == null)
-                _spriteRenderer = GetComponent<SpriteRenderer>();
+                _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
             if (_rb == null)
                 _rb = GetComponent<Rigidbody2D>();
             if (_statusEffects == null)
                 _statusEffects = GetComponent<Script_22_StatusEffects>();
             if (_animator == null)
-                _animator = GetComponent<Animator>();
+                _animator = GetComponentInChildren<Animator>();
             if (_spriteAnimator == null)
-                _spriteAnimator = GetComponent<EnemySpriteAnimator>();
+                _spriteAnimator = GetComponentInChildren<EnemySpriteAnimator>();
 
             if (_spriteRenderer != null)
             {

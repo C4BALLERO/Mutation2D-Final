@@ -1,5 +1,6 @@
 using MutationSwarm.Combat;
 using MutationSwarm.Core;
+using MutationSwarm.Entities;
 using MutationSwarm.Evolution;
 using MutationSwarm.UI;
 using UnityEditor;
@@ -65,6 +66,16 @@ namespace MutationSwarm.Editor
                 MessageType.None);
             if (GUILayout.Button("Configurar Scene_02_GameWorld", GUILayout.Height(32)))
                 SetupGameScene();
+
+            EditorGUILayout.Space(12);
+
+            // ── 4. Jerarquía de Enemigos ────────────────────────────────────
+            EditorGUILayout.LabelField("4. Jerarquía de Enemigos", section);
+            EditorGUILayout.HelpBox(
+                "Separa el CapsuleCollider2D en hijo 'Hitbox' y mueve SpriteRenderer + Animador a hijo 'Visual'.",
+                MessageType.None);
+            if (GUILayout.Button("Reestructurar Jerarquía Enemigos", GUILayout.Height(32)))
+                RestructureEnemyHierarchy();
 
         }
 
@@ -249,8 +260,84 @@ namespace MutationSwarm.Editor
         }
 
         // ================================================================
-        //  ENEMY VARIANTS
+        //  ENEMY HIERARCHY RESTRUCTURE
         // ================================================================
+        static readonly string[] EnemyPrefabPaths =
+        {
+            "Assets/_Prefabs/Enemies/Enemi_3.prefab",
+            "Assets/_Prefabs/Enemies/Enemi_Dino.prefab",
+            "Assets/_Prefabs/Enemies/Enemi_Mono.prefab",
+            "Assets/_Prefabs/Enemies/Enemi_Diablito.prefab",
+        };
+
+        static void RestructureEnemyHierarchy()
+        {
+            int done = 0;
+            foreach (string path in EnemyPrefabPaths)
+            {
+                if (AssetDatabase.LoadAssetAtPath<GameObject>(path) == null)
+                {
+                    Debug.LogWarning($"[MutationSwarm] No se encontro {path}");
+                    continue;
+                }
+
+                var root = PrefabUtility.LoadPrefabContents(path);
+
+                if (root.transform.Find("Hitbox") != null)
+                {
+                    Debug.Log($"[MutationSwarm] {root.name} ya esta reestructurado — omitido.");
+                    PrefabUtility.UnloadPrefabContents(root);
+                    continue;
+                }
+
+                // ── Crear hijos ──────────────────────────────────────────
+                var hitbox = new GameObject("Hitbox");
+                hitbox.transform.SetParent(root.transform, false);
+
+                var visual = new GameObject("Visual");
+                visual.transform.SetParent(root.transform, false);
+
+                // ── Mover CapsuleCollider2D → Hitbox ─────────────────────
+                if (root.TryGetComponent(out CapsuleCollider2D oldCol))
+                {
+                    var newCol = hitbox.AddComponent<CapsuleCollider2D>();
+                    EditorUtility.CopySerializedIfDifferent(oldCol, newCol);
+                    DestroyImmediate(oldCol);
+                }
+
+                // ── Mover SpriteRenderer → Visual ────────────────────────
+                SpriteRenderer newSR = null;
+                if (root.TryGetComponent(out SpriteRenderer oldSR))
+                {
+                    newSR = visual.AddComponent<SpriteRenderer>();
+                    EditorUtility.CopySerializedIfDifferent(oldSR, newSR);
+                    DestroyImmediate(oldSR);
+                }
+
+                // ── Mover EnemySpriteAnimator → Visual ───────────────────
+                if (root.TryGetComponent(out EnemySpriteAnimator oldAnim))
+                {
+                    var newAnim = visual.AddComponent<EnemySpriteAnimator>();
+                    EditorUtility.CopySerializedIfDifferent(oldAnim, newAnim);
+                    // Redirige la referencia al nuevo SpriteRenderer
+                    if (newSR != null)
+                    {
+                        var so = new SerializedObject(newAnim);
+                        so.FindProperty("spriteRenderer").objectReferenceValue = newSR;
+                        so.ApplyModifiedPropertiesWithoutUndo();
+                    }
+                    DestroyImmediate(oldAnim);
+                }
+
+                PrefabUtility.SaveAsPrefabAsset(root, path);
+                PrefabUtility.UnloadPrefabContents(root);
+                done++;
+            }
+
+            AssetDatabase.SaveAssets();
+            AssetDatabase.Refresh();
+            Debug.Log($"[MutationSwarm] {done} prefabs reestructurados (Hitbox + Visual).");
+        }
 
         // ================================================================
         //  HELPERS
