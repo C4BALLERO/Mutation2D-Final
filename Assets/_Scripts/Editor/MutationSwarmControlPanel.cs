@@ -1,5 +1,6 @@
 using MutationSwarm.Combat;
 using MutationSwarm.Core;
+using MutationSwarm.Entities;
 using MutationSwarm.Evolution;
 using MutationSwarm.UI;
 using UnityEditor;
@@ -25,10 +26,13 @@ namespace MutationSwarm.Editor
         const string SYSTEM_PREFABS_DIR = "Assets/_Prefabs/System";
         const string GAME_SCENE_PATH    = "Assets/_Scenes/Scene_02_GameWorld.unity";
 
+        const string ENEMY_BASE_DIR     = "Assets/_Prefabs/Enemies";
+        const string VARIANTS_DIR       = "Assets/_Prefabs/Enemies/Variants";
+
         // ── Window ──────────────────────────────────────────────────────────
         [MenuItem("Tools/Mutation Swarm/Panel de Control")]
         public static void ShowWindow() =>
-            GetWindow<MutationSwarmControlPanel>("Mutation Swarm").minSize = new Vector2(340, 280);
+            GetWindow<MutationSwarmControlPanel>("Mutation Swarm").minSize = new Vector2(340, 370);
 
         private void OnGUI()
         {
@@ -65,6 +69,16 @@ namespace MutationSwarm.Editor
                 MessageType.None);
             if (GUILayout.Button("Configurar Scene_02_GameWorld", GUILayout.Height(32)))
                 SetupGameScene();
+
+            EditorGUILayout.Space(12);
+
+            // ── 4. Enemy Variants ───────────────────────────────────────────
+            EditorGUILayout.LabelField("4. Variantes de Enemigos", section);
+            EditorGUILayout.HelpBox(
+                "Crea Rapido, Tanque y Elite para cada uno de los 4 enemigos (12 prefabs en Variants/).\nComparten las mismas animaciones que los prefabs base.",
+                MessageType.None);
+            if (GUILayout.Button("Crear Variantes de Enemigos", GUILayout.Height(32)))
+                CreateEnemyVariants();
         }
 
         // ================================================================
@@ -245,6 +259,76 @@ namespace MutationSwarm.Editor
             go.transform.localScale = new Vector3(size.x, size.y, 1f);
 
             go.AddComponent<BoxCollider2D>();
+        }
+
+        // ================================================================
+        //  ENEMY VARIANTS
+        // ================================================================
+
+        // (nameSuffix, speedMult, hpMult, damageMult, attackRange)
+        static readonly (string suffix, float spd, float hp, float dmg, float range)[] VariantDefs =
+        {
+            ("Rapido", 2.5f, 0.5f,  0.8f, 0.7f),  // fast, fragile
+            ("Tanque", 0.55f, 3.0f, 1.8f, 1.1f),  // slow, heavy
+            ("Elite",  1.5f, 2.0f,  1.5f, 1.0f),  // balanced upgrade
+        };
+
+        static readonly string[] BaseEnemyNames =
+        {
+            "Enemi_Dino", "Enemi_Mono", "Enemi_Diablito", "Enemi_3"
+        };
+
+        static void CreateEnemyVariants()
+        {
+            if (!AssetDatabase.IsValidFolder(VARIANTS_DIR))
+                AssetDatabase.CreateFolder(ENEMY_BASE_DIR, "Variants");
+
+            int created = 0;
+
+            foreach (string baseName in BaseEnemyNames)
+            {
+                string basePath = $"{ENEMY_BASE_DIR}/{baseName}.prefab";
+                var basePrefab  = AssetDatabase.LoadAssetAtPath<GameObject>(basePath);
+                if (basePrefab == null)
+                {
+                    Debug.LogWarning($"[MutationSwarm] No se encontro {basePath}");
+                    continue;
+                }
+
+                foreach (var (suffix, spd, hp, dmg, range) in VariantDefs)
+                {
+                    // Instantiate and fully unpack so we can edit independently
+                    var go = (GameObject)PrefabUtility.InstantiatePrefab(basePrefab);
+                    go.name = $"{baseName}_{suffix}";
+                    PrefabUtility.UnpackPrefabInstance(go,
+                        PrefabUnpackMode.Completely, InteractionMode.AutomatedAction);
+
+                    // Tweak EnemyBase stats
+                    var eb = go.GetComponent<Script_13_EnemyBase>();
+                    if (eb != null)
+                    {
+                        var so = new SerializedObject(eb);
+                        var baseSpd  = so.FindProperty("_baseSpeed").floatValue;
+                        var baseHp   = so.FindProperty("_baseHp").floatValue;
+                        var baseDmg  = so.FindProperty("_baseDamage").floatValue;
+
+                        so.FindProperty("_baseSpeed").floatValue   = baseSpd  * spd;
+                        so.FindProperty("_baseHp").floatValue      = baseHp   * hp;
+                        so.FindProperty("_baseDamage").floatValue  = baseDmg  * dmg;
+                        so.FindProperty("_attackRange").floatValue = range;
+                        so.ApplyModifiedPropertiesWithoutUndo();
+                    }
+
+                    string outPath = $"{VARIANTS_DIR}/{go.name}.prefab";
+                    PrefabUtility.SaveAsPrefabAsset(go, outPath);
+                    Object.DestroyImmediate(go);
+                    created++;
+                }
+            }
+
+            AssetDatabase.SaveAssets();
+            AssetDatabase.Refresh();
+            Debug.Log($"[MutationSwarm] {created} variantes creadas en {VARIANTS_DIR}");
         }
 
         // ================================================================
