@@ -1958,6 +1958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlataformaMovil (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3102993748160832507, guid: fb33b69fb3907e74a842bcce2f8bc125, type: 3}
+      propertyPath: m_Constraints
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6961140702212145381, guid: fb33b69fb3907e74a842bcce2f8bc125, type: 3}
       propertyPath: m_SortingOrder
       value: 19
@@ -15187,6 +15191,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlataformaMovil (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3102993748160832507, guid: fb33b69fb3907e74a842bcce2f8bc125, type: 3}
+      propertyPath: m_Constraints
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6961140702212145381, guid: fb33b69fb3907e74a842bcce2f8bc125, type: 3}
       propertyPath: m_SortingOrder
       value: 19
@@ -16469,6 +16477,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlataformaMovil (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3102993748160832507, guid: fb33b69fb3907e74a842bcce2f8bc125, type: 3}
+      propertyPath: m_Constraints
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6961140702212145381, guid: fb33b69fb3907e74a842bcce2f8bc125, type: 3}
       propertyPath: m_SortingOrder
       value: 19
@@ -17166,6 +17178,10 @@ PrefabInstance:
     - target: {fileID: 2662263325822487226, guid: fb33b69fb3907e74a842bcce2f8bc125, type: 3}
       propertyPath: m_Name
       value: PlataformaMovil (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102993748160832507, guid: fb33b69fb3907e74a842bcce2f8bc125, type: 3}
+      propertyPath: m_Constraints
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6961140702212145381, guid: fb33b69fb3907e74a842bcce2f8bc125, type: 3}
       propertyPath: m_SortingOrder

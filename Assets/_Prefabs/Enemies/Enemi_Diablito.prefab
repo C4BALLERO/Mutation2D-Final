@@ -327,6 +327,37 @@ MonoBehaviour:
   attackFps: 14
   deathFps: 10
   flipXWithMovement: 1
+--- !u!1 &6404811575207588968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7059910501816996575}
+  m_Layer: 7
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7059910501816996575
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6404811575207588968}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2273202581441655363}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8272467311459094782
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,6 +370,7 @@ GameObject:
   - component: {fileID: 2278243201153937745}
   - component: {fileID: 6756180903456392300}
   - component: {fileID: 5874531401272786879}
+  - component: {fileID: 5670274717434551357}
   m_Layer: 7
   m_Name: Enemi_Diablito
   m_TagString: Untagged
@@ -361,6 +393,7 @@ Transform:
   m_Children:
   - {fileID: 5368977448466700804}
   - {fileID: 5430778629813491690}
+  - {fileID: 7059910501816996575}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &2278243201153937745
@@ -477,3 +510,24 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5670274717434551357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8272467311459094782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f83f5236278ee845b035d8b6b3dedb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MutationSwarm.Combat.Script_41_EnemyRangedAttack
+  _enabled: 1
+  _fireRate: 2.5
+  _fireRange: 7
+  _projectilePrefab: {fileID: 9126346776958250790, guid: 680f3374a6b11ab46ab52079cf6f2d77, type: 3}
+  _projectilePoolKey: Projectile_Enemy_Basic
+  _firePoint: {fileID: 7059910501816996575}
+  _useSpreadPattern: 0
+  _bulletsPerShot: 1
+  _spreadAngle: 30
