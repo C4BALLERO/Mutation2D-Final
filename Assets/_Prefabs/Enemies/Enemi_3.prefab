@@ -300,7 +300,7 @@ MonoBehaviour:
   _baseSpeed: 2
   _baseHp: 30
   _baseDamage: 8
-  _attackRange: 0.8
+  _attackRange: 1.5
   _spinesDamageMultiplier: 10
   _playerMask:
     serializedVersion: 2

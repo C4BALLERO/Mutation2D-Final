@@ -19,7 +19,7 @@ namespace MutationSwarm.Entities
         [SerializeField] private float _baseSpeed = 2f;
         [SerializeField] private float _baseHp = 30f;
         [SerializeField] private float _baseDamage = 8f;
-        [SerializeField] private float _attackRange = 0.8f;
+        [SerializeField] private float _attackRange = 1.5f;
         [SerializeField] private float _spinesDamageMultiplier = 10f;
 
         [Header("Detección")]
@@ -178,7 +178,7 @@ namespace MutationSwarm.Entities
                     float distance = Vector2.Distance(transform.position, player.transform.position);
                     if (distance < nearestDistance) { nearestDistance = distance; nearest = player.transform; }
                 }
-                return nearest;
+                if (nearest != null) return nearest;
             }
             return GetNearestPlayerByTag();
         }
@@ -188,7 +188,7 @@ namespace MutationSwarm.Entities
             if (_playerMask != 0)
             {
                 Collider2D target = Physics2D.OverlapCircle(transform.position, GetVisionRadius(), _playerMask);
-                return target != null;
+                if (target != null) return true;
             }
             return GetNearestPlayerByTag() != null;
         }
@@ -381,9 +381,10 @@ namespace MutationSwarm.Entities
 
         private void OnDrawGizmosSelected()
         {
-            if (Genome == null)
-                return;
             DrawVisionGizmo();
+            // Rango de ataque — rojo
+            Gizmos.color = new Color(1f, 0.1f, 0.1f, 0.5f);
+            Gizmos.DrawWireSphere(transform.position, AttackRange);
         }
     }
 }
