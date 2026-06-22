@@ -72,6 +72,7 @@ namespace MutationSwarm.Entities
             _stats = GetComponent<Script_12_PlayerStats>();
             if (_rb == null) _rb = GetComponent<Rigidbody2D>();
             if (_animator == null) _animator = GetComponentInChildren<Animator>();
+            if (_animator != null && _animator.runtimeAnimatorController == null) _animator = null;
             if (_spriteAnimator == null) _spriteAnimator = GetComponent<PlayerSpriteAnimator>();
             if (_gunPivot == null) _gunPivot = transform.Find("GunPivot");
             if (_gunPivot != null) _gunRenderer = _gunPivot.GetComponent<SpriteRenderer>();

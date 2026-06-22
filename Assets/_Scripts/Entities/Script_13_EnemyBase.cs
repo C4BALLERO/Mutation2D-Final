@@ -93,6 +93,7 @@ namespace MutationSwarm.Entities
                 _statusEffects = GetComponent<Script_22_StatusEffects>();
             if (_animator == null)
                 _animator = GetComponentInChildren<Animator>();
+            if (_animator != null && _animator.runtimeAnimatorController == null) _animator = null;
             if (_spriteAnimator == null)
                 _spriteAnimator = GetComponentInChildren<EnemySpriteAnimator>();
 
