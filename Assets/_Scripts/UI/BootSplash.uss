@@ -6,6 +6,8 @@
 .splash-root {
     flex-grow: 1;
     background-color: rgb(4, 5, 10);
+    background-image: url('../../_Art/Mutation2D.png');
+    -unity-background-scale-mode: scale-and-crop;
     position: absolute;
     left: 0; right: 0; top: 0; bottom: 0;
     justify-content: center;
@@ -13,13 +15,11 @@
     overflow: hidden;
 }
 
-/* ── Scanline overlay ── */
+/* ── Scanline overlay / image darkener ── */
 .scanline-overlay {
     position: absolute;
     left: 0; right: 0; top: 0; bottom: 0;
-    background-color: rgba(0, 0, 0, 0.04);
-    /* Unity USS doesn't support background-image gradients, but we can
-       simulate scanlines with opacity bands via the C# script */
+    background-color: rgba(0, 0, 0, 0.55);
 }
 
 /* ── Corner labels ── */

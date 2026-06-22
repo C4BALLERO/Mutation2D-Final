@@ -14,7 +14,7 @@ namespace MutationSwarm.UI
     [RequireComponent(typeof(UIDocument))]
     public class Script_34_BootSplashUI : MonoBehaviour
     {
-        [SerializeField] private float _totalDuration = 2.8f;
+        [SerializeField] private float _totalDuration = 10f;
 
         public event Action OnSplashComplete;
 
