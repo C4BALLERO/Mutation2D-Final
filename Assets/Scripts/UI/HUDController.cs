@@ -51,6 +51,16 @@ namespace MutationSwarm
         public TextMeshProUGUI storyBodyText;
         public TextMeshProUGUI storyPageIndicator;
 
+        [Header("New Mechanics")]
+        public Slider          furySlider;
+        public Image           furyFill;
+        public TextMeshProUGUI furyText;
+        public TextMeshProUGUI comboText;
+        public GameObject      bossBarRoot;
+        public Slider          bossBar;
+        public TextMeshProUGUI mutationMsgText;
+        public TextMeshProUGUI mutationsListText;
+
         static readonly string[] StoryPages =
         {
             "AÑO 2087.\n\nUn virus desconocido llamado <color=#22ff44>MUTATION-X</color> arrasa\nla Zona Industrial.\n\nLos infectados evolucionan con cada oleada.",
@@ -135,6 +145,38 @@ namespace MutationSwarm
 
             if (dashSlider && PlayerController.Instance)
                 dashSlider.value = PlayerController.Instance.DashCdRatio;
+
+            // ── Fury / Overdrive ──
+            if (furySlider) furySlider.value = ps.Fury / 100f;
+            if (furyFill)
+                furyFill.color = ps.Overdrive ? new Color(1f, 0.5f, 0f)
+                               : ps.Fury >= 100f ? new Color(1f, 0.85f, 0.1f)
+                               : new Color(0.8f, 0.3f, 0.9f);
+            if (furyText)
+                furyText.text = ps.Overdrive ? "¡FURIA ACTIVA!"
+                              : ps.Fury >= 100f ? "[ F ] FURIA LISTA"
+                              : "";
+
+            // ── Combo / multiplier ──
+            if (comboText)
+                comboText.text = ps.Combo >= 5 ? $"COMBO  x{ps.Multiplier}   ({ps.Combo})" : "";
+
+            // ── Boss health bar ──
+            var boss = wm.Boss;
+            if (bossBarRoot) bossBarRoot.SetActive(boss != null);
+            if (boss != null && bossBar) bossBar.value = boss.HpRatio;
+
+            // ── Mutations ──
+            if (mutationMsgText)
+                mutationMsgText.text = ps.LastMutationMsgTimer > 0f
+                    ? $"<color=#99ff33>¡MUTACIÓN OBTENIDA!</color>\n{ps.LastMutationMsg}"
+                    : "";
+            if (mutationsListText)
+            {
+                var msb = new System.Text.StringBuilder();
+                foreach (var m in ps.Mutations) msb.AppendLine("» " + PlayerStats.MutationName(m));
+                mutationsListText.text = msb.ToString();
+            }
 
             // Dominant gene
             var evo = EvolutionSystem.Instance;

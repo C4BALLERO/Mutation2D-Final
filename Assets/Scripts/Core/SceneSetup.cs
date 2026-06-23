@@ -515,12 +515,58 @@ namespace MutationSwarm
             storyHintRT.sizeDelta = new Vector2(700, 30);
             storyHintRT.anchoredPosition = new Vector2(0, 22);
             // ── HUD Panel ──────────────────────────────────────────────────
-            var hudPanel = MakePanel(ct, "HUDPanel", new Vector2(260, 110), new Vector2(10, -10), new Color(0, 0, 0, 0.65f));
+            var hudPanel = MakePanel(ct, "HUDPanel", new Vector2(260, 138), new Vector2(10, -10), new Color(0, 0, 0, 0.65f));
             var waveT   = MakeTMP(hudPanel.transform, "WaveText",  new Vector2(10, -12), 20, new Color(0.8f, 0.9f, 0.8f));
             var bestT   = MakeTMP(hudPanel.transform, "BestText",  new Vector2(160, -12), 14, new Color(0.67f, 0.73f, 0.53f));
             var dnaT    = MakeTMP(hudPanel.transform, "DNAText",   new Vector2(10, -34), 20, new Color(0f, 1f, 0.8f));
             var hpSlider   = MakeSlider(hudPanel.transform, "HPSlider",   new Vector2(10, -58), new Vector2(240, 14), new Color(0.13f, 0, 0),    new Color(0.27f, 1f, 0.13f), out var hpFillImg);
             var dashSlider = MakeSlider(hudPanel.transform, "DashSlider", new Vector2(10, -78), new Vector2(240, 8),  new Color(0, 0.1f, 0.2f), new Color(0.27f, 0.67f, 1f),  out _);
+            var furySlider = MakeSlider(hudPanel.transform, "FurySlider", new Vector2(10, -90), new Vector2(240, 11), new Color(0.16f, 0, 0.2f), new Color(0.8f, 0.3f, 0.9f), out var furyFillImg);
+            var furyT = MakeTMP(hudPanel.transform, "FuryText", new Vector2(10, -106), 12, new Color(1f, 0.85f, 0.2f));
+            furyT.GetComponent<RectTransform>().sizeDelta = new Vector2(240, 18);
+
+            // Combo / multiplier (top-center, below the dominant-gene banner)
+            var comboT = MakeTMP(ct, "ComboText", Vector2.zero, 26, new Color(1f, 0.85f, 0.2f));
+            var comboRT = comboT.GetComponent<RectTransform>();
+            comboRT.anchorMin = comboRT.anchorMax = new Vector2(0.5f, 1f);
+            comboRT.pivot = new Vector2(0.5f, 1f);
+            comboRT.anchoredPosition = new Vector2(0, -92);
+            comboRT.sizeDelta = new Vector2(500, 34);
+            comboT.alignment = TextAlignmentOptions.Center;
+            comboT.fontStyle = FontStyles.Bold;
+
+            // Boss health bar (top-center)
+            var bossRoot = MakePanel(ct, "BossBar", new Vector2(760, 46), Vector2.zero, new Color(0.12f, 0, 0, 0.72f));
+            var bossRT = bossRoot.GetComponent<RectTransform>();
+            bossRT.anchorMin = bossRT.anchorMax = new Vector2(0.5f, 1f);
+            bossRT.pivot = new Vector2(0.5f, 1f);
+            bossRT.anchoredPosition = new Vector2(0, -54);
+            var bossSlider = MakeSlider(bossRoot.transform, "BossHP", new Vector2(10, -22), new Vector2(740, 18), new Color(0.25f, 0, 0), new Color(1f, 0.15f, 0.1f), out _);
+            var bossLbl = MakeTMP(bossRoot.transform, "BossLabel", new Vector2(0, -4), 14, new Color(1f, 0.4f, 0.4f));
+            bossLbl.GetComponent<RectTransform>().sizeDelta = new Vector2(740, 18);
+            bossLbl.alignment = TextAlignmentOptions.Center;
+            bossLbl.text = "-- JEFE MUTANTE --";
+            bossLbl.fontStyle = FontStyles.Bold;
+            bossRoot.SetActive(false);
+
+            // Mutation acquired banner (center)
+            var mutMsg = MakeTMP(ct, "MutationMsg", Vector2.zero, 24, new Color(0.6f, 1f, 0.2f));
+            var mutMsgRT = mutMsg.GetComponent<RectTransform>();
+            mutMsgRT.anchorMin = mutMsgRT.anchorMax = new Vector2(0.5f, 0.5f);
+            mutMsgRT.pivot = new Vector2(0.5f, 0.5f);
+            mutMsgRT.anchoredPosition = new Vector2(0, 150);
+            mutMsgRT.sizeDelta = new Vector2(900, 40);
+            mutMsg.alignment = TextAlignmentOptions.Center;
+            mutMsg.fontStyle = FontStyles.Bold;
+
+            // Active mutations list (bottom-left)
+            var mutList = MakeTMP(ct, "MutationsList", new Vector2(12, 50), 13, new Color(0.6f, 1f, 0.3f));
+            var mutListRT = mutList.GetComponent<RectTransform>();
+            mutListRT.anchorMin = mutListRT.anchorMax = new Vector2(0f, 0f);
+            mutListRT.pivot = new Vector2(0f, 0f);
+            mutListRT.anchoredPosition = new Vector2(12, 50);
+            mutListRT.sizeDelta = new Vector2(320, 120);
+            mutList.alignment = TextAlignmentOptions.BottomLeft;
 
             var enemT = MakeTMP(ct, "EnemiesText", new Vector2(-20, 30), 16, new Color(1f, 0.4f, 0.27f));
             var er = enemT.GetComponent<RectTransform>();
@@ -684,6 +730,14 @@ namespace MutationSwarm
             hud.playButton      = playButton;
             hud.buildHUD        = buildP;
             hud.buildTypeText   = buildTypeT;
+            hud.furySlider      = furySlider;
+            hud.furyFill        = furyFillImg;
+            hud.furyText        = furyT;
+            hud.comboText       = comboT;
+            hud.bossBarRoot     = bossRoot;
+            hud.bossBar         = bossSlider;
+            hud.mutationMsgText = mutMsg;
+            hud.mutationsListText = mutList;
 
             // Splash & Story are opaque full-screen panels and MUST draw on top of every
             // gameplay/HUD element. They are created first, so without this they render behind

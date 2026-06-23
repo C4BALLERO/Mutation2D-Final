@@ -31,15 +31,23 @@ namespace MutationSwarm
 
         // The run is started from the main menu via GameManager.StartGame().
 
+        public bool BossWave { get; private set; }
+
         public void StartNextWave()
         {
             CurrentStats.Reset();
             GameManager.Instance.StartWave();
             ActiveEnemies.Clear();
-            _queue  = BuildQueue(GameManager.Instance.WaveNum);
+            int wn = GameManager.Instance.WaveNum;
+            BossWave = wn > 0 && wn % 5 == 0;
+            _queue  = BuildQueue(wn, BossWave);
             _elapsed = 0f;
             _spawning = true;
+            if (BossWave) SpawnBoss(wn);
         }
+
+        // The current boss, if any (for the HUD health bar). Null on normal waves.
+        public EnemyBase Boss { get; private set; }
 
         void Update()
         {
@@ -68,10 +76,10 @@ namespace MutationSwarm
             }
         }
 
-        List<SpawnEntry> BuildQueue(int waveNum)
+        List<SpawnEntry> BuildQueue(int waveNum, bool bossWave)
         {
             var q = new List<SpawnEntry>();
-            int count = waveNum * 5 + 5;
+            int count = bossWave ? waveNum * 2 + 4 : waveNum * 5 + 5; // fewer minions when a boss is present
             float intervalBase = Mathf.Max(0.5f, 1.5f - waveNum * 0.05f);
             for (int i = 0; i < count; i++)
             {
@@ -125,12 +133,32 @@ namespace MutationSwarm
             ActiveEnemies.Add(e);
         }
 
+        void SpawnBoss(int wn)
+        {
+            float x = Random.value > 0.5f ? -spawnX : spawnX;
+            var go = Instantiate(enemyPrefab, new Vector3(x, spawnY + 1f, 0), Quaternion.identity, enemiesContainer);
+            go.SetActive(true);
+            var e = go.GetComponent<EnemyBase>();
+            float hp  = 450f + wn * 130f;
+            float spd = 2.2f + wn * 0.04f;
+            float dmg = 12f + wn * 1.5f;
+            e.Init(GeneType.Armored, new GeneType[0], hp, spd, dmg, 0.6f, false, false, false, true, false);
+            e.MakeBoss();
+            ActiveEnemies.Add(e);
+            Boss = e;
+            CameraFollow.Instance?.Shake(0.5f, 0.4f);
+        }
+
         static GeneType RandGene()
         {
             var g = new[] { GeneType.Poison, GeneType.Speed, GeneType.Spiny, GeneType.Armored, GeneType.Psychic };
             return g[Random.Range(0, g.Length)];
         }
 
-        public void RemoveEnemy(EnemyBase e) => ActiveEnemies.Remove(e);
+        public void RemoveEnemy(EnemyBase e)
+        {
+            ActiveEnemies.Remove(e);
+            if (e == Boss) Boss = null;
+        }
     }
 }

@@ -9,6 +9,7 @@ namespace MutationSwarm
         public GeneType Gene { get; private set; }
         public GeneType[] ExtraGenes { get; private set; } = {};
         public float ArmorFactor { get; private set; } = 1f;
+        public bool  IsBoss { get; private set; }
         public static GameObject FireballPrefab;
 
         float _hp, _maxHp, _spd, _dmg;
@@ -73,6 +74,16 @@ namespace MutationSwarm
             _initialized = true;
         }
 
+        // Turns a freshly-Init'd enemy into a boss: bigger, tankier visuals, ranged attacks.
+        public void MakeBoss()
+        {
+            IsBoss = true;
+            _shootCd = 2f;
+            if (_sr != null) _sr.color = Color.Lerp(_baseColor, new Color(0.8f, 0.1f, 0.5f), 0.5f);
+        }
+
+        public const float BossScale = 2.7f;
+
         void Update()
         {
             if (!_initialized || _rb == null) return;
@@ -110,21 +121,31 @@ namespace MutationSwarm
                 _rb.linearVelocity = new Vector2(vx, _rb.linearVelocity.y);
             }
 
+            // Bosses lob fireballs as they march toward the player.
+            if (IsBoss)
+            {
+                _shootCd -= Time.deltaTime;
+                if (_shootCd <= 0f) { _shootCd = Random.Range(1.4f, 2.4f); ShootFireball(); }
+            }
+
             if (_rb.linearVelocity.x != 0)
             {
                 float facing = _rb.linearVelocity.x > 0 ? 1f : -1f;
                 if (CreatureIndex == 2) facing = -facing; // enemy3 sprite está dibujado al revés
-                transform.localScale = new Vector3(facing, 1, 1);
+                float sc = IsBoss ? BossScale : 1f;
+                transform.localScale = new Vector3(facing * sc, sc, 1);
             }
 
             // Daño continuo al contacto — todos los enemigos dañan igual que el Diablito
-            float contactRange = _flies ? 3.5f : 1.1f;
+            float contactRange = (_flies ? 3.5f : 1.1f) * (IsBoss ? BossScale : 1f);
             var pc = PlayerController.Instance;
             if (pc != null && Vector2.Distance(transform.position, pc.transform.position) < contactRange)
             {
                 float dmgRate = _dmg * 1.5f;
                 if (_spiny && pc.IsDashing) dmgRate += 8f;
                 PlayerStats.Instance.TakeDamage(dmgRate * Time.deltaTime);
+                // Mutación SANGRE TÓXICA: el enemigo se daña al tocarte.
+                if (PlayerStats.Instance.HasMutation("toxicBlood")) TakeDamage(20f * Time.deltaTime);
                 if (Gene == GeneType.Speed && WaveManager.Instance != null) WaveManager.Instance.CurrentStats.contactHitsFromSpeed++;
                 _atkAnim = 0.3f;
 
@@ -168,13 +189,33 @@ namespace MutationSwarm
             IsDying = true;
 
             AudioManager.Instance?.PlayEnemyDeath();
+            PlayerStats.Instance?.OnEnemyKilled(IsBoss);
             WaveManager.Instance?.RemoveEnemy(this);
-            ParticleManager.Instance?.SpawnBurst(transform.position, _baseColor, 12, 5f);
+            ParticleManager.Instance?.SpawnBurst(transform.position, _baseColor, IsBoss ? 40 : 12, IsBoss ? 12f : 5f);
+
+            // Mutación VOLÁTIL: el cadáver explota dañando enemigos cercanos.
+            if (PlayerStats.Instance != null && PlayerStats.Instance.HasMutation("volatile") && WaveManager.Instance != null)
+            {
+                ParticleManager.Instance?.SpawnBurst(transform.position, new Color(1f, 0.6f, 0.1f), 14, 7f);
+                foreach (var e in WaveManager.Instance.ActiveEnemies.ToArray())
+                {
+                    if (e == null || e == this) continue;
+                    if (Vector2.Distance(transform.position, e.transform.position) < 2.5f) e.TakeDamage(35f);
+                }
+            }
 
             var pickup = new GameObject("DNAPickup");
             pickup.transform.position = transform.position;
             var dp = pickup.AddComponent<DnaPickup>();
-            dp.Amount = _isCorrupt ? Random.Range(15, 25) : Random.Range(3, 8);
+            dp.Amount = IsBoss ? Random.Range(120, 160) : _isCorrupt ? Random.Range(15, 25) : Random.Range(3, 8);
+
+            // Mutágeno: los jefes siempre lo sueltan, los corruptos a veces.
+            if (IsBoss || (_isCorrupt && Random.value < 0.5f))
+            {
+                var mg = new GameObject("MutagenPickup");
+                mg.transform.position = transform.position + Vector3.up * 0.3f;
+                mg.AddComponent<MutagenPickup>().Amount = IsBoss ? 3 : 1;
+            }
 
             if (_leavesPoison)
             {

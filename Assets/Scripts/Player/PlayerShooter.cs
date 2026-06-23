@@ -22,6 +22,7 @@ namespace MutationSwarm
 
             float cd = baseCooldown;
             if (PlayerStats.Instance.HasUpgrade("fasterReload")) cd *= 0.45f;
+            if (PlayerStats.Instance.Overdrive) cd *= 0.35f; // rapid fire during Fury
 
             if (Input.GetMouseButton(0) && _cd <= 0f)
             {
@@ -37,6 +38,10 @@ namespace MutationSwarm
             Vector2 dir = ((Vector2)(mouseWorld - muzzle.position)).normalized;
 
             float dmg = 12f + (PlayerStats.Instance.HasUpgrade("moreDamage") ? 8f : 0f);
+            // Mutación FRENESÍ: +60% de daño con poca vida.
+            if (PlayerStats.Instance.HasMutation("berserk") && PlayerStats.Instance.Hp < PlayerStats.Instance.MaxHp * 0.3f)
+                dmg *= 1.6f;
+            if (PlayerStats.Instance.Overdrive) dmg *= 1.5f; // Furia potencia el daño
             int piercing = PlayerStats.Instance.HasUpgrade("piercing") ? 2 : 0;
 
             _electricCounter++;

@@ -60,6 +60,10 @@ namespace MutationSwarm
             // Movement / actions only while actively playing
             if (phase != GamePhase.Playing) return;
 
+            // Fury / Overdrive: unleash when the meter is full.
+            if (Input.GetKeyDown(KeyCode.F) && PlayerStats.Instance != null && PlayerStats.Instance.CanOverdrive)
+                PlayerStats.Instance.ActivateOverdrive();
+
             if (WaveManager.Instance != null) _waveStats = WaveManager.Instance.CurrentStats;
 
             HandleRegen();
@@ -81,7 +85,8 @@ namespace MutationSwarm
             if (Input.GetKey(KeyCode.A)) h = -1f;
             if (Input.GetKey(KeyCode.D)) h =  1f;
             if (h != 0f) Facing = h > 0 ? 1 : -1;
-            _rb.linearVelocity = new Vector2(h * moveSpeed, _rb.linearVelocity.y);
+            float spd = moveSpeed * (PlayerStats.Instance != null && PlayerStats.Instance.Overdrive ? 1.4f : 1f);
+            _rb.linearVelocity = new Vector2(h * spd, _rb.linearVelocity.y);
         }
 
         void HandleJump()

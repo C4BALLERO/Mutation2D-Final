@@ -59,9 +59,10 @@ namespace MutationSwarm
         {
             if (WaveManager.Instance == null) return;
             int count = 0;
-            foreach (var e in WaveManager.Instance.ActiveEnemies)
+            // Iterate a snapshot: TakeDamage can kill -> RemoveEnemy -> modify the list.
+            foreach (var e in WaveManager.Instance.ActiveEnemies.ToArray())
             {
-                if (e == source) continue;
+                if (e == null || e == source) continue;
                 if (Vector2.Distance(e.transform.position, transform.position) < 4f)
                 {
                     e.TakeDamage(8f);
