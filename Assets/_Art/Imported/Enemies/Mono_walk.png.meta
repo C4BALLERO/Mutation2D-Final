@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: d3907c7ac9334e944aa4815fca678e64
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9042599199946578222
+    second: Mono_walk_0
+  - first:
+      213: -8064478460109039404
+    second: Mono_walk_1
+  - first:
+      213: -2738953035309135135
+    second: Mono_walk_2
+  - first:
+      213: -3014960491048386028
+    second: Mono_walk_3
+  - first:
+      213: -1146853260145648818
+    second: Mono_walk_4
+  - first:
+      213: -7171622173344068527
+    second: Mono_walk_5
+  - first:
+      213: -3918736023601160808
+    second: Mono_walk_6
+  - first:
+      213: 9128158807335831140
+    second: Mono_walk_7
+  - first:
+      213: -3564798204311215283
+    second: Mono_walk_8
+  - first:
+      213: 8006228007483209618
+    second: Mono_walk_9
+  - first:
+      213: -1707007280685927874
+    second: Mono_walk_10
+  - first:
+      213: 5862856561303784415
+    second: Mono_walk_11
+  - first:
+      213: 71766314409338568
+    second: Mono_walk_12
+  - first:
+      213: -2249417274451406015
+    second: Mono_walk_13
+  - first:
+      213: 3445378484330415086
+    second: Mono_walk_14
+  - first:
+      213: -3885280999394770608
+    second: Mono_walk_15
+  - first:
+      213: -459632142328594894
+    second: Mono_walk_16
+  - first:
+      213: -2950778526830615440
+    second: Mono_walk_17
+  - first:
+      213: 9011768342894830559
+    second: Mono_walk_18
+  - first:
+      213: -2975219076808640978
+    second: Mono_walk_19
+  - first:
+      213: 5001019023150746036
+    second: Mono_walk_20
+  - first:
+      213: 3431395847740519698
+    second: Mono_walk_21
+  - first:
+      213: -180340153604914976
+    second: Mono_walk_22
+  - first:
+      213: -5049705500641942528
+    second: Mono_walk_23
+  - first:
+      213: 5242589953752822002
+    second: Mono_walk_24
+  - first:
+      213: -3477539589944081675
+    second: Mono_walk_25
+  - first:
+      213: 5990321875312031395
+    second: Mono_walk_26
+  - first:
+      213: 7689964559556694885
+    second: Mono_walk_27
+  - first:
+      213: -2570848876780484610
+    second: Mono_walk_28
+  - first:
+      213: 4911837147480156765
+    second: Mono_walk_29
+  - first:
+      213: 2874717079278644776
+    second: Mono_walk_30
+  - first:
+      213: -7957311936701383015
+    second: Mono_walk_31
+  - first:
+      213: 8483636497013417537
+    second: Mono_walk_32
+  - first:
+      213: -6710365194465548823
+    second: Mono_walk_33
+  - first:
+      213: -7606113240863002017
+    second: Mono_walk_34
+  - first:
+      213: -5492654278120951054
+    second: Mono_walk_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mono_walk_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2878
+        width: 375
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6e3f8ffeb328280800000000000000
+      internalID: -9042599199946578222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_1
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 2878
+        width: 388
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d859666197351090800000000000000
+      internalID: -8064478460109039404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_2
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 2878
+        width: 393
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eacbe9d9b84df9d0800000000000000
+      internalID: -2738953035309135135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_3
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 2878
+        width: 395
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41249374865b826d0800000000000000
+      internalID: -3014960491048386028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_4
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 2878
+        width: 395
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b1583490f8510f0800000000000000
+      internalID: -1146853260145648818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_5
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 2878
+        width: 364
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c038651a7497c90800000000000000
+      internalID: -7171622173344068527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2296
+        width: 424
+        height: 558
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89dd9b0595add99c0800000000000000
+      internalID: -3918736023601160808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_7
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 2296
+        width: 388
+        height: 558
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4660b9c721cbdae70800000000000000
+      internalID: 9128158807335831140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_8
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 2296
+        width: 342
+        height: 558
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4364189bea478ec0800000000000000
+      internalID: -3564798204311215283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_9
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 2296
+        width: 317
+        height: 558
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297f1d834f5db1f60800000000000000
+      internalID: 8006228007483209618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_10
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 2296
+        width: 328
+        height: 558
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32b5bd1ced7f48e0800000000000000
+      internalID: -1707007280685927874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_11
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 2296
+        width: 344
+        height: 558
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb8491dafc0d5150800000000000000
+      internalID: 5862856561303784415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_12
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1725
+        width: 375
+        height: 554
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6253d2517fef000800000000000000
+      internalID: 71766314409338568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_13
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1725
+        width: 429
+        height: 554
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14352b428e678c0e0800000000000000
+      internalID: -2249417274451406015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_14
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1725
+        width: 456
+        height: 554
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3c9432a7170df20800000000000000
+      internalID: 3445378484330415086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_15
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1725
+        width: 475
+        height: 554
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05100822485b41ac0800000000000000
+      internalID: -3885280999394770608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_16
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 1725
+        width: 498
+        height: 554
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ef625700f0f99f0800000000000000
+      internalID: -459632142328594894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_17
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 1725
+        width: 456
+        height: 554
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0742961509abc07d0800000000000000
+      internalID: -2950778526830615440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1152
+        width: 398
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd36b5cbf8b301d70800000000000000
+      internalID: 9011768342894830559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_19
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1152
+        width: 392
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26fad55306e5b6d0800000000000000
+      internalID: -2975219076808640978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_20
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1152
+        width: 380
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b90fd51e40376540800000000000000
+      internalID: 5001019023150746036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_21
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1152
+        width: 346
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215f25cd754ce9f20800000000000000
+      internalID: 3431395847740519698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_22
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1152
+        width: 328
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0c3a5f59d4f7df0800000000000000
+      internalID: -180340153604914976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_23
+      rect:
+        serializedVersion: 2
+        x: 2692
+        y: 1152
+        width: 346
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004a6e50a97dbe9b0800000000000000
+      internalID: -5049705500641942528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_24
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 575
+        width: 327
+        height: 557
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0f77859cb61c840800000000000000
+      internalID: 5242589953752822002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_25
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 575
+        width: 313
+        height: 557
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f28601fa2c4dbfc0800000000000000
+      internalID: -3477539589944081675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_26
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 575
+        width: 348
+        height: 557
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6b93ce106e12350800000000000000
+      internalID: 5990321875312031395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_27
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 575
+        width: 361
+        height: 557
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56358b3160e38ba60800000000000000
+      internalID: 7689964559556694885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_28
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 575
+        width: 375
+        height: 557
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef789484192825cd0800000000000000
+      internalID: -2570848876780484610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_29
+      rect:
+        serializedVersion: 2
+        x: 2644
+        y: 575
+        width: 397
+        height: 557
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a6f129cd95a2440800000000000000
+      internalID: 4911837147480156765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_30
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 15
+        width: 480
+        height: 543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ee624e3fb05e720800000000000000
+      internalID: 2874717079278644776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_31
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 15
+        width: 504
+        height: 543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e30f504f2f19190800000000000000
+      internalID: -7957311936701383015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_32
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 15
+        width: 497
+        height: 543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1462600227eebb570800000000000000
+      internalID: 8483636497013417537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_33
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 15
+        width: 443
+        height: 543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e56cbe986effd2a0800000000000000
+      internalID: -6710365194465548823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_34
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 15
+        width: 407
+        height: 543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5237fc6e48a17690800000000000000
+      internalID: -7606113240863002017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mono_walk_35
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 15
+        width: 337
+        height: 543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2329e090c26c3b0800000000000000
+      internalID: -5492654278120951054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mono_walk_0: -9042599199946578222
+      Mono_walk_1: -8064478460109039404
+      Mono_walk_10: -1707007280685927874
+      Mono_walk_11: 5862856561303784415
+      Mono_walk_12: 71766314409338568
+      Mono_walk_13: -2249417274451406015
+      Mono_walk_14: 3445378484330415086
+      Mono_walk_15: -3885280999394770608
+      Mono_walk_16: -459632142328594894
+      Mono_walk_17: -2950778526830615440
+      Mono_walk_18: 9011768342894830559
+      Mono_walk_19: -2975219076808640978
+      Mono_walk_2: -2738953035309135135
+      Mono_walk_20: 5001019023150746036
+      Mono_walk_21: 3431395847740519698
+      Mono_walk_22: -180340153604914976
+      Mono_walk_23: -5049705500641942528
+      Mono_walk_24: 5242589953752822002
+      Mono_walk_25: -3477539589944081675
+      Mono_walk_26: 5990321875312031395
+      Mono_walk_27: 7689964559556694885
+      Mono_walk_28: -2570848876780484610
+      Mono_walk_29: 4911837147480156765
+      Mono_walk_3: -3014960491048386028
+      Mono_walk_30: 2874717079278644776
+      Mono_walk_31: -7957311936701383015
+      Mono_walk_32: 8483636497013417537
+      Mono_walk_33: -6710365194465548823
+      Mono_walk_34: -7606113240863002017
+      Mono_walk_35: -5492654278120951054
+      Mono_walk_4: -1146853260145648818
+      Mono_walk_5: -7171622173344068527
+      Mono_walk_6: -3918736023601160808
+      Mono_walk_7: 9128158807335831140
+      Mono_walk_8: -3564798204311215283
+      Mono_walk_9: 8006228007483209618
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

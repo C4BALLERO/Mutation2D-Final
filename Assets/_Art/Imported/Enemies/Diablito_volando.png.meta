@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 69605e78c0d56b941968e96ac7fc7f2a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3564749028224628192
+    second: Diablito_volando_0
+  - first:
+      213: -8959186396098397699
+    second: Diablito_volando_1
+  - first:
+      213: -344633033593197311
+    second: Diablito_volando_2
+  - first:
+      213: 7239790447008459484
+    second: Diablito_volando_3
+  - first:
+      213: 4827477309187273499
+    second: Diablito_volando_4
+  - first:
+      213: -6758118099191054824
+    second: Diablito_volando_5
+  - first:
+      213: -7772957695260430302
+    second: Diablito_volando_6
+  - first:
+      213: 573906452808716610
+    second: Diablito_volando_7
+  - first:
+      213: 3242819733435951084
+    second: Diablito_volando_8
+  - first:
+      213: -874670449342778276
+    second: Diablito_volando_9
+  - first:
+      213: -6123302844172945709
+    second: Diablito_volando_10
+  - first:
+      213: 5385904295892641779
+    second: Diablito_volando_11
+  - first:
+      213: -6814659640747419717
+    second: Diablito_volando_12
+  - first:
+      213: 731877093169172429
+    second: Diablito_volando_13
+  - first:
+      213: -3556732151365890433
+    second: Diablito_volando_14
+  - first:
+      213: 7977231935481430858
+    second: Diablito_volando_15
+  - first:
+      213: 3683530656395918297
+    second: Diablito_volando_16
+  - first:
+      213: -1655315030580750487
+    second: Diablito_volando_17
+  - first:
+      213: 599170082583284466
+    second: Diablito_volando_18
+  - first:
+      213: 741381384200527788
+    second: Diablito_volando_19
+  - first:
+      213: 2617501220078926645
+    second: Diablito_volando_20
+  - first:
+      213: 8403225173463350268
+    second: Diablito_volando_21
+  - first:
+      213: -2447846292858303107
+    second: Diablito_volando_22
+  - first:
+      213: -7341325808065131957
+    second: Diablito_volando_23
+  - first:
+      213: -2199728678958476363
+    second: Diablito_volando_24
+  - first:
+      213: -80622128831701217
+    second: Diablito_volando_25
+  - first:
+      213: 5186380310072281874
+    second: Diablito_volando_26
+  - first:
+      213: -6280796989749319579
+    second: Diablito_volando_27
+  - first:
+      213: 3869216372811493510
+    second: Diablito_volando_28
+  - first:
+      213: 1790602533677761090
+    second: Diablito_volando_29
+  - first:
+      213: -5777862020766939894
+    second: Diablito_volando_30
+  - first:
+      213: -2316602396302516586
+    second: Diablito_volando_31
+  - first:
+      213: -4419757324035836789
+    second: Diablito_volando_32
+  - first:
+      213: 7492911359468908407
+    second: Diablito_volando_33
+  - first:
+      213: 3052822421041876419
+    second: Diablito_volando_34
+  - first:
+      213: 3318498415100490523
+    second: Diablito_volando_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Diablito_volando_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2915
+        width: 643
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e57fb4ba58887130800000000000000
+      internalID: 3564749028224628192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_1
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2915
+        width: 414
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9fa08c0739aa380800000000000000
+      internalID: -8959186396098397699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_2
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 2915
+        width: 368
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10defc6f41e973bf0800000000000000
+      internalID: -344633033593197311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_3
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 2915
+        width: 350
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdaa432bd07e87460800000000000000
+      internalID: 7239790447008459484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_4
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 2915
+        width: 360
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13bd5f1905aef240800000000000000
+      internalID: 4827477309187273499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_5
+      rect:
+        serializedVersion: 2
+        x: 3309
+        y: 2915
+        width: 423
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e349315675632a0800000000000000
+      internalID: -6758118099191054824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_6
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2279
+        width: 498
+        height: 509
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220fcd7b828e02490800000000000000
+      internalID: -7772957695260430302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_7
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 2279
+        width: 522
+        height: 509
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241d7fdc0ece6f700800000000000000
+      internalID: 573906452808716610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_8
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 2279
+        width: 482
+        height: 509
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce7a31acd5fc00d20800000000000000
+      internalID: 3242819733435951084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_9
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 2279
+        width: 491
+        height: 509
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54746b4cdb8cd3f0800000000000000
+      internalID: -874670449342778276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_10
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 2279
+        width: 516
+        height: 509
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6bee08188a50ba0800000000000000
+      internalID: -6123302844172945709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_11
+      rect:
+        serializedVersion: 2
+        x: 3243
+        y: 2279
+        width: 556
+        height: 509
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f76eeedb639eba40800000000000000
+      internalID: 5385904295892641779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1760
+        width: 393
+        height: 458
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb71f0099277d61a0800000000000000
+      internalID: -6814659640747419717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_13
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1760
+        width: 346
+        height: 458
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf089da656282a00800000000000000
+      internalID: 731877093169172429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_14
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1760
+        width: 346
+        height: 458
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e00a4e3f2f3aec0800000000000000
+      internalID: -3556732151365890433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_15
+      rect:
+        serializedVersion: 2
+        x: 2053
+        y: 1760
+        width: 375
+        height: 458
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43c54d1e22d4be60800000000000000
+      internalID: 7977231935481430858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_16
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 1760
+        width: 433
+        height: 458
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db7db5ad978e1330800000000000000
+      internalID: 3683530656395918297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_17
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 1760
+        width: 484
+        height: 458
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9679edaffb32709e0800000000000000
+      internalID: -1655315030580750487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_18
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1140
+        width: 508
+        height: 508
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa0b6cf30ea05800800000000000000
+      internalID: 599170082583284466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_19
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1140
+        width: 515
+        height: 508
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf1c50e07ae94a00800000000000000
+      internalID: 741381384200527788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_20
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1140
+        width: 497
+        height: 508
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53bb4f5dd7b335420800000000000000
+      internalID: 2617501220078926645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_21
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1140
+        width: 520
+        height: 508
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb37e7e5c04e9470800000000000000
+      internalID: 8403225173463350268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_22
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 1140
+        width: 552
+        height: 508
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d8c6114c0870ed0800000000000000
+      internalID: -2447846292858303107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_23
+      rect:
+        serializedVersion: 2
+        x: 3197
+        y: 1140
+        width: 643
+        height: 508
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4aced5d21f5e1a90800000000000000
+      internalID: -7341325808065131957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_24
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 626
+        width: 370
+        height: 452
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3d070db6ef871e0800000000000000
+      internalID: -2199728678958476363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_25
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 626
+        width: 354
+        height: 452
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f53f9d99291eef0800000000000000
+      internalID: -80622128831701217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_26
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 626
+        width: 344
+        height: 452
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b40f3d969b9f740800000000000000
+      internalID: 5186380310072281874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_27
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 626
+        width: 387
+        height: 452
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56826a73a6026d8a0800000000000000
+      internalID: -6280796989749319579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_28
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 626
+        width: 436
+        height: 452
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680fd848ac732b530800000000000000
+      internalID: 3869216372811493510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_29
+      rect:
+        serializedVersion: 2
+        x: 3289
+        y: 626
+        width: 466
+        height: 452
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24207c1748f79d810800000000000000
+      internalID: 1790602533677761090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_30
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 467
+        height: 508
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0547f2ca19e0dfa0800000000000000
+      internalID: -5777862020766939894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_31
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 0
+        width: 484
+        height: 508
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ed19af466c9dfd0800000000000000
+      internalID: -2316602396302516586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_32
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 0
+        width: 513
+        height: 508
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84b963712ed9a2c0800000000000000
+      internalID: -4419757324035836789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_33
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 0
+        width: 503
+        height: 508
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f22aaae2b2cf760800000000000000
+      internalID: 7492911359468908407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_34
+      rect:
+        serializedVersion: 2
+        x: 2629
+        y: 0
+        width: 504
+        height: 508
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd8c8041ddcd5a20800000000000000
+      internalID: 3052822421041876419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_volando_35
+      rect:
+        serializedVersion: 2
+        x: 3205
+        y: 0
+        width: 632
+        height: 508
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13f2c3f9bcad0e20800000000000000
+      internalID: 3318498415100490523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Diablito_volando_0: 3564749028224628192
+      Diablito_volando_1: -8959186396098397699
+      Diablito_volando_10: -6123302844172945709
+      Diablito_volando_11: 5385904295892641779
+      Diablito_volando_12: -6814659640747419717
+      Diablito_volando_13: 731877093169172429
+      Diablito_volando_14: -3556732151365890433
+      Diablito_volando_15: 7977231935481430858
+      Diablito_volando_16: 3683530656395918297
+      Diablito_volando_17: -1655315030580750487
+      Diablito_volando_18: 599170082583284466
+      Diablito_volando_19: 741381384200527788
+      Diablito_volando_2: -344633033593197311
+      Diablito_volando_20: 2617501220078926645
+      Diablito_volando_21: 8403225173463350268
+      Diablito_volando_22: -2447846292858303107
+      Diablito_volando_23: -7341325808065131957
+      Diablito_volando_24: -2199728678958476363
+      Diablito_volando_25: -80622128831701217
+      Diablito_volando_26: 5186380310072281874
+      Diablito_volando_27: -6280796989749319579
+      Diablito_volando_28: 3869216372811493510
+      Diablito_volando_29: 1790602533677761090
+      Diablito_volando_3: 7239790447008459484
+      Diablito_volando_30: -5777862020766939894
+      Diablito_volando_31: -2316602396302516586
+      Diablito_volando_32: -4419757324035836789
+      Diablito_volando_33: 7492911359468908407
+      Diablito_volando_34: 3052822421041876419
+      Diablito_volando_35: 3318498415100490523
+      Diablito_volando_4: 4827477309187273499
+      Diablito_volando_5: -6758118099191054824
+      Diablito_volando_6: -7772957695260430302
+      Diablito_volando_7: 573906452808716610
+      Diablito_volando_8: 3242819733435951084
+      Diablito_volando_9: -874670449342778276
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

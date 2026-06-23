@@ -1,0 +1,1677 @@
+fileFormatVersion: 2
+guid: c7a6d4c5d065d2f4884bdbfc69019f1c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6578401572324881044
+    second: enemy3_walk_0
+  - first:
+      213: 161180756555119081
+    second: enemy3_walk_1
+  - first:
+      213: -1447660731164674875
+    second: enemy3_walk_2
+  - first:
+      213: -517429544270620840
+    second: enemy3_walk_3
+  - first:
+      213: -7949936134169584377
+    second: enemy3_walk_4
+  - first:
+      213: -2634621368659193780
+    second: enemy3_walk_5
+  - first:
+      213: -1192445827111707069
+    second: enemy3_walk_6
+  - first:
+      213: -330589808604678656
+    second: enemy3_walk_7
+  - first:
+      213: 5150118614802341876
+    second: enemy3_walk_8
+  - first:
+      213: 1611025196437384318
+    second: enemy3_walk_9
+  - first:
+      213: -3613251923154711722
+    second: enemy3_walk_10
+  - first:
+      213: -5521278946001368490
+    second: enemy3_walk_11
+  - first:
+      213: -1003973414075182161
+    second: enemy3_walk_12
+  - first:
+      213: 8261485206300828998
+    second: enemy3_walk_13
+  - first:
+      213: -4378976814806620450
+    second: enemy3_walk_14
+  - first:
+      213: 3927820013876670296
+    second: enemy3_walk_15
+  - first:
+      213: -7558079278297422076
+    second: enemy3_walk_16
+  - first:
+      213: 3037594891659119938
+    second: enemy3_walk_17
+  - first:
+      213: 4736864112606083102
+    second: enemy3_walk_18
+  - first:
+      213: 8695530652018855394
+    second: enemy3_walk_19
+  - first:
+      213: -1671194841528864629
+    second: enemy3_walk_20
+  - first:
+      213: 4776749135284974756
+    second: enemy3_walk_21
+  - first:
+      213: -4820913306142573149
+    second: enemy3_walk_22
+  - first:
+      213: -2438585906881311848
+    second: enemy3_walk_23
+  - first:
+      213: -6768185784043579877
+    second: enemy3_walk_24
+  - first:
+      213: -1465785691437654873
+    second: enemy3_walk_25
+  - first:
+      213: -3122791705932400830
+    second: enemy3_walk_26
+  - first:
+      213: 5241644099293453358
+    second: enemy3_walk_27
+  - first:
+      213: 5740046906420393813
+    second: enemy3_walk_28
+  - first:
+      213: 16744344175534444
+    second: enemy3_walk_29
+  - first:
+      213: 4567912554940186774
+    second: enemy3_walk_30
+  - first:
+      213: -2168487733897778046
+    second: enemy3_walk_31
+  - first:
+      213: 4845798006555846277
+    second: enemy3_walk_32
+  - first:
+      213: 3483884500912205653
+    second: enemy3_walk_33
+  - first:
+      213: 5149612847451466369
+    second: enemy3_walk_34
+  - first:
+      213: 6177289404935228109
+    second: enemy3_walk_35
+  - first:
+      213: 268835324440069016
+    second: enemy3_walk_36
+  - first:
+      213: 5379963277156048692
+    second: enemy3_walk_37
+  - first:
+      213: -4926149941565197305
+    second: enemy3_walk_38
+  - first:
+      213: 564611072518698528
+    second: enemy3_walk_39
+  - first:
+      213: -8075956702283575536
+    second: enemy3_walk_40
+  - first:
+      213: -5255805947146798661
+    second: enemy3_walk_41
+  - first:
+      213: -6302056633545296635
+    second: enemy3_walk_42
+  - first:
+      213: -4240708138954977645
+    second: enemy3_walk_43
+  - first:
+      213: -4503295504612182847
+    second: enemy3_walk_44
+  - first:
+      213: 2698572695060417873
+    second: enemy3_walk_45
+  - first:
+      213: -5626798382963913636
+    second: enemy3_walk_46
+  - first:
+      213: 8607759026220655374
+    second: enemy3_walk_47
+  - first:
+      213: 5800499377494364046
+    second: enemy3_walk_48
+  - first:
+      213: 5013277862678138900
+    second: enemy3_walk_49
+  - first:
+      213: -3074192597733518945
+    second: enemy3_walk_50
+  - first:
+      213: -833315148581786855
+    second: enemy3_walk_51
+  - first:
+      213: 2266661261472625230
+    second: enemy3_walk_52
+  - first:
+      213: 5678172240078917427
+    second: enemy3_walk_53
+  - first:
+      213: 7725477975299318361
+    second: enemy3_walk_54
+  - first:
+      213: -3342692080830298611
+    second: enemy3_walk_55
+  - first:
+      213: -5466554628773974091
+    second: enemy3_walk_56
+  - first:
+      213: -315632860282354372
+    second: enemy3_walk_57
+  - first:
+      213: 3533558338838630378
+    second: enemy3_walk_58
+  - first:
+      213: 8543095087477921262
+    second: enemy3_walk_59
+  - first:
+      213: -4784068323940061171
+    second: enemy3_walk_60
+  - first:
+      213: -449639178460950757
+    second: enemy3_walk_61
+  - first:
+      213: -2843412371073728751
+    second: enemy3_walk_62
+  - first:
+      213: -4276544587798978564
+    second: enemy3_walk_63
+  - first:
+      213: 8533250769613367797
+    second: enemy3_walk_64
+  - first:
+      213: 2823647351223315866
+    second: enemy3_walk_65
+  - first:
+      213: -2773516958523293457
+    second: enemy3_walk_66
+  - first:
+      213: -7490807617673510752
+    second: enemy3_walk_67
+  - first:
+      213: -6485381980775777489
+    second: enemy3_walk_68
+  - first:
+      213: 2209720687605306615
+    second: enemy3_walk_69
+  - first:
+      213: -4160441982999928998
+    second: enemy3_walk_70
+  - first:
+      213: -8238204562811463625
+    second: enemy3_walk_71
+  - first:
+      213: -820700714998768488
+    second: enemy3_walk_72
+  - first:
+      213: 4079158449410267420
+    second: enemy3_walk_73
+  - first:
+      213: 9191524514254654912
+    second: enemy3_walk_74
+  - first:
+      213: 7135311519577532549
+    second: enemy3_walk_75
+  - first:
+      213: -2726837114417036008
+    second: enemy3_walk_76
+  - first:
+      213: -474578524725190974
+    second: enemy3_walk_77
+  - first:
+      213: -9166778450905922340
+    second: enemy3_walk_78
+  - first:
+      213: -7892688167010827283
+    second: enemy3_walk_79
+  - first:
+      213: -8268632923992002699
+    second: enemy3_walk_80
+  - first:
+      213: -5379788037639197660
+    second: enemy3_walk_81
+  - first:
+      213: 4022196016164292756
+    second: enemy3_walk_82
+  - first:
+      213: 1966354932070286109
+    second: enemy3_walk_83
+  - first:
+      213: 1654427392937940503
+    second: enemy3_walk_84
+  - first:
+      213: 8160911928060088027
+    second: enemy3_walk_85
+  - first:
+      213: 263952904013281916
+    second: enemy3_walk_86
+  - first:
+      213: 4294393949167499533
+    second: enemy3_walk_87
+  - first:
+      213: 5756197512030396047
+    second: enemy3_walk_88
+  - first:
+      213: 942775600225288362
+    second: enemy3_walk_89
+  - first:
+      213: 1925445067472698125
+    second: enemy3_walk_90
+  - first:
+      213: 5345785529512174679
+    second: enemy3_walk_91
+  - first:
+      213: 1549634197361737188
+    second: enemy3_walk_92
+  - first:
+      213: -3125173436394657395
+    second: enemy3_walk_93
+  - first:
+      213: 2552255529747399896
+    second: enemy3_walk_94
+  - first:
+      213: 6059408048855210996
+    second: enemy3_walk_95
+  - first:
+      213: -8141717303503923177
+    second: enemy3_walk_96
+  - first:
+      213: 8352337028128119854
+    second: enemy3_walk_97
+  - first:
+      213: 6155008867963294645
+    second: enemy3_walk_98
+  - first:
+      213: 2311070529944282165
+    second: enemy3_walk_99
+  - first:
+      213: 7620465560666836018
+    second: enemy3_walk_100
+  - first:
+      213: 953449250272446513
+    second: enemy3_walk_101
+  - first:
+      213: 3641181256704244089
+    second: enemy3_walk_102
+  - first:
+      213: -3391866362645190094
+    second: enemy3_walk_103
+  - first:
+      213: -3495742610811143002
+    second: enemy3_walk_104
+  - first:
+      213: -2439695915496333708
+    second: enemy3_walk_105
+  - first:
+      213: 6826975956969450044
+    second: enemy3_walk_106
+  - first:
+      213: -1354325888556810400
+    second: enemy3_walk_107
+  - first:
+      213: 7797780859657192049
+    second: enemy3_walk_108
+  - first:
+      213: -663919902260588951
+    second: enemy3_walk_109
+  - first:
+      213: -2589411197754210646
+    second: enemy3_walk_110
+  - first:
+      213: 1637653109996377985
+    second: enemy3_walk_111
+  - first:
+      213: -3205123948102374637
+    second: enemy3_walk_112
+  - first:
+      213: 4120373506887253252
+    second: enemy3_walk_113
+  - first:
+      213: 5724960143174892558
+    second: enemy3_walk_114
+  - first:
+      213: 1543965059194009129
+    second: enemy3_walk_115
+  - first:
+      213: 5586512161634257750
+    second: enemy3_walk_116
+  - first:
+      213: 8263073608659372658
+    second: enemy3_walk_117
+  - first:
+      213: 1564895146444252348
+    second: enemy3_walk_118
+  - first:
+      213: 7604327808634403294
+    second: enemy3_walk_119
+  - first:
+      213: 7154382559957892513
+    second: enemy3_walk_120
+  - first:
+      213: 3999665185615391570
+    second: enemy3_walk_121
+  - first:
+      213: -7022976379157742387
+    second: enemy3_walk_122
+  - first:
+      213: 2539317697644076603
+    second: enemy3_walk_123
+  - first:
+      213: 7824908410752549622
+    second: enemy3_walk_124
+  - first:
+      213: 4487442729520420334
+    second: enemy3_walk_125
+  - first:
+      213: 2565324154508057017
+    second: enemy3_walk_126
+  - first:
+      213: 7268781443275530691
+    second: enemy3_walk_127
+  - first:
+      213: 3920533427819583607
+    second: enemy3_walk_128
+  - first:
+      213: -1857286820270937068
+    second: enemy3_walk_129
+  - first:
+      213: -3949509205641487430
+    second: enemy3_walk_130
+  - first:
+      213: 9140237966809369487
+    second: enemy3_walk_131
+  - first:
+      213: 260403462797474523
+    second: enemy3_walk_132
+  - first:
+      213: 115976370255294969
+    second: enemy3_walk_133
+  - first:
+      213: -8988838048320484871
+    second: enemy3_walk_134
+  - first:
+      213: -6089095600017069222
+    second: enemy3_walk_135
+  - first:
+      213: -6365859544150564435
+    second: enemy3_walk_136
+  - first:
+      213: 2389614504170317015
+    second: enemy3_walk_137
+  - first:
+      213: -2138370535243793522
+    second: enemy3_walk_138
+  - first:
+      213: -8438139519071014612
+    second: enemy3_walk_139
+  - first:
+      213: 6408465449368394491
+    second: enemy3_walk_140
+  - first:
+      213: 2977659111377127211
+    second: enemy3_walk_141
+  - first:
+      213: -5001217150401035301
+    second: enemy3_walk_142
+  - first:
+      213: 4579867225608158310
+    second: enemy3_walk_143
+  - first:
+      213: -3215089667220532883
+    second: enemy3_walk_144
+  - first:
+      213: 4503227459528581151
+    second: enemy3_walk_145
+  - first:
+      213: -9221748782059289216
+    second: enemy3_walk_146
+  - first:
+      213: -4379872050412278298
+    second: enemy3_walk_147
+  - first:
+      213: -5254482939274201056
+    second: enemy3_walk_148
+  - first:
+      213: -7860630183297958976
+    second: enemy3_walk_149
+  - first:
+      213: -100961698093833239
+    second: enemy3_walk_150
+  - first:
+      213: -4439160944600176653
+    second: enemy3_walk_151
+  - first:
+      213: -1615090778629690480
+    second: enemy3_walk_152
+  - first:
+      213: -181678066425850850
+    second: enemy3_walk_153
+  - first:
+      213: -6772366592460901146
+    second: enemy3_walk_154
+  - first:
+      213: -264953640682436290
+    second: enemy3_walk_155
+  - first:
+      213: -6132520433168802153
+    second: enemy3_walk_156
+  - first:
+      213: -6563148174643647295
+    second: enemy3_walk_157
+  - first:
+      213: -6986695071236223244
+    second: enemy3_walk_158
+  - first:
+      213: 2450336079683518840
+    second: enemy3_walk_159
+  - first:
+      213: -4520284790684805992
+    second: enemy3_walk_160
+  - first:
+      213: -4885775091533593733
+    second: enemy3_walk_161
+  - first:
+      213: -6553313019972862136
+    second: enemy3_walk_162
+  - first:
+      213: 4393663136070555481
+    second: enemy3_walk_163
+  - first:
+      213: 4130029927322364291
+    second: enemy3_walk_164
+  - first:
+      213: -7609054659472460375
+    second: enemy3_walk_165
+  - first:
+      213: 8605160779698011639
+    second: enemy3_walk_166
+  - first:
+      213: 4893286706728944209
+    second: enemy3_walk_167
+  - first:
+      213: 8725796928903892172
+    second: enemy3_walk_168
+  - first:
+      213: 8414654825292615205
+    second: enemy3_walk_169
+  - first:
+      213: 5628687189632371446
+    second: enemy3_walk_170
+  - first:
+      213: 3173551999833301560
+    second: enemy3_walk_171
+  - first:
+      213: 5427715282920419106
+    second: enemy3_walk_172
+  - first:
+      213: 1136601946969670145
+    second: enemy3_walk_173
+  - first:
+      213: -5469804384123708348
+    second: enemy3_walk_174
+  - first:
+      213: -2044180606395192368
+    second: enemy3_walk_175
+  - first:
+      213: 8855824911173972716
+    second: enemy3_walk_176
+  - first:
+      213: 8990926988447117521
+    second: enemy3_walk_177
+  - first:
+      213: 1292937204262472068
+    second: enemy3_walk_178
+  - first:
+      213: -8322952271866797598
+    second: enemy3_walk_179
+  - first:
+      213: 7984054957693664714
+    second: enemy3_walk_180
+  - first:
+      213: -8504747447740164627
+    second: enemy3_walk_181
+  - first:
+      213: 6620453827802819011
+    second: enemy3_walk_182
+  - first:
+      213: 1233520322081794053
+    second: enemy3_walk_183
+  - first:
+      213: -884235222894670226
+    second: enemy3_walk_184
+  - first:
+      213: 1377239979452262875
+    second: enemy3_walk_185
+  - first:
+      213: -3995421247564719557
+    second: enemy3_walk_186
+  - first:
+      213: 2638684676545328216
+    second: enemy3_walk_187
+  - first:
+      213: 7504111851847797462
+    second: enemy3_walk_188
+  - first:
+      213: -8330023390849302220
+    second: enemy3_walk_189
+  - first:
+      213: 2789751705105403160
+    second: enemy3_walk_190
+  - first:
+      213: 1085499801747690994
+    second: enemy3_walk_191
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy3_walk_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2774
+        width: 461
+        height: 513
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d44b3bf92d4b4a0800000000000000
+      internalID: -6578401572324881044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_1
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 2774
+        width: 458
+        height: 513
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9b81b4b01ac3200800000000000000
+      internalID: 161180756555119081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_2
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 2774
+        width: 459
+        height: 513
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4b5ab2c30e8ebe0800000000000000
+      internalID: -1447660731164674875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_3
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 2774
+        width: 460
+        height: 513
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85715792298b1d8f0800000000000000
+      internalID: -517429544270620840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_4
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 2774
+        width: 461
+        height: 513
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d97cfd4372ca190800000000000000
+      internalID: -7949936134169584377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_5
+      rect:
+        serializedVersion: 2
+        x: 2854
+        y: 2774
+        width: 479
+        height: 513
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c405a63f2d1ff6bd0800000000000000
+      internalID: -2634621368659193780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2218
+        width: 518
+        height: 546
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e1c1d86d4937fe0800000000000000
+      internalID: -1192445827111707069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_7
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 2218
+        width: 509
+        height: 546
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006f0c31252896bf0800000000000000
+      internalID: -330589808604678656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_8
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 2218
+        width: 488
+        height: 546
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff9b6af795e87740800000000000000
+      internalID: 5150118614802341876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_9
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 2218
+        width: 482
+        height: 546
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7caadd61e28b5610800000000000000
+      internalID: 1611025196437384318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_10
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 2218
+        width: 479
+        height: 546
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bcd5c05862bddc0800000000000000
+      internalID: -3613251923154711722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_11
+      rect:
+        serializedVersion: 2
+        x: 2866
+        y: 2218
+        width: 466
+        height: 546
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65aceb53d0a7063b0800000000000000
+      internalID: -5521278946001368490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1662
+        width: 507
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3dc1acf7b2112f0800000000000000
+      internalID: -1003973414075182161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_13
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1662
+        width: 515
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645a4be1601b6a270800000000000000
+      internalID: 8261485206300828998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_14
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1662
+        width: 526
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6a7c9a9cfba33c0800000000000000
+      internalID: -4378976814806620450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_15
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 1662
+        width: 528
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fe9ccfd7b628630800000000000000
+      internalID: 3927820013876670296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_16
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 1662
+        width: 530
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40767d8d0fe4c1790800000000000000
+      internalID: -7558079278297422076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_17
+      rect:
+        serializedVersion: 2
+        x: 2824
+        y: 1662
+        width: 528
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d02e8c574b72a20800000000000000
+      internalID: 3037594891659119938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_18
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1111
+        width: 459
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e187e2d30d8bcb140800000000000000
+      internalID: 4736864112606083102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_19
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1111
+        width: 458
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2edca1f9e0bbca870800000000000000
+      internalID: 8695530652018855394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_20
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1111
+        width: 458
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80f4306529bec8e0800000000000000
+      internalID: -1671194841528864629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_21
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 1111
+        width: 460
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4b0ddb70c6a4240800000000000000
+      internalID: 4776749135284974756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_22
+      rect:
+        serializedVersion: 2
+        x: 2294
+        y: 1111
+        width: 473
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3adfa6ee3eca81db0800000000000000
+      internalID: -4820913306142573149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_23
+      rect:
+        serializedVersion: 2
+        x: 2846
+        y: 1111
+        width: 487
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89bc012b907682ed0800000000000000
+      internalID: -2438585906881311848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_24
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 557
+        width: 509
+        height: 545
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16db3883e29212a0800000000000000
+      internalID: -6768185784043579877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_25
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 557
+        width: 500
+        height: 545
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac12010eab78abe0800000000000000
+      internalID: -1465785691437654873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_26
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 557
+        width: 487
+        height: 545
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247fc5c1d7d99a4d0800000000000000
+      internalID: -3122791705932400830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_27
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 557
+        width: 480
+        height: 545
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c9861798f0eb840800000000000000
+      internalID: 5241644099293453358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_28
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 557
+        width: 478
+        height: 545
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5577443df3eb8af40800000000000000
+      internalID: 5740046906420393813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_29
+      rect:
+        serializedVersion: 2
+        x: 2866
+        y: 557
+        width: 464
+        height: 545
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61649e64ec7b3000800000000000000
+      internalID: 16744344175534444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_30
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 519
+        height: 548
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690c142544c746f30800000000000000
+      internalID: 4567912554940186774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_31
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 0
+        width: 522
+        height: 548
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c2b3925ebf7e1e0800000000000000
+      internalID: -2168487733897778046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_32
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 0
+        width: 524
+        height: 548
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586ae02ec9bbf3340800000000000000
+      internalID: 4845798006555846277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_33
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 0
+        width: 524
+        height: 548
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f6c53ce7e395030800000000000000
+      internalID: 3483884500912205653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_34
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 0
+        width: 524
+        height: 548
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ae127d999177740800000000000000
+      internalID: 5149612847451466369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy3_walk_35
+      rect:
+        serializedVersion: 2
+        x: 2831
+        y: 0
+        width: 521
+        height: 548
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcac2ff2cf32ab550800000000000000
+      internalID: 6177289404935228109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      enemy3_walk_0: -6578401572324881044
+      enemy3_walk_1: 161180756555119081
+      enemy3_walk_10: -3613251923154711722
+      enemy3_walk_100: 7620465560666836018
+      enemy3_walk_101: 953449250272446513
+      enemy3_walk_102: 3641181256704244089
+      enemy3_walk_103: -3391866362645190094
+      enemy3_walk_104: -3495742610811143002
+      enemy3_walk_105: -2439695915496333708
+      enemy3_walk_106: 6826975956969450044
+      enemy3_walk_107: -1354325888556810400
+      enemy3_walk_108: 7797780859657192049
+      enemy3_walk_109: -663919902260588951
+      enemy3_walk_11: -5521278946001368490
+      enemy3_walk_110: -2589411197754210646
+      enemy3_walk_111: 1637653109996377985
+      enemy3_walk_112: -3205123948102374637
+      enemy3_walk_113: 4120373506887253252
+      enemy3_walk_114: 5724960143174892558
+      enemy3_walk_115: 1543965059194009129
+      enemy3_walk_116: 5586512161634257750
+      enemy3_walk_117: 8263073608659372658
+      enemy3_walk_118: 1564895146444252348
+      enemy3_walk_119: 7604327808634403294
+      enemy3_walk_12: -1003973414075182161
+      enemy3_walk_120: 7154382559957892513
+      enemy3_walk_121: 3999665185615391570
+      enemy3_walk_122: -7022976379157742387
+      enemy3_walk_123: 2539317697644076603
+      enemy3_walk_124: 7824908410752549622
+      enemy3_walk_125: 4487442729520420334
+      enemy3_walk_126: 2565324154508057017
+      enemy3_walk_127: 7268781443275530691
+      enemy3_walk_128: 3920533427819583607
+      enemy3_walk_129: -1857286820270937068
+      enemy3_walk_13: 8261485206300828998
+      enemy3_walk_130: -3949509205641487430
+      enemy3_walk_131: 9140237966809369487
+      enemy3_walk_132: 260403462797474523
+      enemy3_walk_133: 115976370255294969
+      enemy3_walk_134: -8988838048320484871
+      enemy3_walk_135: -6089095600017069222
+      enemy3_walk_136: -6365859544150564435
+      enemy3_walk_137: 2389614504170317015
+      enemy3_walk_138: -2138370535243793522
+      enemy3_walk_139: -8438139519071014612
+      enemy3_walk_14: -4378976814806620450
+      enemy3_walk_140: 6408465449368394491
+      enemy3_walk_141: 2977659111377127211
+      enemy3_walk_142: -5001217150401035301
+      enemy3_walk_143: 4579867225608158310
+      enemy3_walk_144: -3215089667220532883
+      enemy3_walk_145: 4503227459528581151
+      enemy3_walk_146: -9221748782059289216
+      enemy3_walk_147: -4379872050412278298
+      enemy3_walk_148: -5254482939274201056
+      enemy3_walk_149: -7860630183297958976
+      enemy3_walk_15: 3927820013876670296
+      enemy3_walk_150: -100961698093833239
+      enemy3_walk_151: -4439160944600176653
+      enemy3_walk_152: -1615090778629690480
+      enemy3_walk_153: -181678066425850850
+      enemy3_walk_154: -6772366592460901146
+      enemy3_walk_155: -264953640682436290
+      enemy3_walk_156: -6132520433168802153
+      enemy3_walk_157: -6563148174643647295
+      enemy3_walk_158: -6986695071236223244
+      enemy3_walk_159: 2450336079683518840
+      enemy3_walk_16: -7558079278297422076
+      enemy3_walk_160: -4520284790684805992
+      enemy3_walk_161: -4885775091533593733
+      enemy3_walk_162: -6553313019972862136
+      enemy3_walk_163: 4393663136070555481
+      enemy3_walk_164: 4130029927322364291
+      enemy3_walk_165: -7609054659472460375
+      enemy3_walk_166: 8605160779698011639
+      enemy3_walk_167: 4893286706728944209
+      enemy3_walk_168: 8725796928903892172
+      enemy3_walk_169: 8414654825292615205
+      enemy3_walk_17: 3037594891659119938
+      enemy3_walk_170: 5628687189632371446
+      enemy3_walk_171: 3173551999833301560
+      enemy3_walk_172: 5427715282920419106
+      enemy3_walk_173: 1136601946969670145
+      enemy3_walk_174: -5469804384123708348
+      enemy3_walk_175: -2044180606395192368
+      enemy3_walk_176: 8855824911173972716
+      enemy3_walk_177: 8990926988447117521
+      enemy3_walk_178: 1292937204262472068
+      enemy3_walk_179: -8322952271866797598
+      enemy3_walk_18: 4736864112606083102
+      enemy3_walk_180: 7984054957693664714
+      enemy3_walk_181: -8504747447740164627
+      enemy3_walk_182: 6620453827802819011
+      enemy3_walk_183: 1233520322081794053
+      enemy3_walk_184: -884235222894670226
+      enemy3_walk_185: 1377239979452262875
+      enemy3_walk_186: -3995421247564719557
+      enemy3_walk_187: 2638684676545328216
+      enemy3_walk_188: 7504111851847797462
+      enemy3_walk_189: -8330023390849302220
+      enemy3_walk_19: 8695530652018855394
+      enemy3_walk_190: 2789751705105403160
+      enemy3_walk_191: 1085499801747690994
+      enemy3_walk_2: -1447660731164674875
+      enemy3_walk_20: -1671194841528864629
+      enemy3_walk_21: 4776749135284974756
+      enemy3_walk_22: -4820913306142573149
+      enemy3_walk_23: -2438585906881311848
+      enemy3_walk_24: -6768185784043579877
+      enemy3_walk_25: -1465785691437654873
+      enemy3_walk_26: -3122791705932400830
+      enemy3_walk_27: 5241644099293453358
+      enemy3_walk_28: 5740046906420393813
+      enemy3_walk_29: 16744344175534444
+      enemy3_walk_3: -517429544270620840
+      enemy3_walk_30: 4567912554940186774
+      enemy3_walk_31: -2168487733897778046
+      enemy3_walk_32: 4845798006555846277
+      enemy3_walk_33: 3483884500912205653
+      enemy3_walk_34: 5149612847451466369
+      enemy3_walk_35: 6177289404935228109
+      enemy3_walk_36: 268835324440069016
+      enemy3_walk_37: 5379963277156048692
+      enemy3_walk_38: -4926149941565197305
+      enemy3_walk_39: 564611072518698528
+      enemy3_walk_4: -7949936134169584377
+      enemy3_walk_40: -8075956702283575536
+      enemy3_walk_41: -5255805947146798661
+      enemy3_walk_42: -6302056633545296635
+      enemy3_walk_43: -4240708138954977645
+      enemy3_walk_44: -4503295504612182847
+      enemy3_walk_45: 2698572695060417873
+      enemy3_walk_46: -5626798382963913636
+      enemy3_walk_47: 8607759026220655374
+      enemy3_walk_48: 5800499377494364046
+      enemy3_walk_49: 5013277862678138900
+      enemy3_walk_5: -2634621368659193780
+      enemy3_walk_50: -3074192597733518945
+      enemy3_walk_51: -833315148581786855
+      enemy3_walk_52: 2266661261472625230
+      enemy3_walk_53: 5678172240078917427
+      enemy3_walk_54: 7725477975299318361
+      enemy3_walk_55: -3342692080830298611
+      enemy3_walk_56: -5466554628773974091
+      enemy3_walk_57: -315632860282354372
+      enemy3_walk_58: 3533558338838630378
+      enemy3_walk_59: 8543095087477921262
+      enemy3_walk_6: -1192445827111707069
+      enemy3_walk_60: -4784068323940061171
+      enemy3_walk_61: -449639178460950757
+      enemy3_walk_62: -2843412371073728751
+      enemy3_walk_63: -4276544587798978564
+      enemy3_walk_64: 8533250769613367797
+      enemy3_walk_65: 2823647351223315866
+      enemy3_walk_66: -2773516958523293457
+      enemy3_walk_67: -7490807617673510752
+      enemy3_walk_68: -6485381980775777489
+      enemy3_walk_69: 2209720687605306615
+      enemy3_walk_7: -330589808604678656
+      enemy3_walk_70: -4160441982999928998
+      enemy3_walk_71: -8238204562811463625
+      enemy3_walk_72: -820700714998768488
+      enemy3_walk_73: 4079158449410267420
+      enemy3_walk_74: 9191524514254654912
+      enemy3_walk_75: 7135311519577532549
+      enemy3_walk_76: -2726837114417036008
+      enemy3_walk_77: -474578524725190974
+      enemy3_walk_78: -9166778450905922340
+      enemy3_walk_79: -7892688167010827283
+      enemy3_walk_8: 5150118614802341876
+      enemy3_walk_80: -8268632923992002699
+      enemy3_walk_81: -5379788037639197660
+      enemy3_walk_82: 4022196016164292756
+      enemy3_walk_83: 1966354932070286109
+      enemy3_walk_84: 1654427392937940503
+      enemy3_walk_85: 8160911928060088027
+      enemy3_walk_86: 263952904013281916
+      enemy3_walk_87: 4294393949167499533
+      enemy3_walk_88: 5756197512030396047
+      enemy3_walk_89: 942775600225288362
+      enemy3_walk_9: 1611025196437384318
+      enemy3_walk_90: 1925445067472698125
+      enemy3_walk_91: 5345785529512174679
+      enemy3_walk_92: 1549634197361737188
+      enemy3_walk_93: -3125173436394657395
+      enemy3_walk_94: 2552255529747399896
+      enemy3_walk_95: 6059408048855210996
+      enemy3_walk_96: -8141717303503923177
+      enemy3_walk_97: 8352337028128119854
+      enemy3_walk_98: 6155008867963294645
+      enemy3_walk_99: 2311070529944282165
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

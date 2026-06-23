@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 87912c6b43d60b74b967e8ca10a1c4ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2482130420923776188
+    second: Diablito_dead_0
+  - first:
+      213: 7413318834439742296
+    second: Diablito_dead_1
+  - first:
+      213: 6477044947430949106
+    second: Diablito_dead_2
+  - first:
+      213: -6008524840912917220
+    second: Diablito_dead_3
+  - first:
+      213: -7390012975331993261
+    second: Diablito_dead_4
+  - first:
+      213: 7584870431161530892
+    second: Diablito_dead_5
+  - first:
+      213: -7485225713650367897
+    second: Diablito_dead_6
+  - first:
+      213: 5677736570372542031
+    second: Diablito_dead_7
+  - first:
+      213: -8801997601873839577
+    second: Diablito_dead_8
+  - first:
+      213: -9066698736393097019
+    second: Diablito_dead_9
+  - first:
+      213: 7332022891452088013
+    second: Diablito_dead_10
+  - first:
+      213: 2161535840950014846
+    second: Diablito_dead_11
+  - first:
+      213: -2579864904648424652
+    second: Diablito_dead_12
+  - first:
+      213: 1094590160949834860
+    second: Diablito_dead_13
+  - first:
+      213: 1349777590022373262
+    second: Diablito_dead_14
+  - first:
+      213: -5538988215613153616
+    second: Diablito_dead_15
+  - first:
+      213: 1169730441110331691
+    second: Diablito_dead_16
+  - first:
+      213: -4584771493820703454
+    second: Diablito_dead_17
+  - first:
+      213: 2475326859130772275
+    second: Diablito_dead_18
+  - first:
+      213: 5802165240283347376
+    second: Diablito_dead_19
+  - first:
+      213: 4513587834558886615
+    second: Diablito_dead_20
+  - first:
+      213: -3037368286835095624
+    second: Diablito_dead_21
+  - first:
+      213: -9156964348133249601
+    second: Diablito_dead_22
+  - first:
+      213: -7932692332189433682
+    second: Diablito_dead_23
+  - first:
+      213: -2891623616078621531
+    second: Diablito_dead_24
+  - first:
+      213: 8665176110553096378
+    second: Diablito_dead_25
+  - first:
+      213: -8633492068841522117
+    second: Diablito_dead_26
+  - first:
+      213: -7890338115070436585
+    second: Diablito_dead_27
+  - first:
+      213: -7051187520694170769
+    second: Diablito_dead_28
+  - first:
+      213: -5280664099434825497
+    second: Diablito_dead_29
+  - first:
+      213: 3507516613834576158
+    second: Diablito_dead_30
+  - first:
+      213: 1662382663253720998
+    second: Diablito_dead_31
+  - first:
+      213: -153089762081544285
+    second: Diablito_dead_32
+  - first:
+      213: -6958214432336676105
+    second: Diablito_dead_33
+  - first:
+      213: 856425074206320949
+    second: Diablito_dead_34
+  - first:
+      213: 6900991212206888789
+    second: Diablito_dead_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Diablito_dead_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3236
+        width: 614
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc3a59877c427220800000000000000
+      internalID: 2482130420923776188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_1
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 3236
+        width: 613
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8536e75d33661e660800000000000000
+      internalID: 7413318834439742296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_2
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 3236
+        width: 613
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f04cd5101613e950800000000000000
+      internalID: 6477044947430949106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_3
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 3236
+        width: 613
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d6641ed7e6d9ca0800000000000000
+      internalID: -6008524840912917220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_4
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 3236
+        width: 613
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3591fc75a56617990800000000000000
+      internalID: -7390012975331993261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_5
+      rect:
+        serializedVersion: 2
+        x: 3091
+        y: 3236
+        width: 613
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a3fb4887fd24960800000000000000
+      internalID: 7584870431161530892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_6
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2369
+        width: 506
+        height: 513
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76200423fd22f1890800000000000000
+      internalID: -7485225713650367897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_7
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 2369
+        width: 526
+        height: 513
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ecc4d245f5bce40800000000000000
+      internalID: 5677736570372542031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_8
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 2369
+        width: 580
+        height: 513
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a387ae0d509d580800000000000000
+      internalID: -8801997601873839577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_9
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 2369
+        width: 604
+        height: 513
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c07ec3698d9c2280800000000000000
+      internalID: -9066698736393097019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_10
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 2369
+        width: 603
+        height: 513
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dceb80a19f390c560800000000000000
+      internalID: 7332022891452088013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_11
+      rect:
+        serializedVersion: 2
+        x: 3095
+        y: 2369
+        width: 603
+        height: 513
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73d91125615ffd10800000000000000
+      internalID: 2161535840950014846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_12
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1763
+        width: 483
+        height: 525
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4330fe5b98a723cd0800000000000000
+      internalID: -2579864904648424652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_13
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1763
+        width: 487
+        height: 525
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c647d06b3f3c03f00800000000000000
+      internalID: 1094590160949834860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_14
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1763
+        width: 491
+        height: 525
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ff013119f5bb210800000000000000
+      internalID: 1349777590022373262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_15
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 1763
+        width: 497
+        height: 525
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be9d41909f8123b0800000000000000
+      internalID: -5538988215613153616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_16
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 1763
+        width: 501
+        height: 525
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21a75183a7bb3010800000000000000
+      internalID: 1169730441110331691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_17
+      rect:
+        serializedVersion: 2
+        x: 3149
+        y: 1763
+        width: 503
+        height: 525
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22dda761e9e9f50c0800000000000000
+      internalID: -4584771493820703454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1182
+        width: 475
+        height: 518
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b197dd9a02a5220800000000000000
+      internalID: 2475326859130772275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_19
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1182
+        width: 473
+        height: 518
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9353b7b8e658050800000000000000
+      internalID: 5802165240283347376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_20
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1182
+        width: 473
+        height: 518
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d23865b83c73ae30800000000000000
+      internalID: 4513587834558886615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_21
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 1182
+        width: 474
+        height: 518
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b74823c2a919d5d0800000000000000
+      internalID: -3037368286835095624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_22
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 1182
+        width: 475
+        height: 518
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbde998e07debe080800000000000000
+      internalID: -9156964348133249601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_23
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 1182
+        width: 480
+        height: 518
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea042636a5a69e190800000000000000
+      internalID: -7932692332189433682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_24
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 631
+        width: 536
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4d08344a3eed7d0800000000000000
+      internalID: -2891623616078621531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_25
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 631
+        width: 540
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0e7b133c3e04870800000000000000
+      internalID: 8665176110553096378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_26
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 631
+        width: 538
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c7c81a4bcaf2880800000000000000
+      internalID: -8633492068841522117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_27
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 631
+        width: 532
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b50850a43ef7290800000000000000
+      internalID: -7890338115070436585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_28
+      rect:
+        serializedVersion: 2
+        x: 2529
+        y: 631
+        width: 505
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b4b580f46252e90800000000000000
+      internalID: -7051187520694170769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_29
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 631
+        width: 481
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8770fcaff47b6b0800000000000000
+      internalID: -5280664099434825497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_30
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 50
+        width: 466
+        height: 474
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e111463d6c33da030800000000000000
+      internalID: 3507516613834576158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_31
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 50
+        width: 466
+        height: 474
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af710c7938f11710800000000000000
+      internalID: 1662382663253720998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_32
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 50
+        width: 474
+        height: 474
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a761682cad10edf0800000000000000
+      internalID: -153089762081544285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_33
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 50
+        width: 481
+        height: 474
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa739907d47f6f90800000000000000
+      internalID: -6958214432336676105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_34
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 50
+        width: 515
+        height: 474
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5392ec44112a2eb00800000000000000
+      internalID: 856425074206320949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diablito_dead_35
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 50
+        width: 532
+        height: 474
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5571fa9c1fe35cf50800000000000000
+      internalID: 6900991212206888789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Diablito_dead_0: 2482130420923776188
+      Diablito_dead_1: 7413318834439742296
+      Diablito_dead_10: 7332022891452088013
+      Diablito_dead_11: 2161535840950014846
+      Diablito_dead_12: -2579864904648424652
+      Diablito_dead_13: 1094590160949834860
+      Diablito_dead_14: 1349777590022373262
+      Diablito_dead_15: -5538988215613153616
+      Diablito_dead_16: 1169730441110331691
+      Diablito_dead_17: -4584771493820703454
+      Diablito_dead_18: 2475326859130772275
+      Diablito_dead_19: 5802165240283347376
+      Diablito_dead_2: 6477044947430949106
+      Diablito_dead_20: 4513587834558886615
+      Diablito_dead_21: -3037368286835095624
+      Diablito_dead_22: -9156964348133249601
+      Diablito_dead_23: -7932692332189433682
+      Diablito_dead_24: -2891623616078621531
+      Diablito_dead_25: 8665176110553096378
+      Diablito_dead_26: -8633492068841522117
+      Diablito_dead_27: -7890338115070436585
+      Diablito_dead_28: -7051187520694170769
+      Diablito_dead_29: -5280664099434825497
+      Diablito_dead_3: -6008524840912917220
+      Diablito_dead_30: 3507516613834576158
+      Diablito_dead_31: 1662382663253720998
+      Diablito_dead_32: -153089762081544285
+      Diablito_dead_33: -6958214432336676105
+      Diablito_dead_34: 856425074206320949
+      Diablito_dead_35: 6900991212206888789
+      Diablito_dead_4: -7390012975331993261
+      Diablito_dead_5: 7584870431161530892
+      Diablito_dead_6: -7485225713650367897
+      Diablito_dead_7: 5677736570372542031
+      Diablito_dead_8: -8801997601873839577
+      Diablito_dead_9: -9066698736393097019
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

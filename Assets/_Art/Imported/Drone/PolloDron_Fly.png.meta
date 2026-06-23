@@ -1,0 +1,1833 @@
+fileFormatVersion: 2
+guid: 178c055c9bf754d458b91c47a0fd886f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9088427032056900861
+    second: PolloDron_Fly_0
+  - first:
+      213: 431898294147805919
+    second: PolloDron_Fly_1
+  - first:
+      213: -7157941113567524417
+    second: PolloDron_Fly_2
+  - first:
+      213: 4438046664889989058
+    second: PolloDron_Fly_3
+  - first:
+      213: 2629444649564799724
+    second: PolloDron_Fly_4
+  - first:
+      213: 8571999863213960104
+    second: PolloDron_Fly_5
+  - first:
+      213: 7115523820363891077
+    second: PolloDron_Fly_6
+  - first:
+      213: -8958025471068814615
+    second: PolloDron_Fly_7
+  - first:
+      213: -2496400638031725171
+    second: PolloDron_Fly_8
+  - first:
+      213: 4080531406848665033
+    second: PolloDron_Fly_9
+  - first:
+      213: 7663305497087034287
+    second: PolloDron_Fly_10
+  - first:
+      213: 9219663061103722369
+    second: PolloDron_Fly_11
+  - first:
+      213: -5580618822566200800
+    second: PolloDron_Fly_12
+  - first:
+      213: -4265996581365038732
+    second: PolloDron_Fly_13
+  - first:
+      213: -6953975085902756732
+    second: PolloDron_Fly_14
+  - first:
+      213: 8278358834651894155
+    second: PolloDron_Fly_15
+  - first:
+      213: -727554098418873713
+    second: PolloDron_Fly_16
+  - first:
+      213: 371985086464437034
+    second: PolloDron_Fly_17
+  - first:
+      213: 8500761519939883033
+    second: PolloDron_Fly_18
+  - first:
+      213: -8886503859583697263
+    second: PolloDron_Fly_19
+  - first:
+      213: -2227376582678313503
+    second: PolloDron_Fly_20
+  - first:
+      213: -2999848446309354534
+    second: PolloDron_Fly_21
+  - first:
+      213: -534249974610809631
+    second: PolloDron_Fly_22
+  - first:
+      213: 7436368106361249771
+    second: PolloDron_Fly_23
+  - first:
+      213: 7600041623271358947
+    second: PolloDron_Fly_24
+  - first:
+      213: -1831460299564229128
+    second: PolloDron_Fly_25
+  - first:
+      213: -8436833644561857396
+    second: PolloDron_Fly_26
+  - first:
+      213: 1170234571767360428
+    second: PolloDron_Fly_27
+  - first:
+      213: 7683523485450724813
+    second: PolloDron_Fly_28
+  - first:
+      213: 5046014214595607041
+    second: PolloDron_Fly_29
+  - first:
+      213: -8862547238229561342
+    second: PolloDron_Fly_30
+  - first:
+      213: 4460855924884039038
+    second: PolloDron_Fly_31
+  - first:
+      213: 3359120196604367019
+    second: PolloDron_Fly_32
+  - first:
+      213: 4947442790541505724
+    second: PolloDron_Fly_33
+  - first:
+      213: 7882345727530372469
+    second: PolloDron_Fly_34
+  - first:
+      213: 4574922278068427355
+    second: PolloDron_Fly_35
+  - first:
+      213: -3937003813873950966
+    second: PolloDron_Fly_36
+  - first:
+      213: -251019504904326109
+    second: PolloDron_Fly_37
+  - first:
+      213: -7693594557137746646
+    second: PolloDron_Fly_38
+  - first:
+      213: -8561208938762141787
+    second: PolloDron_Fly_39
+  - first:
+      213: 2403598489500249566
+    second: PolloDron_Fly_40
+  - first:
+      213: -809032163129582399
+    second: PolloDron_Fly_41
+  - first:
+      213: -3788501524793074968
+    second: PolloDron_Fly_42
+  - first:
+      213: -4652770851903868188
+    second: PolloDron_Fly_43
+  - first:
+      213: -1286163332877482806
+    second: PolloDron_Fly_44
+  - first:
+      213: 6893667421207588387
+    second: PolloDron_Fly_45
+  - first:
+      213: 7049881942059536978
+    second: PolloDron_Fly_46
+  - first:
+      213: -837469187627606588
+    second: PolloDron_Fly_47
+  - first:
+      213: 7063848732795923285
+    second: PolloDron_Fly_48
+  - first:
+      213: -5558247516302403489
+    second: PolloDron_Fly_49
+  - first:
+      213: -7805523379206268697
+    second: PolloDron_Fly_50
+  - first:
+      213: -8095090806474012429
+    second: PolloDron_Fly_51
+  - first:
+      213: 1101117305367517834
+    second: PolloDron_Fly_52
+  - first:
+      213: -4590712450423734573
+    second: PolloDron_Fly_53
+  - first:
+      213: -134905042447548065
+    second: PolloDron_Fly_54
+  - first:
+      213: 3857076681783379204
+    second: PolloDron_Fly_55
+  - first:
+      213: -7863894408139573583
+    second: PolloDron_Fly_56
+  - first:
+      213: 7590999812306757787
+    second: PolloDron_Fly_57
+  - first:
+      213: -8488615083011785520
+    second: PolloDron_Fly_58
+  - first:
+      213: 4343849977145397952
+    second: PolloDron_Fly_59
+  - first:
+      213: 3478878929162886751
+    second: PolloDron_Fly_60
+  - first:
+      213: -1403963842123733095
+    second: PolloDron_Fly_61
+  - first:
+      213: -1761542947584721658
+    second: PolloDron_Fly_62
+  - first:
+      213: -7186400259814741659
+    second: PolloDron_Fly_63
+  - first:
+      213: 1244761479123470715
+    second: PolloDron_Fly_64
+  - first:
+      213: 1416379394129597225
+    second: PolloDron_Fly_65
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PolloDron_Fly_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2140
+        width: 476
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc2fccab34902e70800000000000000
+      internalID: 9088427032056900861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_1
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 2137
+        width: 475
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2f6c1d5396ef500800000000000000
+      internalID: 431898294147805919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_2
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 2134
+        width: 475
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9c4aa4b72e9ac90800000000000000
+      internalID: -7157941113567524417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_3
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 2131
+        width: 475
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7ff5d8deb179d30800000000000000
+      internalID: 4438046664889989058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_4
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 2127
+        width: 474
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce28cd53af9ad7420800000000000000
+      internalID: 2629444649564799724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_5
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 2125
+        width: 474
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aba09d857cd5f670800000000000000
+      internalID: 8571999863213960104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_6
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2088
+        width: 235
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581ce97073b6fb260800000000000000
+      internalID: 7115523820363891077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_7
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 2089
+        width: 236
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2ca04bb43bea380800000000000000
+      internalID: -8958025471068814615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_8
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 2089
+        width: 237
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d7f01a8d00b5dd0800000000000000
+      internalID: -2496400638031725171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_9
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 2089
+        width: 238
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c52a08e1b5f0a830800000000000000
+      internalID: 4080531406848665033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_10
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 2089
+        width: 240
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3cb276fb7895a60800000000000000
+      internalID: 7663305497087034287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_11
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 2089
+        width: 241
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fb0e9c4b2d2ff70800000000000000
+      internalID: 9219663061103722369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1710
+        width: 475
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a351e8fb8ad82b0800000000000000
+      internalID: -5580618822566200800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_13
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1675
+        width: 474
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471c4b226b22cc4c0800000000000000
+      internalID: -4265996581365038732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_14
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1675
+        width: 475
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48489dbc0848e7f90800000000000000
+      internalID: -6953975085902756732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_15
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 1675
+        width: 475
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8194aedf73a2e270800000000000000
+      internalID: 8278358834651894155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_16
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 1710
+        width: 475
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a0dd8f66537e5f0800000000000000
+      internalID: -727554098418873713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_17
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 1712
+        width: 474
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ba47c177e892500800000000000000
+      internalID: 371985086464437034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_18
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 1675
+        width: 240
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910935c3095c8f570800000000000000
+      internalID: 8500761519939883033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_19
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1675
+        width: 241
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e306a82dbcca480800000000000000
+      internalID: -8886503859583697263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_20
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 1675
+        width: 240
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e58f689cc4c611e0800000000000000
+      internalID: -2227376582678313503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1303
+        width: 476
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad339b16bb56e56d0800000000000000
+      internalID: -2999848446309354534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_22
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1304
+        width: 475
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ecaf0a8a76f598f0800000000000000
+      internalID: -534249974610809631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_23
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1309
+        width: 475
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befd4b6a469433760800000000000000
+      internalID: 7436368106361249771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_24
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 1311
+        width: 475
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1c541f695c87960800000000000000
+      internalID: 7600041623271358947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_25
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 1313
+        width: 475
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd5e30af885596e0800000000000000
+      internalID: -1831460299564229128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_26
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 1314
+        width: 475
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8483d220885aea80800000000000000
+      internalID: -8436833644561857396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_27
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1261
+        width: 237
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab231294228d3010800000000000000
+      internalID: 1170234571767360428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_28
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1261
+        width: 237
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc569a5a6eb51aa60800000000000000
+      internalID: 7683523485450724813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_29
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 1260
+        width: 235
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10afa88713b070640800000000000000
+      internalID: 5046014214595607041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_30
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1260
+        width: 233
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200353c1e38e10580800000000000000
+      internalID: -8862547238229561342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_31
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 1260
+        width: 233
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75e8ec34d428ed30800000000000000
+      internalID: 4460855924884039038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_32
+      rect:
+        serializedVersion: 2
+        x: 2513
+        y: 1259
+        width: 232
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0917c750efd9e20800000000000000
+      internalID: 3359120196604367019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_33
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 901
+        width: 475
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb43bcc5109d8a440800000000000000
+      internalID: 4947442790541505724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_34
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 901
+        width: 474
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d044e3da7b36d60800000000000000
+      internalID: 7882345727530372469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_35
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 900
+        width: 475
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a1a4ba2936d7f30800000000000000
+      internalID: 4574922278068427355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_36
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 900
+        width: 476
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f5fa2f3e3fc59c0800000000000000
+      internalID: -3937003813873950966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_37
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 896
+        width: 476
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324bb7a1713348cf0800000000000000
+      internalID: -251019504904326109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_38
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 891
+        width: 476
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a250def338cda3590800000000000000
+      internalID: -7693594557137746646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_39
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 846
+        width: 231
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5affe2554d9703980800000000000000
+      internalID: -8561208938762141787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_40
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 846
+        width: 232
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edde355671c4b5120800000000000000
+      internalID: 2403598489500249566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_41
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 845
+        width: 232
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc9bc8b88db5c4f0800000000000000
+      internalID: -809032163129582399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_42
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 845
+        width: 233
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eadeaf7fe98c6bc0800000000000000
+      internalID: -3788501524793074968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_43
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 846
+        width: 236
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e27af6cf890e6fb0800000000000000
+      internalID: -4652770851903868188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_44
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 847
+        width: 238
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac484bc5341a62ee0800000000000000
+      internalID: -1286163332877482806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_45
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 473
+        width: 474
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ee2c0def93baf50800000000000000
+      internalID: 6893667421207588387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_46
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 469
+        width: 475
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25256e0464636d160800000000000000
+      internalID: 7049881942059536978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_47
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 468
+        width: 474
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd1f110636b064f0800000000000000
+      internalID: -837469187627606588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_48
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 433
+        width: 475
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55be4612ff4d70260800000000000000
+      internalID: 7063848732795923285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_49
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 433
+        width: 475
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58191135532dd2b0800000000000000
+      internalID: -5558247516302403489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_50
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 433
+        width: 475
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8576097d53da390800000000000000
+      internalID: -7805523379206268697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_51
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 433
+        width: 238
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f806971dc578af80800000000000000
+      internalID: -8095090806474012429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_52
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 433
+        width: 240
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a5772fa54f74f00800000000000000
+      internalID: 1101117305367517834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_53
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 433
+        width: 241
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3deb78659538a40c0800000000000000
+      internalID: -4590712450423734573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_54
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 54
+        width: 475
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5141822498b02ef0800000000000000
+      internalID: -134905042447548065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_55
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 55
+        width: 475
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40504217ec6178530800000000000000
+      internalID: 3857076681783379204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_56
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 57
+        width: 476
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6f8a353b5ddd290800000000000000
+      internalID: -7863894408139573583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_57
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 61
+        width: 475
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98e9964c16a85960800000000000000
+      internalID: 7590999812306757787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_58
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 63
+        width: 475
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc3f0e7e81623a80800000000000000
+      internalID: -8488615083011785520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_59
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 67
+        width: 475
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2175d1a84784c30800000000000000
+      internalID: 4343849977145397952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_60
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 19
+        width: 240
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e585544f5774030800000000000000
+      internalID: 3478878929162886751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_61
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 19
+        width: 241
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997e8b8f25e148ce0800000000000000
+      internalID: -1403963842123733095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_62
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 19
+        width: 241
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d3e90b50ebd87e0800000000000000
+      internalID: -1761542947584721658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_63
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 19
+        width: 238
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569a7f3f907c44c90800000000000000
+      internalID: -7186400259814741659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_64
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 19
+        width: 236
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b798e3168f7464110800000000000000
+      internalID: 1244761479123470715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolloDron_Fly_65
+      rect:
+        serializedVersion: 2
+        x: 2512
+        y: 19
+        width: 235
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923174efd8df7a310800000000000000
+      internalID: 1416379394129597225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PolloDron_Fly_0: 9088427032056900861
+      PolloDron_Fly_1: 431898294147805919
+      PolloDron_Fly_10: 7663305497087034287
+      PolloDron_Fly_11: 9219663061103722369
+      PolloDron_Fly_12: -5580618822566200800
+      PolloDron_Fly_13: -4265996581365038732
+      PolloDron_Fly_14: -6953975085902756732
+      PolloDron_Fly_15: 8278358834651894155
+      PolloDron_Fly_16: -727554098418873713
+      PolloDron_Fly_17: 371985086464437034
+      PolloDron_Fly_18: 8500761519939883033
+      PolloDron_Fly_19: -8886503859583697263
+      PolloDron_Fly_2: -7157941113567524417
+      PolloDron_Fly_20: -2227376582678313503
+      PolloDron_Fly_21: -2999848446309354534
+      PolloDron_Fly_22: -534249974610809631
+      PolloDron_Fly_23: 7436368106361249771
+      PolloDron_Fly_24: 7600041623271358947
+      PolloDron_Fly_25: -1831460299564229128
+      PolloDron_Fly_26: -8436833644561857396
+      PolloDron_Fly_27: 1170234571767360428
+      PolloDron_Fly_28: 7683523485450724813
+      PolloDron_Fly_29: 5046014214595607041
+      PolloDron_Fly_3: 4438046664889989058
+      PolloDron_Fly_30: -8862547238229561342
+      PolloDron_Fly_31: 4460855924884039038
+      PolloDron_Fly_32: 3359120196604367019
+      PolloDron_Fly_33: 4947442790541505724
+      PolloDron_Fly_34: 7882345727530372469
+      PolloDron_Fly_35: 4574922278068427355
+      PolloDron_Fly_36: -3937003813873950966
+      PolloDron_Fly_37: -251019504904326109
+      PolloDron_Fly_38: -7693594557137746646
+      PolloDron_Fly_39: -8561208938762141787
+      PolloDron_Fly_4: 2629444649564799724
+      PolloDron_Fly_40: 2403598489500249566
+      PolloDron_Fly_41: -809032163129582399
+      PolloDron_Fly_42: -3788501524793074968
+      PolloDron_Fly_43: -4652770851903868188
+      PolloDron_Fly_44: -1286163332877482806
+      PolloDron_Fly_45: 6893667421207588387
+      PolloDron_Fly_46: 7049881942059536978
+      PolloDron_Fly_47: -837469187627606588
+      PolloDron_Fly_48: 7063848732795923285
+      PolloDron_Fly_49: -5558247516302403489
+      PolloDron_Fly_5: 8571999863213960104
+      PolloDron_Fly_50: -7805523379206268697
+      PolloDron_Fly_51: -8095090806474012429
+      PolloDron_Fly_52: 1101117305367517834
+      PolloDron_Fly_53: -4590712450423734573
+      PolloDron_Fly_54: -134905042447548065
+      PolloDron_Fly_55: 3857076681783379204
+      PolloDron_Fly_56: -7863894408139573583
+      PolloDron_Fly_57: 7590999812306757787
+      PolloDron_Fly_58: -8488615083011785520
+      PolloDron_Fly_59: 4343849977145397952
+      PolloDron_Fly_6: 7115523820363891077
+      PolloDron_Fly_60: 3478878929162886751
+      PolloDron_Fly_61: -1403963842123733095
+      PolloDron_Fly_62: -1761542947584721658
+      PolloDron_Fly_63: -7186400259814741659
+      PolloDron_Fly_64: 1244761479123470715
+      PolloDron_Fly_65: 1416379394129597225
+      PolloDron_Fly_7: -8958025471068814615
+      PolloDron_Fly_8: -2496400638031725171
+      PolloDron_Fly_9: 4080531406848665033
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

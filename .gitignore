@@ -1,0 +1,45 @@
+# ── Unity generated folders / caches (never versioned) ──
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+.vs/
+.vsconfig
+.gradle/
+
+# ── Auto-generated solution / project files ──
+*.csproj
+*.sln
+*.slnx
+*.user
+*.unityproj
+*.suo
+*.pidb
+*.booproj
+*.svd
+*.userprefs
+
+# ── Asset meta data only ignored when the asset itself is ignored ──
+!/[Aa]ssets/**/*.meta
+
+# ── Build results / packaged exports ──
+*.apk
+*.aab
+*.unitypackage
+*.app
+mutation-swarm/
+mutation-swarm.zip
+
+# ── OS / editor noise ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Project scratch files ──
+_test_*.png
+_tmp_*.json
