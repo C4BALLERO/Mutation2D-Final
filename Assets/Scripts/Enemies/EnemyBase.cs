@@ -131,6 +131,7 @@ namespace MutationSwarm
                 if (_attackCd <= 0f)
                 {
                     CameraFollow.Instance?.Shake(0.18f, 0.14f);
+                    AudioManager.Instance?.PlayGrowl();
                     _attackCd = 0.35f;
                 }
             }
@@ -166,6 +167,7 @@ namespace MutationSwarm
             if (IsDying) return;
             IsDying = true;
 
+            AudioManager.Instance?.PlayEnemyDeath();
             WaveManager.Instance?.RemoveEnemy(this);
             ParticleManager.Instance?.SpawnBurst(transform.position, _baseColor, 12, 5f);
 

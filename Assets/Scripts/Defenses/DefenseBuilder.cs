@@ -65,6 +65,7 @@ namespace MutationSwarm
             var db = go.GetComponent<DefenseBase>();
             db?.Init((DefenseType)(SelectedType - 1));
             if (WaveManager.Instance != null) WaveManager.Instance.CurrentStats.defensesBuilt++;
+            AudioManager.Instance?.PlayBuild();
             ParticleManager.Instance?.SpawnBurst(pos, new Color(0.3f, 1f, 0.5f), 8, 4f);
         }
     }

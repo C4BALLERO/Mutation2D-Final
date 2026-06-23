@@ -42,6 +42,7 @@ namespace MutationSwarm
             if (col.GetComponent<PlayerController>() != null)
             {
                 PlayerStats.Instance.AddDna(Amount);
+                AudioManager.Instance?.PlayPickup();
                 ParticleManager.Instance?.SpawnBurst(transform.position, new Color(0f,1f,0.8f), 4, 3f);
                 Destroy(gameObject);
             }

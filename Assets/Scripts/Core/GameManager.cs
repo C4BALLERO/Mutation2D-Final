@@ -99,6 +99,7 @@ namespace MutationSwarm
         public void StartWave()
         {
             WaveNum++;
+            AudioManager.Instance?.PlayWave();
             Phase = GamePhase.Playing;
         }
 
@@ -115,6 +116,7 @@ namespace MutationSwarm
             var stats = PlayerStats.Instance;
             stats.AddUpgrade(up.id);
             if (up.id == "moreHp") { stats.MaxHp += 40; stats.Heal(40); }
+            AudioManager.Instance?.PlayUpgrade();
             WaveManager.Instance.StartNextWave();
             Phase = GamePhase.Playing;
         }
@@ -126,6 +128,7 @@ namespace MutationSwarm
                 BestScore = WaveNum;
                 PlayerPrefs.SetInt("ms_best", BestScore);
             }
+            AudioManager.Instance?.PlayPlayerDeath();
             Phase = GamePhase.Dead;
         }
 

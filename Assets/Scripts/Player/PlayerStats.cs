@@ -20,9 +20,17 @@ namespace MutationSwarm
             Instance = this;
         }
 
+        float _nextHurtSound;
+
         public void TakeDamage(float amount)
         {
             Hp = Mathf.Max(0f, Hp - amount);
+            // Contact damage calls this every frame — throttle the hurt sound.
+            if (amount > 0.01f && Hp > 0f && Time.unscaledTime >= _nextHurtSound)
+            {
+                AudioManager.Instance?.PlayHurt();
+                _nextHurtSound = Time.unscaledTime + 0.4f;
+            }
             if (Hp <= 0f) GameManager.Instance.PlayerDied();
         }
 

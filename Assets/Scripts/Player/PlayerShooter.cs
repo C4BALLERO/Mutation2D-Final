@@ -48,6 +48,7 @@ namespace MutationSwarm
             b.Init(dir, bulletSpeed, dmg, piercing, isElectric, fromPlayer: true);
 
             if (WaveManager.Instance != null) WaveManager.Instance.CurrentStats.bulletsShot++;
+            AudioManager.Instance?.PlayShoot();
             ParticleManager.Instance?.SpawnBurst(muzzle.position, new Color(1f,1f,0.5f), 3, 5f);
 
             // Face direction of mouse

@@ -31,6 +31,7 @@ namespace MutationSwarm
             managers.AddComponent<GameManager>();
             managers.AddComponent<EvolutionSystem>();
             managers.AddComponent<ParticleManager>();
+            managers.AddComponent<AudioManager>();
 
             var sf = new GameObject("SpriteFactory");
             sf.transform.SetParent(managers.transform);
